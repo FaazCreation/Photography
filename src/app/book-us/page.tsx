@@ -8,7 +8,7 @@ import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { useToast } from '@/hooks/use-toast';
-import { CalendarCheck, Send } from 'lucide-react';
+import { CalendarCheck, List, Send, Star } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { bookingSchema } from '@/lib/schemas';
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
@@ -18,6 +18,7 @@ import { cn } from '@/lib/utils';
 import { format } from 'date-fns';
 import { Checkbox } from '@/components/ui/checkbox';
 import Link from 'next/link';
+import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 
 const services = [
     { id: "photography", label: "Photography" },
@@ -61,7 +62,20 @@ export default function BookUsPage() {
         </p>
       </div>
 
-      <div className="mx-auto max-w-2xl pt-12">
+      <div className="mx-auto max-w-2xl pt-12 space-y-8">
+        <Alert>
+            <List className="h-4 w-4" />
+            <AlertTitle>Terms & Conditions for Event Coverage</AlertTitle>
+            <AlertDescription>
+                <ul className="list-disc list-inside space-y-2 mt-2">
+                    <li>Our services are primarily for events held within the <span className="font-semibold">Tejgaon College campus</span>.</li>
+                    <li>For professional or non-college events, a service charge will be applicable. Please discuss the details with us.</li>
+                    <li>The <span className="font-semibold">Tejgaon College Photography Club</span> must be credited in all event promotions and media.</li>
+                    <li>Arrangements for <span className="font-semibold">snacks and lunch</span> for the photography team on the event day are required.</li>
+                </ul>
+            </AlertDescription>
+        </Alert>
+
         <Card>
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
