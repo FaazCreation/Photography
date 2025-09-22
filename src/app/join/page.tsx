@@ -32,7 +32,7 @@ export default function JoinPage() {
     defaultValues: {
       name: '',
       email: '',
-      studentId: '',
+      memberId: '',
       department: '',
       interests: '',
     },
@@ -103,10 +103,10 @@ export default function JoinPage() {
                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                     <FormField
                         control={form.control}
-                        name="studentId"
+                        name="memberId"
                         render={({ field }) => (
                         <FormItem>
-                            <FormLabel>Student ID</FormLabel>
+                            <FormLabel>Member ID</FormLabel>
                             <FormControl>
                             <Input placeholder="TC123456" {...field} />
                             </FormControl>

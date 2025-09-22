@@ -32,7 +32,7 @@ export default function PremiumPage() {
         resolver: zodResolver(premiumPaymentSchema),
         defaultValues: {
             name: "",
-            studentId: "",
+            memberId: "",
             transactionId: "",
         },
     });
@@ -70,7 +70,7 @@ export default function PremiumPage() {
                 <CardContent className="space-y-8 pt-8">
                     <div>
                         <h3 className="text-lg font-semibold mb-4 text-center">Exclusive Benefits</h3>
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4">
+                        <div className="space-y-4">
                             {premiumBenefits.map((benefit, index) => (
                                 <div key={index} className="flex items-start gap-3">
                                     <Check className="h-5 w-5 text-primary flex-shrink-0 mt-1" />
@@ -108,7 +108,7 @@ export default function PremiumPage() {
                                 <p className="text-muted-foreground text-sm">
                                     Enter our bKash number: <strong className="text-foreground">01234567890</strong> <br/>
                                     Enter the amount: <strong className="text-foreground">BDT 2400</strong> <br/>
-                                    In the <strong className="text-foreground">Reference</strong> field, enter your <strong className="text-foreground">Student ID</strong>.
+                                    In the <strong className="text-foreground">Reference</strong> field, enter your <strong className="text-foreground">Member ID</strong>.
                                 </p>
                             </div>
                         </div>
@@ -137,7 +137,7 @@ export default function PremiumPage() {
                                     <FormItem>
                                         <FormLabel>Your Full Name</FormLabel>
                                         <FormControl>
-                                        <Input placeholder="As it appears on your student ID" {...field} />
+                                        <Input placeholder="As it appears on your ID" {...field} />
                                         </FormControl>
                                         <FormMessage />
                                     </FormItem>
@@ -145,10 +145,10 @@ export default function PremiumPage() {
                                 />
                                 <FormField
                                     control={form.control}
-                                    name="studentId"
+                                    name="memberId"
                                     render={({ field }) => (
                                     <FormItem>
-                                        <FormLabel>Your Student ID</FormLabel>
+                                        <FormLabel>Your Member ID</FormLabel>
                                         <FormControl>
                                         <Input placeholder="The ID used in the payment reference" {...field} />
                                         </FormControl>

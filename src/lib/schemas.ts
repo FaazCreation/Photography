@@ -7,7 +7,7 @@ export const StyleSuggestionSchema = z.object({
 export const membershipApplicationSchema = z.object({
   name: z.string().min(2, { message: 'Name must be at least 2 characters.' }),
   email: z.string().email({ message: 'Please enter a valid email address.' }),
-  studentId: z.string().min(4, { message: 'Please enter a valid student ID.'}),
+  memberId: z.string().min(4, { message: 'Please enter a valid Member ID.'}),
   department: z.string().min(2, { message: 'Please enter your department.'}),
   interests: z.string().min(10, { message: 'Please tell us about your interests.' }),
 });
@@ -35,6 +35,6 @@ export const bookingSchema = z.object({
 
 export const premiumPaymentSchema = z.object({
   name: z.string().min(2, { message: "Name must be at least 2 characters." }),
-  studentId: z.string().min(4, { message: "Please enter a valid student ID." }),
+  memberId: z.string().min(4, { message: "Please enter a valid Member ID." }),
   transactionId: z.string().min(5, { message: "Please enter a valid bKash Transaction ID." }),
 });
