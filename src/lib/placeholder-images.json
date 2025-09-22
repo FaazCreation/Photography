@@ -1,3 +1,52 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-image",
+      "description": "A dramatic landscape photo representing creative vision.",
+      "imageUrl": "https://picsum.photos/seed/tcpchero/1920/1080",
+      "imageHint": "dramatic landscape"
+    },
+    {
+      "id": "about-us-image",
+      "description": "A group of students with cameras, looking collaborative.",
+      "imageUrl": "https://picsum.photos/seed/tcpabout/800/600",
+      "imageHint": "students cameras"
+    },
+    {
+      "id": "gallery-1",
+      "description": "A vibrant street photography shot.",
+      "imageUrl": "https://picsum.photos/seed/gallery1/600/400",
+      "imageHint": "street photography"
+    },
+    {
+      "id": "gallery-2",
+      "description": "A stunning portrait with beautiful lighting.",
+      "imageUrl": "https://picsum.photos/seed/gallery2/600/400",
+      "imageHint": "portrait lighting"
+    },
+    {
+      "id": "gallery-3",
+      "description": "A black and white architectural photo.",
+      "imageUrl": "https://picsum.photos/seed/gallery3/600/400",
+      "imageHint": "architecture monochrome"
+    },
+    {
+      "id": "gallery-4",
+      "description": "A colorful nature macro shot.",
+      "imageUrl": "https://picsum.photos/seed/gallery4/600/400",
+      "imageHint": "nature macro"
+    },
+    {
+      "id": "gallery-5",
+      "description": "An abstract long exposure image.",
+      "imageUrl": "https://picsum.photos/seed/gallery5/600/400",
+      "imageHint": "abstract exposure"
+    },
+    {
+      "id": "gallery-6",
+      "description": "A captivating wildlife photograph.",
+      "imageUrl": "https://picsum.photos/seed/gallery6/600/400",
+      "imageHint": "wildlife animal"
+    }
+  ]
 }
