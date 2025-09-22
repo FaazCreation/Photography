@@ -15,7 +15,6 @@ export function Footer() {
           <Link href="/about" className="text-sm hover:underline">About</Link>
           <Link href="/gallery" className="text-sm hover:underline">Gallery</Link>
           <Link href="/events" className="text-sm hover:underline">Events</Link>
-          <Link href="/blog" className="text-sm hover:underline">Blog</Link>
           <Link href="/members" className="text-sm hover:underline">Members</Link>
           <Link href="/contact" className="text-sm hover:underline">Contact</Link>
         </nav>

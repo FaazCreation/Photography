@@ -31,8 +31,12 @@ export function getBlogImages(): ImagePlaceholder[] {
   return placeholderImages.filter(img => img.id.startsWith('blog-'));
 }
 
-export function getMemberImages(): ImagePlaceholder[] {
-  return placeholderImages.filter(img => img.id.startsWith('member-'));
+export function getAdminPanelImages(): ImagePlaceholder[] {
+  return placeholderImages.filter(img => img.id.startsWith('admin-'));
+}
+
+export function getGeneralMemberImages(): ImagePlaceholder[] {
+  return placeholderImages.filter(img => img.id.startsWith('general-'));
 }
 
 export function getAdvisorImages(): ImagePlaceholder[] {

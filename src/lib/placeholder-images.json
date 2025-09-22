@@ -86,34 +86,7 @@
       "imageHint": "botanical gardens"
     },
     {
-      "id": "blog-1",
-      "title": "Mastering Landscape Photography",
-      "description": "Unlock creative control by moving beyond auto settings for nature shots.",
-      "author": "Fahim Rahman",
-      "date": "October 1, 2024",
-      "imageUrl": "https://picsum.photos/seed/blog43/600/400",
-      "imageHint": "landscape nature"
-    },
-    {
-      "id": "blog-2",
-      "title": "The Art of the Portrait",
-      "description": "Learn the rule of thirds, leading lines, and framing for people.",
-      "author": "Ayesha Khan",
-      "date": "September 25, 2024",
-      "imageUrl": "https://picsum.photos/seed/blog44/600/400",
-      "imageHint": "portrait photography"
-    },
-    {
-      "id": "blog-3",
-      "title": "Capturing Campus Life",
-      "description": "A beginner's guide to documenting events and moments at college.",
-      "author": "Jamal Ahmed",
-      "date": "September 18, 2024",
-      "imageUrl": "https://picsum.photos/seed/blog45/600/400",
-      "imageHint": "campus life"
-    },
-    {
-      "id": "member-1",
+      "id": "admin-1",
       "name": "Fahim Rahman",
       "role": "President",
       "specialty": "Street & Documentary",
@@ -121,7 +94,7 @@
       "imageHint": "male portrait"
     },
     {
-      "id": "member-2",
+      "id": "admin-2",
       "name": "Ayesha Khan",
       "role": "Vice President",
       "specialty": "Portrait & Fashion",
@@ -129,7 +102,7 @@
       "imageHint": "female portrait"
     },
     {
-      "id": "member-3",
+      "id": "admin-3",
       "name": "Jamal Ahmed",
       "role": "Secretary",
       "specialty": "Landscape & Travel",
@@ -137,7 +110,7 @@
       "imageHint": "person nature"
     },
     {
-      "id": "member-4",
+      "id": "admin-4",
       "name": "Sadia Islam",
       "role": "Treasurer",
       "specialty": "Macro & Nature",
@@ -145,7 +118,7 @@
       "imageHint": "woman smiling"
     },
     {
-      "id": "member-5",
+      "id": "general-1",
       "name": "Rahim Ali",
       "role": "Member",
       "specialty": "Architectural",
@@ -153,7 +126,7 @@
       "imageHint": "man portrait"
     },
     {
-      "id": "member-6",
+      "id": "general-2",
       "name": "Nadia Chowdhury",
       "role": "Member",
       "specialty": "Event Photography",
@@ -161,7 +134,7 @@
       "imageHint": "woman candid"
     },
     {
-      "id": "member-7",
+      "id": "general-3",
       "name": "Kamal Hossain",
       "role": "Member",
       "specialty": "Abstract",
@@ -169,7 +142,7 @@
       "imageHint": "male outdoor"
     },
     {
-      "id": "member-8",
+      "id": "general-4",
       "name": "Fatima Begum",
       "role": "Member",
       "specialty": "Wildlife",

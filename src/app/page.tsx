@@ -1,5 +1,4 @@
 import { About } from '@/components/sections/about';
-import { AiTool } from '@/components/sections/ai-tool';
 import { Collaborators } from '@/components/sections/collaborators';
 import { Gallery } from '@/components/sections/gallery';
 import { Hero } from '@/components/sections/hero';
@@ -16,7 +15,6 @@ export default function Home() {
       <Gallery />
       <WhatWeProvide />
       <Collaborators />
-      <AiTool />
       <JoinUs />
     </>
   );
