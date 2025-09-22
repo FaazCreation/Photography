@@ -16,7 +16,7 @@ export function Hero() {
         priority
         data-ai-hint={heroImage.imageHint}
       />
-      <div className="absolute inset-0 bg-black/50" />
+      <div className="absolute inset-0 bg-black/60" />
       <div className="relative z-10 max-w-4xl mx-auto px-4">
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight drop-shadow-lg animate-fade-in-down">
           Tejgaon College Photography Club
@@ -25,7 +25,7 @@ export function Hero() {
           A creative community dedicated to capturing the moment, honing our craft, and sharing our vision.
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-4 animate-fade-in-up [animation-delay:0.4s]">
-          <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
+          <Button asChild size="lg">
             <Link href="/join">Become a Member</Link>
           </Button>
           <Button asChild size="lg" variant="secondary">

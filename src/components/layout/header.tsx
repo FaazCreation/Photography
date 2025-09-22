@@ -7,6 +7,7 @@ import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { cn } from '@/lib/utils';
+import { ThemeToggle } from '@/components/theme-toggle';
 
 const navLinks = [
   { href: '/about', label: 'About' },
@@ -54,31 +55,35 @@ export function Header() {
         <nav className="hidden md:flex items-center gap-6 text-sm">
           <NavLinks />
         </nav>
-        <div className="flex-1 flex justify-end md:hidden">
-          <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
-            <SheetTrigger asChild>
-              <Button variant="ghost" size="icon">
-                <Menu className="h-6 w-6" />
-                <span className="sr-only">Toggle navigation menu</span>
-              </Button>
-            </SheetTrigger>
-            <SheetContent side="right">
-                <div className='p-6'>
-                    <Link href="/" className="flex items-center gap-2 text-lg font-semibold mb-6" onClick={() => setIsSheetOpen(false)}>
-                        <Camera className="h-6 w-6 text-primary" />
-                        <span className="font-bold">Tejgaon College Photography Club</span>
-                    </Link>
-                    <nav className="grid gap-4">
-                        <NavLinks onClick={() => setIsSheetOpen(false)} />
-                         <Button asChild className="w-full mt-4">
-                            <Link href="/join" onClick={() => setIsSheetOpen(false)}>Join Us</Link>
-                        </Button>
-                    </nav>
-                </div>
-            </SheetContent>
-          </Sheet>
+        <div className="flex-1 flex justify-end items-center gap-2">
+            <div className='md:hidden'>
+              <ThemeToggle />
+            </div>
+            <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
+                <SheetTrigger asChild>
+                <Button variant="ghost" size="icon" className='md:hidden'>
+                    <Menu className="h-6 w-6" />
+                    <span className="sr-only">Toggle navigation menu</span>
+                </Button>
+                </SheetTrigger>
+                <SheetContent side="right">
+                    <div className='p-6'>
+                        <Link href="/" className="flex items-center gap-2 text-lg font-semibold mb-6" onClick={() => setIsSheetOpen(false)}>
+                            <Camera className="h-6 w-6 text-primary" />
+                            <span className="font-bold">Tejgaon College Photography Club</span>
+                        </Link>
+                        <nav className="grid gap-4">
+                            <NavLinks onClick={() => setIsSheetOpen(false)} />
+                            <Button asChild className="w-full mt-4">
+                                <Link href="/join" onClick={() => setIsSheetOpen(false)}>Join Us</Link>
+                            </Button>
+                        </nav>
+                    </div>
+                </SheetContent>
+            </Sheet>
         </div>
-        <div className="hidden md:flex flex-1 justify-end">
+        <div className="hidden md:flex flex-1 justify-end items-center gap-4">
+            <ThemeToggle />
              <Button asChild>
                 <Link href="/join">Join Us</Link>
             </Button>
