@@ -1,8 +1,9 @@
 import Image from "next/image";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { getMemberImages } from "@/lib/placeholder-images";
 import { Badge } from "@/components/ui/badge";
 import { Camera, Linkedin, Twitter } from "lucide-react";
+import Link from "next/link";
 
 export default function MembersPage() {
   const members = getMemberImages();
@@ -19,7 +20,7 @@ export default function MembersPage() {
       </div>
       <div className="mx-auto grid max-w-6xl gap-8 pt-12 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {members.map((member) => (
-          <Card key={member.id} className="text-center">
+          <Card key={member.id} className="text-center group overflow-hidden">
             <CardContent className="p-0">
               <div className="w-full aspect-square overflow-hidden rounded-t-lg">
                 <Image
@@ -27,21 +28,29 @@ export default function MembersPage() {
                   alt={`Portrait of ${member.name}`}
                   width={400}
                   height={400}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   data-ai-hint={member.imageHint}
                 />
               </div>
             </CardContent>
-            <CardHeader>
-              <CardTitle>{member.name}</CardTitle>
-              <Badge variant="secondary" className="mx-auto mt-1">{member.role}</Badge>
-              <p className="text-sm text-muted-foreground pt-2">{member.specialty}</p>
-              <div className="flex justify-center gap-4 pt-3">
-                 <Twitter className="h-5 w-5 text-muted-foreground hover:text-primary transition-colors" />
-                 <Linkedin className="h-5 w-5 text-muted-foreground hover:text-primary transition-colors" />
-                 <Camera className="h-5 w-5 text-muted-foreground hover:text-primary transition-colors" />
-              </div>
+            <CardHeader className="p-4">
+              <CardTitle className="text-xl">{member.name}</CardTitle>
+              <CardDescription>{member.specialty}</CardDescription>
             </CardHeader>
+            <CardFooter className="flex flex-col gap-4 p-4 pt-0">
+               <Badge variant="secondary" className="mx-auto">{member.role}</Badge>
+               <div className="flex justify-center gap-4">
+                <Link href="#" aria-label={`${member.name}'s Twitter`}>
+                  <Twitter className="h-5 w-5 text-muted-foreground hover:text-primary transition-colors" />
+                </Link>
+                <Link href="#" aria-label={`${member.name}'s LinkedIn`}>
+                  <Linkedin className="h-5 w-5 text-muted-foreground hover:text-primary transition-colors" />
+                </Link>
+                <Link href="#" aria-label={`${member.name}'s Portfolio`}>
+                 <Camera className="h-5 w-5 text-muted-foreground hover:text-primary transition-colors" />
+                </Link>
+              </div>
+            </CardFooter>
           </Card>
         ))}
       </div>
