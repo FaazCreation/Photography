@@ -29,7 +29,7 @@ export function AdvisorSpeech() {
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-primary">
                 A Word of Encouragement
             </h2>
-             <div className="prose max-w-full text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+             <div className="prose max-w-full text-muted-foreground text-base md:text-lg">
                 <p>
                 "Photography is a powerful medium of expression. It allows us to freeze a moment, tell a story, and share our unique perspective with the world. Here at Tejgaon College Photography Club, we are more than just a group of students with cameras; we are a family of creators, innovators, and storytellers."
                 </p>

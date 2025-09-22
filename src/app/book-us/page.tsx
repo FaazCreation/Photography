@@ -55,7 +55,7 @@ export default function BookUsPage() {
         <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl text-primary">
           Book Our Services
         </h1>
-        <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+        <p className="max-w-[900px] text-muted-foreground text-base md:text-lg">
           Need coverage for your event? Fill out the form below to book the Tejgaon College Photography Club.
         </p>
       </div>
@@ -200,7 +200,7 @@ export default function BookUsPage() {
                             <div className="mb-4">
                                 <FormLabel className="text-base">Services Required</FormLabel>
                             </div>
-                            <div className="grid grid-cols-2 gap-4">
+                            <div className="grid grid-cols-1 xs:grid-cols-2 gap-4">
                             {services.map((item) => (
                                 <FormField
                                 key={item.id}

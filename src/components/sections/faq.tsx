@@ -39,8 +39,8 @@ export function Faq() {
             <div className="bg-primary/10 p-4 rounded-full">
                 <HelpCircle className="h-10 w-10 text-primary" />
             </div>
-            <AnimatedHeadline text="Frequently Asked Questions" />
-            <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            <AnimatedHeadline text="Frequently Asked Questions" className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl" />
+            <p className="mx-auto max-w-[700px] text-muted-foreground text-base md:text-lg">
                 Have questions? We've got answers. Here are some of the most common inquiries we receive.
             </p>
         </div>

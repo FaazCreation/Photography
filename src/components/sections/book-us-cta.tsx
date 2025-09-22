@@ -11,8 +11,8 @@ export function BookUsCta() {
             <div className="bg-primary/10 p-4 rounded-full">
                 <CalendarCheck className="h-10 w-10 text-primary" />
             </div>
-            <AnimatedHeadline text="Need Event Coverage?" />
-            <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            <AnimatedHeadline text="Need Event Coverage?" className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl" />
+            <p className="mx-auto max-w-[700px] text-muted-foreground text-base md:text-lg">
                 Our talented team is available to cover your college events, from workshops and seminars to festivals and competitions. Let us capture your important moments.
             </p>
             <Button asChild size="lg" className="mt-4">

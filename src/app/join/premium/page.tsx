@@ -95,14 +95,14 @@ export default function PremiumPage() {
                     </CardHeader>
                     <CardContent className="space-y-4">
                         <div className="flex items-start gap-4">
-                            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground font-bold text-lg">1</div>
+                            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground font-bold text-lg flex-shrink-0">1</div>
                             <div>
                                 <p className="font-semibold">Send Money via bKash</p>
                                 <p className="text-muted-foreground text-sm">Open your bKash app and choose the "Send Money" option.</p>
                             </div>
                         </div>
                         <div className="flex items-start gap-4">
-                            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground font-bold text-lg">2</div>
+                            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground font-bold text-lg flex-shrink-0">2</div>
                             <div>
                                 <p className="font-semibold">Enter Details</p>
                                 <p className="text-muted-foreground text-sm">
@@ -113,7 +113,7 @@ export default function PremiumPage() {
                             </div>
                         </div>
                          <div className="flex items-start gap-4">
-                            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground font-bold text-lg">3</div>
+                            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground font-bold text-lg flex-shrink-0">3</div>
                             <div>
                                 <p className="font-semibold">Save Transaction ID</p>
                                 <p className="text-muted-foreground text-sm">After the payment is complete, copy the bKash Transaction ID (TrxID).</p>

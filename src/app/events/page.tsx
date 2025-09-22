@@ -41,7 +41,7 @@ export default function EventsPage() {
         <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl text-primary">
           Upcoming Events
         </h1>
-        <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+        <p className="max-w-[900px] text-muted-foreground text-base md:text-lg">
           Join us for workshops, photo walks, and more. All events are free for members.
         </p>
          <Button asChild>

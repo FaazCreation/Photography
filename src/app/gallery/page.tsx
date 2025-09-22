@@ -11,11 +11,11 @@ export default function GalleryPage() {
         <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl text-primary">
           Events Gallery
         </h1>
-        <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+        <p className="max-w-[900px] text-muted-foreground text-base md:text-lg">
           A collection of moments captured during our workshops, photo walks, and events.
         </p>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6 lg:gap-8 pt-12">
+      <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6 lg:gap-8 pt-12">
         {galleryImages.map((image) => (
           <div key={image.id} className="group relative overflow-hidden rounded-lg">
             <Card className="h-full w-full">

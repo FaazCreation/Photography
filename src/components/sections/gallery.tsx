@@ -20,8 +20,8 @@ export function Gallery() {
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
-            <AnimatedHeadline text="Meet Our Members" />
-            <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            <AnimatedHeadline text="Meet Our Members" className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl" />
+            <p className="max-w-[900px] text-muted-foreground text-base md:text-lg">
               A glimpse of the talented and passionate individuals who make our club vibrant.
             </p>
           </div>
@@ -36,7 +36,7 @@ export function Gallery() {
           >
             <CarouselContent>
               {generalMembers.map((member, index) => (
-                <CarouselItem key={index} className="sm:basis-1/2 lg:basis-1/3">
+                <CarouselItem key={index} className="basis-full xs:basis-1/2 lg:basis-1/3">
                   <div className="p-1">
                     <Card className="overflow-hidden rounded-lg group">
                       <CardContent className="flex aspect-square items-center justify-center p-0 relative">

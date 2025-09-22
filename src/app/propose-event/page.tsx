@@ -46,7 +46,7 @@ export default function ProposeEventPage() {
         <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl text-primary">
           Propose an Event
         </h1>
-        <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+        <p className="max-w-[900px] text-muted-foreground text-base md:text-lg">
           Have an idea for a photo walk, workshop, or guest speaker? Let us know!
         </p>
       </div>

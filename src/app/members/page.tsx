@@ -54,7 +54,7 @@ export default function MembersPage() {
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl text-primary">
                     Our Club Structure
                 </h1>
-                <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                <p className="max-w-[900px] text-muted-foreground text-base md:text-lg">
                     Meet the dedicated individuals who form the backbone of our club.
                 </p>
             </div>
@@ -65,7 +65,7 @@ export default function MembersPage() {
                     <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl text-center mb-8">
                         Advisor Panel
                     </h2>
-                    <div className="mx-auto grid max-w-4xl gap-8 sm:grid-cols-2 lg:grid-cols-3">
+                    <div className="mx-auto grid max-w-4xl gap-8 grid-cols-1 xs:grid-cols-2 lg:grid-cols-3">
                         {advisors.map((member) => (
                             <MemberCard key={member.id} member={member} />
                         ))}
@@ -79,7 +79,7 @@ export default function MembersPage() {
                     <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl text-center mb-8">
                         Admin Panel
                     </h2>
-                    <div className="mx-auto grid max-w-6xl gap-8 sm:grid-cols-2 lg:grid-cols-4">
+                    <div className="mx-auto grid max-w-6xl gap-8 grid-cols-1 xs:grid-cols-2 lg:grid-cols-4">
                         {adminPanel.map((member) => (
                             <MemberCard key={member.id} member={member} />
                         ))}
@@ -93,7 +93,7 @@ export default function MembersPage() {
                     <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl text-center mb-8">
                         General Members
                     </h2>
-                    <div className="mx-auto grid max-w-6xl gap-8 pt-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                    <div className="mx-auto grid max-w-6xl gap-8 pt-2 grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5">
                         {generalMembers.map((member) => (
                             <MemberCard key={member.id} member={member} />
                         ))}
