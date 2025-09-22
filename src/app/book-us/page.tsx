@@ -8,7 +8,7 @@ import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { useToast } from '@/hooks/use-toast';
-import { CalendarCheck, List, Send, Star } from 'lucide-react';
+import { CalendarCheck, List, Send } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { bookingSchema } from '@/lib/schemas';
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
@@ -17,8 +17,6 @@ import { Calendar } from '@/components/ui/calendar';
 import { cn } from '@/lib/utils';
 import { format } from 'date-fns';
 import { Checkbox } from '@/components/ui/checkbox';
-import Link from 'next/link';
-import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 
 const services = [
     { id: "photography", label: "Photography" },
@@ -62,21 +60,41 @@ export default function BookUsPage() {
         </p>
       </div>
 
-      <div className="mx-auto max-w-2xl pt-12 space-y-8">
-        <Alert>
-            <List className="h-4 w-4" />
-            <AlertTitle>Terms & Conditions for Event Coverage</AlertTitle>
-            <AlertDescription>
-                <ul className="list-disc list-inside space-y-2 mt-2">
-                    <li>Our services are primarily for events held within the <span className="font-semibold">Tejgaon College campus</span>.</li>
-                    <li>For professional or non-college events, a service charge will be applicable. Please discuss the details with us.</li>
-                    <li>The <span className="font-semibold">Tejgaon College Photography Club</span> must be credited in all event promotions and media.</li>
-                    <li>Arrangements for <span className="font-semibold">snacks and lunch</span> for the photography team on the event day are required.</li>
+      <div className="mx-auto max-w-6xl pt-12 grid grid-cols-1 md:grid-cols-2 md:gap-12 lg:gap-16 items-start">
+        
+        <Card className="md:order-2">
+            <CardHeader>
+                <CardTitle className="flex items-center gap-2">
+                    <List />
+                    Terms & Conditions
+                </CardTitle>
+                 <CardDescription>
+                    Please review our conditions before booking.
+                </CardDescription>
+            </CardHeader>
+            <CardContent>
+                <ul className="space-y-4 text-muted-foreground">
+                    <li className="flex items-start gap-3">
+                        <span className="text-primary font-bold mt-1">&#x2713;</span>
+                        <span>Our services are primarily for events held within the <strong className="font-semibold text-foreground">Tejgaon College campus</strong>.</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                        <span className="text-primary font-bold mt-1">&#x2713;</span>
+                        <span>For professional or non-college events, a <strong className="font-semibold text-foreground">service charge</strong> will be applicable. Please discuss the details with us.</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                        <span className="text-primary font-bold mt-1">&#x2713;</span>
+                        <span>The <strong className="font-semibold text-foreground">Tejgaon College Photography Club</strong> must be credited in all event promotions and media.</span>
+                    </li>
+                    <li className="flex items-start gap-3">
+                        <span className="text-primary font-bold mt-1">&#x2713;</span>
+                        <span>Arrangements for <strong className="font-semibold text-foreground">snacks and lunch</strong> for the photography team on the event day are required.</span>
+                    </li>
                 </ul>
-            </AlertDescription>
-        </Alert>
+            </CardContent>
+        </Card>
 
-        <Card>
+        <Card className="md:order-1 mt-8 md:mt-0">
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
                 <CalendarCheck />
