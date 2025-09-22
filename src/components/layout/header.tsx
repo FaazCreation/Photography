@@ -15,8 +15,8 @@ const navLinks = [
   { href: '/blog', label: 'Blog' },
   { href: '/members', label: 'Members' },
   { href: '/inspiration', label: 'Inspiration' },
+  { href: '/propose-event', label: 'Propose Event' },
   { href: '/contact', label: 'Contact' },
-  { href: '/join', label: 'Join Us' },
 ];
 
 const NavLinks = ({ onClick }: { onClick?: () => void }) => {
@@ -29,8 +29,8 @@ const NavLinks = ({ onClick }: { onClick?: () => void }) => {
           href={href}
           onClick={onClick}
           className={cn(
-            'text-lg font-medium hover:text-primary transition-colors',
-            pathname === href ? 'text-primary' : ''
+            'text-sm font-medium hover:text-primary transition-colors',
+            pathname === href ? 'text-primary' : 'text-muted-foreground'
           )}
         >
           {label}
@@ -42,18 +42,19 @@ const NavLinks = ({ onClick }: { onClick?: () => void }) => {
 
 export function Header() {
   const [isSheetOpen, setIsSheetOpen] = React.useState(false);
+  const pathname = usePathname();
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-16 max-w-7xl items-center justify-between">
-        <Link href="/" className="flex items-center gap-2">
+      <div className="container flex h-16 max-w-7xl items-center">
+        <Link href="/" className="flex items-center gap-2 mr-6">
           <Camera className="h-8 w-8 text-primary" />
-          <span className="font-bold text-xl hidden sm:inline-block">Tejgaon College Photography Club</span>
+          <span className="font-bold text-xl hidden sm:inline-block">TCPC</span>
         </Link>
-        <nav className="hidden md:flex items-center gap-6">
+        <nav className="hidden md:flex items-center gap-6 text-sm">
           <NavLinks />
         </nav>
-        <div className="md:hidden">
+        <div className="flex-1 flex justify-end md:hidden">
           <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
             <SheetTrigger asChild>
               <Button variant="ghost" size="icon">
@@ -62,17 +63,25 @@ export function Header() {
               </Button>
             </SheetTrigger>
             <SheetContent side="right">
-              <nav className="grid gap-6 text-lg font-medium mt-8">
-                <Link href="/" className="flex items-center gap-2 text-lg font-semibold mb-4" onClick={() => setIsSheetOpen(false)}>
-                  <Camera className="h-6 w-6 text-primary" />
-                  <span>TCPC</span>
-                </Link>
-                <div className="flex flex-col gap-4">
-                  <NavLinks onClick={() => setIsSheetOpen(false)} />
+                <div className='p-6'>
+                    <Link href="/" className="flex items-center gap-2 text-lg font-semibold mb-6" onClick={() => setIsSheetOpen(false)}>
+                        <Camera className="h-6 w-6 text-primary" />
+                        <span className="font-bold">Tejgaon College Photography Club</span>
+                    </Link>
+                    <nav className="grid gap-4">
+                        <NavLinks onClick={() => setIsSheetOpen(false)} />
+                         <Button asChild className="w-full mt-4">
+                            <Link href="/join" onClick={() => setIsSheetOpen(false)}>Join Us</Link>
+                        </Button>
+                    </nav>
                 </div>
-              </nav>
             </SheetContent>
           </Sheet>
+        </div>
+        <div className="hidden md:flex flex-1 justify-end">
+             <Button asChild>
+                <Link href="/join">Join Us</Link>
+            </Button>
         </div>
       </div>
     </header>

@@ -1,5 +1,144 @@
-import { JoinUs } from '@/components/sections/join-us';
+'use client';
+
+import { useForm } from 'react-hook-form';
+import { zodResolver } from '@hookform/resolvers/zod';
+import { z } from 'zod';
+import { Button } from '@/components/ui/button';
+import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@/components/ui/form';
+import { Input } from '@/components/ui/input';
+import { Textarea } from '@/components/ui/textarea';
+import { useToast } from '@/hooks/use-toast';
+import { UserPlus, Send } from 'lucide-react';
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
+import { membershipApplicationSchema } from '@/lib/schemas';
+
+type MembershipFormValues = z.infer<typeof membershipApplicationSchema>;
 
 export default function JoinPage() {
-  return <JoinUs />;
+  const { toast } = useToast();
+  const form = useForm<MembershipFormValues>({
+    resolver: zodResolver(membershipApplicationSchema),
+    defaultValues: {
+      name: '',
+      email: '',
+      studentId: '',
+      department: '',
+      interests: '',
+    },
+  });
+
+  function onSubmit(data: MembershipFormValues) {
+    console.log(data);
+    toast({
+      title: 'Application Sent!',
+      description: "Thanks for your interest in joining! We'll review your application and get back to you soon.",
+    });
+    form.reset();
+  }
+
+  return (
+    <div className="container py-12 md:py-24 lg:py-32">
+      <div className="flex flex-col items-center space-y-4 text-center">
+        <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl text-primary">
+          Become a Member
+        </h1>
+        <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+          Ready to start your photography journey with us? Fill out the form below to apply.
+        </p>
+      </div>
+
+      <div className="mx-auto max-w-2xl pt-12">
+        <Card>
+          <CardHeader>
+            <CardTitle className="flex items-center gap-2">
+                <UserPlus />
+                Membership Application
+            </CardTitle>
+            <CardDescription>
+                Membership is open to all students of Tejgaon College.
+            </CardDescription>
+          </CardHeader>
+          <CardContent>
+            <Form {...form}>
+              <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                  <FormField
+                    control={form.control}
+                    name="name"
+                    render={({ field }) => (
+                      <FormItem>
+                        <FormLabel>Full Name</FormLabel>
+                        <FormControl>
+                          <Input placeholder="Jane Doe" {...field} />
+                        </FormControl>
+                        <FormMessage />
+                      </FormItem>
+                    )}
+                  />
+                  <FormField
+                    control={form.control}
+                    name="email"
+                    render={({ field }) => (
+                      <FormItem>
+                        <FormLabel>Email Address</FormLabel>
+                        <FormControl>
+                          <Input placeholder="jane.doe@example.com" {...field} />
+                        </FormControl>
+                        <FormMessage />
+                      </FormItem>
+                    )}
+                  />
+                </div>
+                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <FormField
+                        control={form.control}
+                        name="studentId"
+                        render={({ field }) => (
+                        <FormItem>
+                            <FormLabel>Student ID</FormLabel>
+                            <FormControl>
+                            <Input placeholder="TC123456" {...field} />
+                            </FormControl>
+                            <FormMessage />
+                        </FormItem>
+                        )}
+                    />
+                    <FormField
+                        control={form.control}
+                        name="department"
+                        render={({ field }) => (
+                        <FormItem>
+                            <FormLabel>Department</FormLabel>
+                            <FormControl>
+                            <Input placeholder="e.g., Computer Science" {...field} />
+                            </FormControl>
+                            <FormMessage />
+                        </FormItem>
+                        )}
+                    />
+                </div>
+                <FormField
+                  control={form.control}
+                  name="interests"
+                  render={({ field }) => (
+                    <FormItem>
+                      <FormLabel>Your Photographic Interests</FormLabel>
+                      <FormControl>
+                        <Textarea placeholder="Tell us what you love to photograph (e.g., portraits, landscapes, street, etc.)" className="resize-none" rows={4} {...field} />
+                      </FormControl>
+                      <FormMessage />
+                    </FormItem>
+                  )}
+                />
+                <Button type="submit" className="w-full">
+                  <Send className="mr-2 h-4 w-4" />
+                  Submit Application
+                </Button>
+              </form>
+            </Form>
+          </CardContent>
+        </Card>
+      </div>
+    </div>
+  );
 }

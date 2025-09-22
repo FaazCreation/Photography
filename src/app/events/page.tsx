@@ -1,5 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
-import { Calendar, Camera, MapPin } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Calendar, Camera, MapPin, PlusCircle } from "lucide-react";
+import Link from "next/link";
 
 const events = [
   {
@@ -42,6 +44,12 @@ export default function EventsPage() {
         <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
           Join us for workshops, photo walks, and more. All events are free for members.
         </p>
+         <Button asChild>
+            <Link href="/propose-event">
+              <PlusCircle className="mr-2" />
+              Propose an Event
+            </Link>
+        </Button>
       </div>
       <div className="mx-auto grid max-w-5xl gap-8 pt-12">
         {events.map((event, index) => (

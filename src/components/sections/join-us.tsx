@@ -1,6 +1,7 @@
 import { Mail, MapPin, Users } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import Link from 'next/link';
 
 export function JoinUs() {
   return (
@@ -11,8 +12,11 @@ export function JoinUs() {
           <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
             Ready to start your photography journey with us? We'd love to have you.
           </p>
+           <Button asChild size="lg">
+              <Link href="/join">Apply Now</Link>
+            </Button>
         </div>
-        <div className="mx-auto grid max-w-5xl items-start gap-8 sm:grid-cols-2 md:gap-12 lg:grid-cols-3 pt-12">
+        <div className="mx-auto grid max-w-5xl items-start gap-8 sm:grid-cols-2 md:gap-12 lg:grid-cols-3 pt-16">
           <Card className="text-center flex flex-col">
             <CardHeader>
               <Users className="mx-auto h-12 w-12 text-primary" />
