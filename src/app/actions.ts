@@ -13,7 +13,7 @@ export async function getStyleSuggestionAction(data: z.infer<typeof StyleSuggest
 
   try {
     const result = await suggestPhotoStyle({ description: validatedFields.data.description });
-    return { success: true, suggestion: result.styleSuggestion };
+    return { success: true, suggestions: result.suggestions };
   } catch (error) {
     console.error(error);
     return { success: false, error: 'An unexpected error occurred. Please try again.' };
