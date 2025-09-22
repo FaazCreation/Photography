@@ -14,7 +14,7 @@ const navLinks = [
   { href: '/gallery', label: 'Gallery' },
   { href: '/events', label: 'Events' },
   { href: '/members', label: 'Members' },
-  { href: '/propose-event', label: 'Propose Event' },
+  { href: '/book-us', label: 'Book Us' },
   { href: '/contact', label: 'Contact' },
 ];
 
@@ -73,6 +73,11 @@ export function Header() {
                 </Link>
                 <nav className="grid gap-5">
                   <NavLinks onClick={() => setIsSheetOpen(false)} />
+                   <Button asChild className="w-full mt-4">
+                    <Link href="/propose-event" onClick={() => setIsSheetOpen(false)}>
+                      Propose an Event
+                    </Link>
+                  </Button>
                   <Button asChild className="w-full mt-4">
                     <Link href="/join" onClick={() => setIsSheetOpen(false)}>
                       Join Us
@@ -85,6 +90,9 @@ export function Header() {
         </div>
         <div className="hidden md:flex flex-1 justify-end items-center gap-4">
           <ThemeToggle />
+          <Button asChild variant="outline">
+            <Link href="/propose-event">Propose an Event</Link>
+          </Button>
           <Button asChild>
             <Link href="/join">Join Us</Link>
           </Button>
