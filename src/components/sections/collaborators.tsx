@@ -1,4 +1,4 @@
-import { Briefcase, Code, Dna, Film, Mic, Users } from 'lucide-react';
+import { Briefcase, Code, Dna, Mic, Users } from 'lucide-react';
 
 const collaboratorsList = [
   {
@@ -21,10 +21,6 @@ const collaboratorsList = [
     name: 'Debating Club',
     icon: <Mic className="h-8 w-8 text-primary group-hover:text-primary-foreground transition-colors" />,
   },
-  {
-    name: 'Film Club',
-    icon: <Film className="h-8 w-8 text-primary group-hover:text-primary-foreground transition-colors" />,
-  },
 ];
 
 export function Collaborators() {
@@ -37,7 +33,7 @@ export function Collaborators() {
             Our photography club often collaborates with other clubs at Tejgaon College to cover their events and share creative projects.
           </p>
         </div>
-        <div className="mx-auto grid max-w-5xl items-center justify-center gap-4 pt-16 grid-cols-3 sm:grid-cols-3 lg:grid-cols-6">
+        <div className="mx-auto grid max-w-5xl items-center justify-center gap-4 pt-16 grid-cols-3 sm:grid-cols-3 lg:grid-cols-5">
           {collaboratorsList.map((collaborator) => (
             <div key={collaborator.name} className="group flex flex-col items-center justify-center space-y-2 rounded-lg bg-background p-4 text-center shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl aspect-square">
               {collaborator.icon}
