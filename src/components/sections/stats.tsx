@@ -3,22 +3,22 @@ import { Calendar, Users, Camera, Milestone } from 'lucide-react';
 const stats = [
   {
     icon: <Milestone className="h-10 w-10 text-primary" />,
-    value: '2010',
+    value: '2020',
     label: 'Founded',
   },
   {
     icon: <Users className="h-10 w-10 text-primary" />,
-    value: '150+',
+    value: '30+',
     label: 'Members',
   },
   {
     icon: <Calendar className="h-10 w-10 text-primary" />,
-    value: '50+',
+    value: '30+',
     label: 'Events Hosted',
   },
   {
     icon: <Camera className="h-10 w-10 text-primary" />,
-    value: '10+',
+    value: '3+',
     label: 'Exhibitions',
   },
 ];
