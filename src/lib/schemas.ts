@@ -32,3 +32,9 @@ export const bookingSchema = z.object({
   }),
   message: z.string().optional(),
 });
+
+export const premiumPaymentSchema = z.object({
+  name: z.string().min(2, { message: "Name must be at least 2 characters." }),
+  studentId: z.string().min(4, { message: "Please enter a valid student ID." }),
+  transactionId: z.string().min(5, { message: "Please enter a valid bKash Transaction ID." }),
+});
