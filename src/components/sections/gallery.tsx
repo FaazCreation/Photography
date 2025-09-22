@@ -35,7 +35,7 @@ export function Gallery() {
           >
             <CarouselContent>
               {generalMembers.map((member, index) => (
-                <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
+                <CarouselItem key={index} className="sm:basis-1/2 lg:basis-1/3">
                   <div className="p-1">
                     <Card className="overflow-hidden rounded-lg group">
                       <CardContent className="flex aspect-square items-center justify-center p-0 relative">
@@ -58,8 +58,8 @@ export function Gallery() {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious className="ml-12" />
-            <CarouselNext className="mr-12" />
+            <CarouselPrevious className="ml-12 hidden sm:flex" />
+            <CarouselNext className="mr-12 hidden sm:flex" />
           </Carousel>
         </div>
       </div>

@@ -3,7 +3,7 @@ import { Calendar, Users, Camera, Milestone } from 'lucide-react';
 const stats = [
   {
     icon: <Milestone className="h-10 w-10 text-primary" />,
-    value: '2020',
+    value: '2010',
     label: 'Founded',
   },
   {
@@ -28,12 +28,12 @@ export function Stats() {
     <section id="stats" className="w-full py-12 md:py-24 lg:py-32 animate-fade-in-up [animation-delay:0.2s] animation-duration-1000">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center space-y-4 text-center">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-primary">Our Club at a Glance</h2>
+          <h2 className="text-3xl font-bold tracking-tighter text-center sm:text-4xl md:text-5xl text-primary">Our Club at a Glance</h2>
           <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
             A snapshot of our vibrant and growing community of photographers.
           </p>
         </div>
-        <div className="mx-auto grid max-w-5xl justify-center gap-8 sm:grid-cols-2 md:grid-cols-4 pt-12">
+        <div className="mx-auto grid max-w-5xl justify-center gap-8 grid-cols-2 sm:grid-cols-2 md:grid-cols-4 pt-12">
           {stats.map((stat) => (
             <div key={stat.label} className="flex flex-col items-center justify-center space-y-3 text-center">
               {stat.icon}

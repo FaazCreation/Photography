@@ -71,7 +71,7 @@ export function AiTool() {
                       <FormControl>
                         <Textarea
                           placeholder="e.g., A lone tree on a foggy hill at sunrise"
-                          className="resize-none bg-background"
+                          className="resize-none bg-background text-base"
                           rows={4}
                           {...field}
                         />
@@ -118,7 +118,7 @@ export function AiTool() {
                         <AccordionTrigger>
                           <div className="flex items-center gap-3">
                             <Camera className="h-5 w-5 text-primary" />
-                            <span className="font-semibold">{suggestion.styleName}</span>
+                            <span className="font-semibold text-left">{suggestion.styleName}</span>
                           </div>
                         </AccordionTrigger>
                         <AccordionContent className="pl-5">
@@ -128,14 +128,14 @@ export function AiTool() {
                                 <Compass />
                                 Why it works
                               </h4>
-                              <p className="text-muted-foreground">{suggestion.description}</p>
+                              <p className="text-muted-foreground text-left">{suggestion.description}</p>
                             </div>
                             <div>
                               <h4 className="font-semibold flex items-center gap-2 mb-2">
                                 <ListChecks />
                                 Technical Tips
                               </h4>
-                              <ul className="list-disc pl-5 text-muted-foreground space-y-1">
+                              <ul className="list-disc pl-5 text-muted-foreground space-y-1 text-left">
                                 {suggestion.technicalTips.map((tip, i) => (
                                   <li key={i}>{tip}</li>
                                 ))}
