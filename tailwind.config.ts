@@ -1,5 +1,6 @@
 import type {Config} from 'tailwindcss';
 const { fontFamily } = require("tailwindcss/defaultTheme")
+const { screens } = require("tailwindcss/defaultTheme")
 
 export default {
   darkMode: ['class'],
@@ -15,6 +16,10 @@ export default {
       screens: {
         "2xl": "1400px",
       },
+    },
+    screens: {
+      xs: "425px",
+      ...screens,
     },
     extend: {
       fontFamily: {

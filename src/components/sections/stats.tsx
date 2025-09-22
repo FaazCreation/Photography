@@ -34,7 +34,7 @@ export function Stats() {
             A snapshot of our vibrant and growing community of photographers.
           </p>
         </div>
-        <div className="mx-auto grid max-w-5xl justify-center gap-8 grid-cols-2 sm:grid-cols-2 md:grid-cols-4 pt-12">
+        <div className="mx-auto grid max-w-5xl justify-center gap-8 grid-cols-1 xs:grid-cols-2 md:grid-cols-4 pt-12">
           {stats.map((stat) => (
             <div key={stat.label} className="flex flex-col items-center justify-center space-y-3 text-center">
               {stat.icon}
