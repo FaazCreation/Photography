@@ -50,7 +50,7 @@ export function AiTool() {
   }
 
   return (
-    <section id="ai-tool" className="w-full py-12 md:py-24 lg:py-32 bg-secondary">
+    <section id="ai-tool" className="w-full py-12 md:py-24 lg:py-32 bg-secondary animate-fade-in-up [animation-delay:1s] animation-duration-1000">
       <div className="container px-4 md:px-6">
         <div className="grid items-center justify-center gap-4 text-center">
           <div className="space-y-3">
