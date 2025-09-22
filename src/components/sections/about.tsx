@@ -12,7 +12,7 @@ export function About() {
           <div className="space-y-4">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-primary">About Us</h2>
             <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Founded in 2010, the Tejgaon College Photography Club is a vibrant community for students passionate about capturing the world through a lens. Our mission is to foster creativity, technical skill, and a shared love for photography.
+              Founded in 2020, the Tejgaon College Photography Club is a vibrant community for students passionate about capturing the world through a lens. Our mission is to foster creativity, technical skill, and a shared love for photography.
             </p>
             <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               We organize workshops, photo walks, exhibitions, and competitions to help our members grow as photographers. Whether you're a seasoned pro with a DSLR or a beginner with a smartphone, you'll find a welcoming space here to learn, share, and create.

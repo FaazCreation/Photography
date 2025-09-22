@@ -150,28 +150,236 @@
       "imageHint": "female nature"
     },
     {
+      "id": "general-5",
+      "name": "Arif Khan",
+      "role": "Member",
+      "specialty": "Street Photography",
+      "imageUrl": "https://picsum.photos/seed/member51/400/400",
+      "imageHint": "man city"
+    },
+    {
+      "id": "general-6",
+      "name": "Sumaiya Akter",
+      "role": "Member",
+      "specialty": "Portraits",
+      "imageUrl": "https://picsum.photos/seed/member52/400/400",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "general-7",
+      "name": "Rizwan Ahmed",
+      "role": "Member",
+      "specialty": "Food Photography",
+      "imageUrl": "https://picsum.photos/seed/member53/400/400",
+      "imageHint": "man eating"
+    },
+    {
+      "id": "general-8",
+      "name": "Ishrat Jahan",
+      "role": "Member",
+      "specialty": "Fashion",
+      "imageUrl": "https://picsum.photos/seed/member54/400/400",
+      "imageHint": "woman fashion"
+    },
+    {
+      "id": "general-9",
+      "name": "Tanvir Hasan",
+      "role": "Member",
+      "specialty": "Sports",
+      "imageUrl": "https://picsum.photos/seed/member55/400/400",
+      "imageHint": "man playing"
+    },
+    {
+      "id": "general-10",
+      "name": "Farhana Yasmin",
+      "role": "Member",
+      "specialty": "Still Life",
+      "imageUrl": "https://picsum.photos/seed/member56/400/400",
+      "imageHint": "woman indoor"
+    },
+    {
+      "id": "general-11",
+      "name": "Imran Mahmud",
+      "role": "Member",
+      "specialty": "Photojournalism",
+      "imageUrl": "https://picsum.photos/seed/member57/400/400",
+      "imageHint": "man newspaper"
+    },
+    {
+      "id": "general-12",
+      "name": "Jannatul Ferdous",
+      "role": "Member",
+      "specialty": "Conceptual",
+      "imageUrl": "https://picsum.photos/seed/member58/400/400",
+      "imageHint": "woman thinking"
+    },
+    {
+      "id": "general-13",
+      "name": "Asif Iqbal",
+      "role": "Member",
+      "specialty": "Drone Photography",
+      "imageUrl": "https://picsum.photos/seed/member59/400/400",
+      "imageHint": "man landscape"
+    },
+    {
+      "id": "general-14",
+      "name": "Mahfuza Khatun",
+      "role": "Member",
+      "specialty": "Black and White",
+      "imageUrl": "https://picsum.photos/seed/member60/400/400",
+      "imageHint": "woman monochrome"
+    },
+    {
+      "id": "general-15",
+      "name": "Saidul Islam",
+      "role": "Member",
+      "specialty": "Night Photography",
+      "imageUrl": "https://picsum.photos/seed/member61/400/400",
+      "imageHint": "man night"
+    },
+    {
+      "id": "general-16",
+      "name": "Nasrin Sultana",
+      "role": "Member",
+      "specialty": "Travel",
+      "imageUrl": "https://picsum.photos/seed/member62/400/400",
+      "imageHint": "woman travel"
+    },
+    {
+      "id": "general-17",
+      "name": "Zahid Hasan",
+      "role": "Member",
+      "specialty": "Astrophotography",
+      "imageUrl": "https://picsum.photos/seed/member63/400/400",
+      "imageHint": "man stars"
+    },
+    {
+      "id": "general-18",
+      "name": "Maliha Rahman",
+      "role": "Member",
+      "specialty": "Fine Art",
+      "imageUrl": "https://picsum.photos/seed/member64/400/400",
+      "imageHint": "woman museum"
+    },
+    {
+      "id": "general-19",
+      "name": "Mostofa Kamal",
+      "role": "Member",
+      "specialty": "Infrared",
+      "imageUrl": "https://picsum.photos/seed/member65/400/400",
+      "imageHint": "man creative"
+    },
+    {
+      "id": "general-20",
+      "name": "Tanzina Afroz",
+      "role": "Member",
+      "specialty": "Mobile Photography",
+      "imageUrl": "https://picsum.photos/seed/member66/400/400",
+      "imageHint": "woman phone"
+    },
+    {
+      "id": "general-21",
+      "name": "Ashraful Alam",
+      "role": "Member",
+      "specialty": "Underwater",
+      "imageUrl": "https://picsum.photos/seed/member67/400/400",
+      "imageHint": "man water"
+    },
+    {
+      "id": "general-22",
+      "name": "Sharmin Akter",
+      "role": "Member",
+      "specialty": "Minimalist",
+      "imageUrl": "https://picsum.photos/seed/member68/400/400",
+      "imageHint": "woman simple"
+    },
+    {
+      "id": "general-23",
+      "name": "Rakibul Islam",
+      "role": "Member",
+      "specialty": "Long Exposure",
+      "imageUrl": "https://picsum.photos/seed/member69/400/400",
+      "imageHint": "man light"
+    },
+    {
+      "id": "general-24",
+      "name": "Afia Siddiqua",
+      "role": "Member",
+      "specialty": "Candid",
+      "imageUrl": "https://picsum.photos/seed/member70/400/400",
+      "imageHint": "woman candid"
+    },
+    {
+      "id": "general-25",
+      "name": "Mehedi Hasan",
+      "role": "Member",
+      "specialty": "Golden Hour",
+      "imageUrl": "https://picsum.photos/seed/member71/400/400",
+      "imageHint": "man sunset"
+    },
+    {
+      "id": "general-26",
+      "name": "Sanjida Islam",
+      "role": "Member",
+      "specialty": "Blue Hour",
+      "imageUrl": "https://picsum.photos/seed/member72/400/400",
+      "imageHint": "woman dusk"
+    },
+    {
+      "id": "general-27",
+      "name": "Firoz Mahmud",
+      "role": "Member",
+      "specialty": "Urban Exploration",
+      "imageUrl": "https://picsum.photos/seed/member73/400/400",
+      "imageHint": "man urban"
+    },
+    {
+      "id": "general-28",
+      "name": "Nusrat Jahan",
+      "role": "Member",
+      "specialty": "Product Photography",
+      "imageUrl": "https://picsum.photos/seed/member74/400/400",
+      "imageHint": "woman product"
+    },
+    {
+      "id": "general-29",
+      "name": "Sabbir Ahmed",
+      "role": "Member",
+      "specialty": "Pinhole Photography",
+      "imageUrl": "https://picsum.photos/seed/member75/400/400",
+      "imageHint": "man diy"
+    },
+    {
+      "id": "general-30",
+      "name": "Tasnim Anjum",
+      "role": "Member",
+      "specialty": "Lomography",
+      "imageUrl": "https://picsum.photos/seed/member76/400/400",
+      "imageHint": "woman retro"
+    },
+    {
       "id": "advisor-1",
-      "name": "Dr. Anisur Rahman",
+      "name": "Shamima Yasmin",
       "role": "Chief Advisor",
-      "specialty": "Head of Computer Science",
+      "specialty": "Principal (Acting), Tejgaon College",
       "imageUrl": "https://picsum.photos/seed/advisor43/400/400",
-      "imageHint": "professor portrait"
+      "imageHint": "female portrait"
     },
     {
       "id": "advisor-2",
-      "name": "Prof. Sharmin Sultana",
-      "role": "Advisor",
-      "specialty": "Department of English",
+      "name": "Syed Muhammad Zubayer",
+      "role": "Associate Advisor",
+      "specialty": "Lecturer, Theatre and Media Studies",
       "imageUrl": "https://picsum.photos/seed/advisor44/400/400",
-      "imageHint": "teacher portrait"
+      "imageHint": "male portrait"
     },
     {
       "id": "advisor-3",
-      "name": "Mr. Karim Chowdhury",
-      "role": "Advisor",
-      "specialty": "Fine Arts Department",
+      "name": "Atiqul Islam",
+      "role": "Associate Advisor",
+      "specialty": "Lecturer, Theatre and Media Studies",
       "imageUrl": "https://picsum.photos/seed/advisor45/400/400",
-      "imageHint": "artist portrait"
+      "imageHint": "man outdoor"
     },
     {
       "id": "testimonial-1",
