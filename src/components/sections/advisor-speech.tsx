@@ -15,7 +15,7 @@ export function AdvisorSpeech() {
               <CardContent className="p-0">
                 <Image
                   src={chiefAdvisor.imageUrl}
-                  alt={chiefAdvisor.description || `Portrait of ${chiefAdvisor.name}`}
+                  alt={chiefAdvisor.name || 'Portrait of Chief Advisor'}
                   width={600}
                   height={600}
                   className="object-cover w-full h-full aspect-square"

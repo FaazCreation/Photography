@@ -41,7 +41,7 @@ export function Gallery() {
                       <CardContent className="flex aspect-square items-center justify-center p-0 relative">
                         <Image
                           src={member.imageUrl}
-                          alt={member.description!}
+                          alt={member.name || 'Member portrait'}
                           width={400}
                           height={400}
                           className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
