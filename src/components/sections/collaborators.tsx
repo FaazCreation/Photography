@@ -4,25 +4,25 @@ import { Card, CardContent } from '@/components/ui/card';
 const collaboratorsList = [
   {
     name: 'Zoology Club',
-    icon: <Dna className="h-12 w-12 text-primary" />,
+    icon: <Dna className="h-10 w-10 text-primary group-hover:text-primary-foreground transition-colors" />,
   },
   {
     name: 'Programming Club',
-    icon: <Code className="h-12 w-12 text-primary" />,
+    icon: <Code className="h-10 w-10 text-primary group-hover:text-primary-foreground transition-colors" />,
   },
   {
     name: 'Sociology Club',
-    icon: <Users className="h-12 w-12 text-primary" />,
+    icon: <Users className="h-10 w-10 text-primary group-hover:text-primary-foreground transition-colors" />,
   },
   {
     name: 'Business Club',
-    icon: <Briefcase className="h-12 w-12 text-primary" />,
+    icon: <Briefcase className="h-10 w-10 text-primary group-hover:text-primary-foreground transition-colors" />,
   },
 ];
 
 export function Collaborators() {
   return (
-    <section id="collaborators" className="w-full py-12 md:py-24 lg:py-32">
+    <section id="collaborators" className="w-full py-12 md:py-24 lg:py-32 bg-secondary">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center space-y-4 text-center">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-primary">We Work With</h2>
@@ -30,14 +30,12 @@ export function Collaborators() {
             Our photography club often collaborates with other clubs at Tejgaon College to cover their events and share creative projects.
           </p>
         </div>
-        <div className="mx-auto grid max-w-5xl items-start gap-8 sm:grid-cols-2 md:grid-cols-4 md:gap-12 pt-16">
+        <div className="mx-auto grid max-w-5xl items-center justify-center gap-8 sm:grid-cols-2 md:grid-cols-4 pt-16">
           {collaboratorsList.map((collaborator) => (
-            <Card key={collaborator.name} className="text-center flex flex-col items-center justify-center p-6 border-2 border-transparent hover:border-primary hover:shadow-lg transition-all duration-300">
-              <CardContent className="p-0">
-                {collaborator.icon}
-                <p className="mt-4 font-semibold">{collaborator.name}</p>
-              </CardContent>
-            </Card>
+            <div key={collaborator.name} className="group flex flex-col items-center justify-center space-y-4 rounded-lg bg-background p-6 text-center shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
+              {collaborator.icon}
+              <p className="text-lg font-semibold text-foreground">{collaborator.name}</p>
+            </div>
           ))}
         </div>
       </div>
