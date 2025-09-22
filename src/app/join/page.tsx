@@ -8,9 +8,19 @@ import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { useToast } from '@/hooks/use-toast';
-import { UserPlus, Send } from 'lucide-react';
+import { UserPlus, Send, Gem } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { membershipApplicationSchema } from '@/lib/schemas';
+import { Check } from 'lucide-react';
+import { Separator } from '@/components/ui/separator';
+
+const premiumBenefits = [
+  'Priority access to club equipment',
+  'Exclusive one-on-one mentorship sessions',
+  'Access to advanced, pro-level workshops',
+  'Discounts on printing and exhibition fees',
+  'Personalized portfolio review sessions'
+];
 
 type MembershipFormValues = z.infer<typeof membershipApplicationSchema>;
 
@@ -43,16 +53,16 @@ export default function JoinPage() {
           Become a Member
         </h1>
         <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-          Ready to start your photography journey with us? Fill out the form below to apply.
+          Ready to start your photography journey with us? Fill out the form below to apply for a standard membership.
         </p>
       </div>
 
-      <div className="mx-auto max-w-2xl pt-12">
+      <div className="mx-auto max-w-2xl pt-12 grid gap-16">
         <Card>
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
                 <UserPlus />
-                Membership Application
+                Standard Membership Application
             </CardTitle>
             <CardDescription>
                 Membership is open to all students of Tejgaon College.
@@ -138,6 +148,34 @@ export default function JoinPage() {
             </Form>
           </CardContent>
         </Card>
+
+        <Separator />
+
+        <Card className="bg-secondary">
+          <CardHeader>
+            <CardTitle className="flex items-center gap-2 text-primary">
+                <Gem />
+                Upgrade to Premium
+            </CardTitle>
+            <CardDescription>
+                Unlock exclusive benefits and take your photography skills to the next level with a Premium Membership.
+            </CardDescription>
+          </CardHeader>
+          <CardContent className="space-y-6">
+              <div className="space-y-3">
+                  {premiumBenefits.map((benefit, index) => (
+                      <div key={index} className="flex items-center gap-3">
+                          <Check className="h-5 w-5 text-primary" />
+                          <span className="text-muted-foreground">{benefit}</span>
+                      </div>
+                  ))}
+              </div>
+              <Button size="lg" className="w-full">
+                  Upgrade to Premium Now
+              </Button>
+          </CardContent>
+        </Card>
+
       </div>
     </div>
   );
