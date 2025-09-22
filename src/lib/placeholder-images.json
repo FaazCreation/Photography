@@ -90,7 +90,7 @@
       "name": "Fahim Rahman",
       "role": "President",
       "specialty": "Street & Documentary",
-      "imageUrl": "https://picsum.photos/seed/member43/400/400",
+      "imageUrl": "https://picsum.photos/seed/admin1/400/400",
       "imageHint": "male portrait"
     },
     {
@@ -98,7 +98,7 @@
       "name": "Ayesha Khan",
       "role": "Vice President",
       "specialty": "Portrait & Fashion",
-      "imageUrl": "https://picsum.photos/seed/member44/400/400",
+      "imageUrl": "https://picsum.photos/seed/admin2/400/400",
       "imageHint": "female portrait"
     },
     {
@@ -106,7 +106,7 @@
       "name": "Jamal Ahmed",
       "role": "Secretary",
       "specialty": "Landscape & Travel",
-      "imageUrl": "https://picsum.photos/seed/member45/400/400",
+      "imageUrl": "https://picsum.photos/seed/admin3/400/400",
       "imageHint": "person nature"
     },
     {
@@ -114,14 +114,14 @@
       "name": "Sadia Islam",
       "role": "Treasurer",
       "specialty": "Macro & Nature",
-      "imageUrl": "https://picsum.photos/seed/member46/400/400",
+      "imageUrl": "https://picsum.photos/seed/admin4/400/400",
       "imageHint": "woman smiling"
     },
     {
       "id": "general-1",
       "name": "Rahim Ali",
       "role": "Member",
-      "specialty": "Architectural",
+      "specialty": "Economics",
       "imageUrl": "https://picsum.photos/seed/genmem1/400/400",
       "imageHint": "man portrait"
     },
@@ -129,7 +129,7 @@
       "id": "general-2",
       "name": "Nadia Chowdhury",
       "role": "Member",
-      "specialty": "Event Photography",
+      "specialty": "English",
       "imageUrl": "https://picsum.photos/seed/genmem2/400/400",
       "imageHint": "woman candid"
     },
@@ -137,7 +137,7 @@
       "id": "general-3",
       "name": "Kamal Hossain",
       "role": "Member",
-      "specialty": "Abstract",
+      "specialty": "Political Science",
       "imageUrl": "https://picsum.photos/seed/genmem3/400/400",
       "imageHint": "male outdoor"
     },
@@ -145,7 +145,7 @@
       "id": "general-4",
       "name": "Fatima Begum",
       "role": "Member",
-      "specialty": "Wildlife",
+      "specialty": "Management",
       "imageUrl": "https://picsum.photos/seed/genmem4/400/400",
       "imageHint": "female nature"
     },
@@ -153,7 +153,7 @@
       "id": "general-5",
       "name": "Arif Khan",
       "role": "Member",
-      "specialty": "Street Photography",
+      "specialty": "Marketing",
       "imageUrl": "https://picsum.photos/seed/genmem5/400/400",
       "imageHint": "man city"
     },
@@ -161,7 +161,7 @@
       "id": "general-6",
       "name": "Sumaiya Akter",
       "role": "Member",
-      "specialty": "Portraits",
+      "specialty": "Sociology",
       "imageUrl": "https://picsum.photos/seed/genmem6/400/400",
       "imageHint": "woman portrait"
     },
@@ -169,7 +169,7 @@
       "id": "general-7",
       "name": "Rizwan Ahmed",
       "role": "Member",
-      "specialty": "Food Photography",
+      "specialty": "Computer Science",
       "imageUrl": "https://picsum.photos/seed/genmem7/400/400",
       "imageHint": "man eating"
     },
@@ -177,7 +177,7 @@
       "id": "general-8",
       "name": "Ishrat Jahan",
       "role": "Member",
-      "specialty": "Fashion",
+      "specialty": "Accounting",
       "imageUrl": "https://picsum.photos/seed/genmem8/400/400",
       "imageHint": "woman fashion"
     },
@@ -185,7 +185,7 @@
       "id": "general-9",
       "name": "Tanvir Hasan",
       "role": "Member",
-      "specialty": "Sports",
+      "specialty": "Finance",
       "imageUrl": "https://picsum.photos/seed/genmem9/400/400",
       "imageHint": "man playing"
     },
@@ -193,7 +193,7 @@
       "id": "general-10",
       "name": "Farhana Yasmin",
       "role": "Member",
-      "specialty": "Still Life",
+      "specialty": "Botany",
       "imageUrl": "https://picsum.photos/seed/genmem10/400/400",
       "imageHint": "woman indoor"
     },
@@ -201,7 +201,7 @@
       "id": "general-11",
       "name": "Imran Mahmud",
       "role": "Member",
-      "specialty": "Photojournalism",
+      "specialty": "Zoology",
       "imageUrl": "https://picsum.photos/seed/genmem11/400/400",
       "imageHint": "man newspaper"
     },
@@ -209,7 +209,7 @@
       "id": "general-12",
       "name": "Jannatul Ferdous",
       "role": "Member",
-      "specialty": "Conceptual",
+      "specialty": "History",
       "imageUrl": "https://picsum.photos/seed/genmem12/400/400",
       "imageHint": "woman thinking"
     },
@@ -217,7 +217,7 @@
       "id": "general-13",
       "name": "Asif Iqbal",
       "role": "Member",
-      "specialty": "Drone Photography",
+      "specialty": "Philosophy",
       "imageUrl": "https://picsum.photos/seed/genmem13/400/400",
       "imageHint": "man landscape"
     },
@@ -225,7 +225,7 @@
       "id": "general-14",
       "name": "Mahfuza Khatun",
       "role": "Member",
-      "specialty": "Black and White",
+      "specialty": "Islamic Studies",
       "imageUrl": "https://picsum.photos/seed/genmem14/400/400",
       "imageHint": "woman monochrome"
     },
@@ -233,7 +233,7 @@
       "id": "general-15",
       "name": "Saidul Islam",
       "role": "Member",
-      "specialty": "Night Photography",
+      "specialty": "Bangla",
       "imageUrl": "https://picsum.photos/seed/genmem15/400/400",
       "imageHint": "man night"
     },
@@ -241,7 +241,7 @@
       "id": "general-16",
       "name": "Nasrin Sultana",
       "role": "Member",
-      "specialty": "Travel",
+      "specialty": "Physics",
       "imageUrl": "https://picsum.photos/seed/genmem16/400/400",
       "imageHint": "woman travel"
     },
@@ -249,7 +249,7 @@
       "id": "general-17",
       "name": "Zahid Hasan",
       "role": "Member",
-      "specialty": "Astrophotography",
+      "specialty": "Chemistry",
       "imageUrl": "https://picsum.photos/seed/genmem17/400/400",
       "imageHint": "man stars"
     },
@@ -257,7 +257,7 @@
       "id": "general-18",
       "name": "Maliha Rahman",
       "role": "Member",
-      "specialty": "Fine Art",
+      "specialty": "Mathematics",
       "imageUrl": "https://picsum.photos/seed/genmem18/400/400",
       "imageHint": "woman museum"
     },
@@ -265,7 +265,7 @@
       "id": "general-19",
       "name": "Mostofa Kamal",
       "role": "Member",
-      "specialty": "Infrared",
+      "specialty": "Statistics",
       "imageUrl": "https://picsum.photos/seed/genmem19/400/400",
       "imageHint": "man creative"
     },
@@ -273,7 +273,7 @@
       "id": "general-20",
       "name": "Tanzina Afroz",
       "role": "Member",
-      "specialty": "Mobile Photography",
+      "specialty": "Psychology",
       "imageUrl": "https://picsum.photos/seed/genmem20/400/400",
       "imageHint": "woman phone"
     },
@@ -281,7 +281,7 @@
       "id": "general-21",
       "name": "Ashraful Alam",
       "role": "Member",
-      "specialty": "Underwater",
+      "specialty": "Marketing",
       "imageUrl": "https://picsum.photos/seed/genmem21/400/400",
       "imageHint": "man water"
     },
@@ -289,7 +289,7 @@
       "id": "general-22",
       "name": "Sharmin Akter",
       "role": "Member",
-      "specialty": "Minimalist",
+      "specialty": "English",
       "imageUrl": "https://picsum.photos/seed/genmem22/400/400",
       "imageHint": "woman simple"
     },
@@ -297,7 +297,7 @@
       "id": "general-23",
       "name": "Rakibul Islam",
       "role": "Member",
-      "specialty": "Long Exposure",
+      "specialty": "Management",
       "imageUrl": "https://picsum.photos/seed/genmem23/400/400",
       "imageHint": "man light"
     },
@@ -305,7 +305,7 @@
       "id": "general-24",
       "name": "Afia Siddiqua",
       "role": "Member",
-      "specialty": "Candid",
+      "specialty": "Economics",
       "imageUrl": "https://picsum.photos/seed/genmem24/400/400",
       "imageHint": "woman candid"
     },
@@ -313,7 +313,7 @@
       "id": "general-25",
       "name": "Mehedi Hasan",
       "role": "Member",
-      "specialty": "Golden Hour",
+      "specialty": "Computer Science",
       "imageUrl": "https://picsum.photos/seed/genmem25/400/400",
       "imageHint": "man sunset"
     },
@@ -321,7 +321,7 @@
       "id": "general-26",
       "name": "Sanjida Islam",
       "role": "Member",
-      "specialty": "Blue Hour",
+      "specialty": "Political Science",
       "imageUrl": "https://picsum.photos/seed/genmem26/400/400",
       "imageHint": "woman dusk"
     },
@@ -329,7 +329,7 @@
       "id": "general-27",
       "name": "Firoz Mahmud",
       "role": "Member",
-      "specialty": "Urban Exploration",
+      "specialty": "Finance",
       "imageUrl": "https://picsum.photos/seed/genmem27/400/400",
       "imageHint": "man urban"
     },
@@ -337,7 +337,7 @@
       "id": "general-28",
       "name": "Nusrat Jahan",
       "role": "Member",
-      "specialty": "Product Photography",
+      "specialty": "Accounting",
       "imageUrl": "https://picsum.photos/seed/genmem28/400/400",
       "imageHint": "woman product"
     },
@@ -345,7 +345,7 @@
       "id": "general-29",
       "name": "Sabbir Ahmed",
       "role": "Member",
-      "specialty": "Pinhole Photography",
+      "specialty": "Sociology",
       "imageUrl": "https://picsum.photos/seed/genmem29/400/400",
       "imageHint": "man diy"
     },
@@ -353,7 +353,7 @@
       "id": "general-30",
       "name": "Tasnim Anjum",
       "role": "Member",
-      "specialty": "Lomography",
+      "specialty": "History",
       "imageUrl": "https://picsum.photos/seed/genmem30/400/400",
       "imageHint": "woman retro"
     },

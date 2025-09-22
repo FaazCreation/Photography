@@ -1,9 +1,8 @@
+
 import Image from "next/image";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { getAdvisorImages, getAdminPanelImages, getGeneralMemberImages } from "@/lib/placeholder-images";
 import { Badge } from "@/components/ui/badge";
-import { Camera, Linkedin, Twitter } from "lucide-react";
-import Link from "next/link";
 import { Separator } from "@/components/ui/separator";
 
 const MemberCard = ({ member }: { member: any }) => (
@@ -26,19 +25,6 @@ const MemberCard = ({ member }: { member: any }) => (
         </CardHeader>
         <CardFooter className="flex flex-col gap-4 p-4 pt-0">
             <Badge variant="secondary" className="mx-auto">{member.role}</Badge>
-            {member.role !== "Advisor" && (
-                 <div className="flex justify-center gap-4">
-                    <Link href="#" aria-label={`${member.name}'s Twitter`}>
-                        <Twitter className="h-5 w-5 text-muted-foreground hover:text-primary transition-colors" />
-                    </Link>
-                    <Link href="#" aria-label={`${member.name}'s LinkedIn`}>
-                        <Linkedin className="h-5 w-5 text-muted-foreground hover:text-primary transition-colors" />
-                    </Link>
-                    <Link href="#" aria-label={`${member.name}'s Portfolio`}>
-                        <Camera className="h-5 w-5 text-muted-foreground hover:text-primary transition-colors" />
-                    </Link>
-                </div>
-            )}
         </CardFooter>
     </Card>
 );
