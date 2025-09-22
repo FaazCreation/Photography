@@ -8,16 +8,12 @@ import { JoinUs } from '@/components/sections/join-us';
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-dvh bg-background text-foreground">
-      <Header />
-      <main className="flex-1">
-        <Hero />
-        <About />
-        <Gallery />
-        <AiTool />
-        <JoinUs />
-      </main>
-      <Footer />
-    </div>
+    <>
+      <Hero />
+      <About />
+      <Gallery />
+      <AiTool />
+      <JoinUs />
+    </>
   );
 }

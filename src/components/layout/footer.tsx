@@ -1,4 +1,5 @@
 import { Camera } from 'lucide-react';
+import Link from 'next/link';
 
 export function Footer() {
   return (
@@ -10,6 +11,11 @@ export function Footer() {
             © {new Date().getFullYear()} Tejgaon College Photography Club. All rights reserved.
           </p>
         </div>
+        <nav className="flex gap-4 sm:ml-auto">
+          <Link href="/about" className="text-sm hover:underline">About</Link>
+          <Link href="/gallery" className="text-sm hover:underline">Gallery</Link>
+          <Link href="/join" className="text-sm hover:underline">Contact</Link>
+        </nav>
       </div>
     </footer>
   );
