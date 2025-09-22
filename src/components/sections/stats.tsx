@@ -34,12 +34,12 @@ export function Stats() {
             A snapshot of our vibrant and growing community of photographers.
           </p>
         </div>
-        <div className="mx-auto grid max-w-5xl justify-center gap-8 grid-cols-2 md:grid-cols-4 pt-12">
+        <div className="mx-auto grid max-w-5xl justify-center gap-4 grid-cols-2 md:grid-cols-4 pt-12 md:gap-8">
           {stats.map((stat) => (
-            <div key={stat.label} className="flex flex-col items-center justify-center space-y-3 text-center">
+            <div key={stat.label} className="flex flex-col items-center justify-center space-y-2 text-center">
               {stat.icon}
               <p className="text-4xl font-bold text-primary">{stat.value}</p>
-              <p className="text-lg font-semibold text-muted-foreground">{stat.label}</p>
+              <p className="text-base font-semibold text-muted-foreground">{stat.label}</p>
             </div>
           ))}
         </div>
