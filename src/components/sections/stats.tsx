@@ -9,16 +9,16 @@ const stats = [
   {
     icon: <Users className="h-10 w-10 text-primary" />,
     value: '30+',
-    label: 'Members',
+    label: 'Official Members',
   },
   {
     icon: <Calendar className="h-10 w-10 text-primary" />,
     value: '30+',
-    label: 'Events Hosted',
+    label: 'Events Covered',
   },
   {
     icon: <Camera className="h-10 w-10 text-primary" />,
-    value: '3+',
+    value: '03+',
     label: 'Exhibitions',
   },
 ];
