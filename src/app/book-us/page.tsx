@@ -8,7 +8,7 @@ import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { useToast } from '@/hooks/use-toast';
-import { CalendarCheck, Send, Video } from 'lucide-react';
+import { CalendarCheck, Send } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { bookingSchema } from '@/lib/schemas';
 import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
@@ -61,7 +61,7 @@ export default function BookUsPage() {
         </p>
       </div>
 
-      <div className="mx-auto max-w-2xl pt-12 grid gap-12">
+      <div className="mx-auto max-w-2xl pt-12">
         <Card>
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
@@ -230,26 +230,6 @@ export default function BookUsPage() {
             </Form>
           </CardContent>
         </Card>
-        
-        <Card>
-            <CardHeader>
-                <CardTitle className="flex items-center gap-2">
-                    <Video />
-                    Schedule a Virtual Meeting
-                </CardTitle>
-                <CardDescription>
-                    Want to discuss your event in more detail? Schedule a Google Meet call with our team.
-                </CardDescription>
-            </CardHeader>
-            <CardContent>
-                <Button asChild className="w-full">
-                    <Link href="https://calendly.com/your-scheduling-link" target="_blank">
-                        Book a 15-Minute Call
-                    </Link>
-                </Button>
-            </CardContent>
-        </Card>
-
       </div>
     </div>
   );
