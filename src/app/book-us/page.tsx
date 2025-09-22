@@ -243,7 +243,7 @@ export default function BookUsPage() {
             </CardHeader>
             <CardContent>
                 <Button asChild className="w-full">
-                    <Link href="#" target="_blank">
+                    <Link href="https://calendly.com/your-scheduling-link" target="_blank">
                         Book a 15-Minute Call
                     </Link>
                 </Button>
