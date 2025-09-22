@@ -11,10 +11,13 @@ export function Footer() {
             © {new Date().getFullYear()} Tejgaon College Photography Club. All rights reserved.
           </p>
         </div>
-        <nav className="flex gap-4 sm:ml-auto">
+        <nav className="flex gap-4 sm:ml-auto flex-wrap justify-center">
           <Link href="/about" className="text-sm hover:underline">About</Link>
           <Link href="/gallery" className="text-sm hover:underline">Gallery</Link>
-          <Link href="/join" className="text-sm hover:underline">Contact</Link>
+          <Link href="/events" className="text-sm hover:underline">Events</Link>
+          <Link href="/blog" className="text-sm hover:underline">Blog</Link>
+          <Link href="/members" className="text-sm hover:underline">Members</Link>
+          <Link href="/contact" className="text-sm hover:underline">Contact</Link>
         </nav>
       </div>
     </footer>

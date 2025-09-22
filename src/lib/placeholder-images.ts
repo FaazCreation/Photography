@@ -5,6 +5,12 @@ export type ImagePlaceholder = {
   description: string;
   imageUrl: string;
   imageHint: string;
+  title?: string;
+  author?: string;
+  date?: string;
+  name?: string;
+  role?: string;
+  specialty?: string;
 };
 
 export const placeholderImages: ImagePlaceholder[] = data.placeholderImages;
@@ -19,4 +25,12 @@ export function getImageById(id: string): ImagePlaceholder {
 
 export function getGalleryImages(): ImagePlaceholder[] {
   return placeholderImages.filter(img => img.id.startsWith('gallery-'));
+}
+
+export function getBlogImages(): ImagePlaceholder[] {
+  return placeholderImages.filter(img => img.id.startsWith('blog-'));
+}
+
+export function getMemberImages(): ImagePlaceholder[] {
+  return placeholderImages.filter(img => img.id.startsWith('member-'));
 }

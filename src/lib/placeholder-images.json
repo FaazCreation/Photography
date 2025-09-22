@@ -47,6 +47,97 @@
       "description": "A captivating wildlife photograph.",
       "imageUrl": "https://picsum.photos/seed/gallery6/600/400",
       "imageHint": "wildlife animal"
+    },
+    {
+      "id": "blog-1",
+      "title": "Mastering Manual Mode",
+      "description": "Unlock creative control by moving beyond auto settings.",
+      "author": "Fahim Rahman",
+      "date": "October 1, 2024",
+      "imageUrl": "https://picsum.photos/seed/blog1/600/400",
+      "imageHint": "camera dials"
+    },
+    {
+      "id": "blog-2",
+      "title": "The Art of Composition",
+      "description": "Learn the rule of thirds, leading lines, and framing.",
+      "author": "Ayesha Khan",
+      "date": "September 25, 2024",
+      "imageUrl": "https://picsum.photos/seed/blog2/600/400",
+      "imageHint": "landscape composition"
+    },
+    {
+      "id": "blog-3",
+      "title": "Post-Processing with Lightroom",
+      "description": "A beginner's guide to editing your photos like a pro.",
+      "author": "Jamal Ahmed",
+      "date": "September 18, 2024",
+      "imageUrl": "https://picsum.photos/seed/blog3/600/400",
+      "imageHint": "photo editing"
+    },
+    {
+      "id": "member-1",
+      "name": "Fahim Rahman",
+      "role": "President",
+      "specialty": "Street & Documentary",
+      "imageUrl": "https://picsum.photos/seed/member1/400/400",
+      "imageHint": "male portrait"
+    },
+    {
+      "id": "member-2",
+      "name": "Ayesha Khan",
+      "role": "Vice President",
+      "specialty": "Portrait & Fashion",
+      "imageUrl": "https://picsum.photos/seed/member2/400/400",
+      "imageHint": "female portrait"
+    },
+    {
+      "id": "member-3",
+      "name": "Jamal Ahmed",
+      "role": "Secretary",
+      "specialty": "Landscape & Travel",
+      "imageUrl": "https://picsum.photos/seed/member3/400/400",
+      "imageHint": "person nature"
+    },
+    {
+      "id": "member-4",
+      "name": "Sadia Islam",
+      "role": "Treasurer",
+      "specialty": "Macro & Nature",
+      "imageUrl": "https://picsum.photos/seed/member4/400/400",
+      "imageHint": "woman smiling"
+    },
+    {
+      "id": "member-5",
+      "name": "Rahim Ali",
+      "role": "Member",
+      "specialty": "Architectural",
+      "imageUrl": "https://picsum.photos/seed/member5/400/400",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "member-6",
+      "name": "Nadia Chowdhury",
+      "role": "Member",
+      "specialty": "Event Photography",
+      "imageUrl": "https://picsum.photos/seed/member6/400/400",
+      "imageHint": "woman candid"
+    },
+    {
+      "id": "member-7",
+      "name": "Kamal Hossain",
+      "role": "Member",
+      "specialty": "Abstract",
+      "imageUrl": "https://picsum.photos/seed/member7/400/400",
+      "imageHint": "male outdoor"
+    },
+    {
+      "id": "member-8",
+      "name": "Fatima Begum",
+      "role": "Member",
+      "specialty": "Wildlife",
+      "imageUrl": "https://picsum.photos/seed/member8/400/400",
+      "imageHint": "female nature"
     }
   ]
 }
