@@ -1,4 +1,5 @@
 import { Briefcase, Code, Dna, Mic, Users } from 'lucide-react';
+import { AnimatedHeadline } from '../animated-headline';
 
 const collaboratorsList = [
   {
@@ -28,7 +29,7 @@ export function Collaborators() {
     <section id="collaborators" className="w-full py-12 md:py-24 lg:py-32 bg-secondary animate-fade-in-up [animation-delay:0.8s] animation-duration-1000">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center space-y-4 text-center">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-primary">We Work With</h2>
+          <AnimatedHeadline text="We Work With" />
           <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
             Our photography club often collaborates with other clubs at Tejgaon College to cover their events and share creative projects.
           </p>

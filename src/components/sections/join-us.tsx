@@ -2,13 +2,14 @@ import { Mail, MapPin, Users } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import Link from 'next/link';
+import { AnimatedHeadline } from '../animated-headline';
 
 export function JoinUs() {
   return (
     <section id="join" className="w-full py-12 md:py-24 lg:py-32 animate-fade-in-up [animation-delay:1.2s] animation-duration-1000">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center space-y-4 text-center">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-primary">Join Our Club</h2>
+          <AnimatedHeadline text="Join Our Club" />
           <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
             Ready to start your photography journey with us? We'd love to have you.
           </p>

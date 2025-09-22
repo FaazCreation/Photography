@@ -1,4 +1,5 @@
 import { Calendar, Users, Camera, Milestone } from 'lucide-react';
+import { AnimatedHeadline } from '../animated-headline';
 
 const stats = [
   {
@@ -28,7 +29,7 @@ export function Stats() {
     <section id="stats" className="w-full py-12 md:py-24 lg:py-32 animate-fade-in-up [animation-delay:0.2s] animation-duration-1000">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center space-y-4 text-center">
-          <h2 className="text-3xl font-bold tracking-tighter text-center sm:text-4xl md:text-5xl text-primary">Our Club at a Glance</h2>
+          <AnimatedHeadline text="Our Club at a Glance" />
           <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
             A snapshot of our vibrant and growing community of photographers.
           </p>

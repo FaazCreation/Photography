@@ -1,5 +1,6 @@
 import { Camera, Film, Lightbulb, Users, Award, Briefcase } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { AnimatedHeadline } from "../animated-headline";
 
 const benefits = [
   {
@@ -39,7 +40,7 @@ export function WhatWeProvide() {
     <section id="benefits" className="w-full py-12 md:py-24 lg:py-32 animate-fade-in-up [animation-delay:0.6s] animation-duration-1000">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center space-y-4 text-center">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-primary">What We Provide</h2>
+          <AnimatedHeadline text="What We Provide" />
           <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
             As a member of our club, you'll receive access to a wide range of resources and opportunities to fuel your passion for photography.
           </p>
