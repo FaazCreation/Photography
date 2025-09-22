@@ -50,6 +50,42 @@
       "imageHint": "college programme"
     },
     {
+      "id": "gallery-7",
+      "description": "Candid moment during a student workshop.",
+      "imageUrl": "https://picsum.photos/seed/gallery49/400/400",
+      "imageHint": "student workshop"
+    },
+    {
+      "id": "gallery-8",
+      "description": "Exploring light and shadow in a portrait session.",
+      "imageUrl": "https://picsum.photos/seed/gallery50/400/400",
+      "imageHint": "portrait session"
+    },
+    {
+      "id": "gallery-9",
+      "description": "Capturing the energy of a live music event on campus.",
+      "imageUrl": "https://picsum.photos/seed/gallery51/400/400",
+      "imageHint": "music event"
+    },
+    {
+      "id": "gallery-10",
+      "description": "The winning shot from our annual photo competition.",
+      "imageUrl": "https://picsum.photos/seed/gallery52/400/400",
+      "imageHint": "award winning"
+    },
+    {
+      "id": "gallery-11",
+      "description": "A wide-angle view of the annual college sports day.",
+      "imageUrl": "https://picsum.photos/seed/gallery53/400/400",
+      "imageHint": "college sports"
+    },
+    {
+      "id": "gallery-12",
+      "description": "Serene morning at the botanical gardens photo walk.",
+      "imageUrl": "https://picsum.photos/seed/gallery54/400/400",
+      "imageHint": "botanical gardens"
+    },
+    {
       "id": "blog-1",
       "title": "Mastering Landscape Photography",
       "description": "Unlock creative control by moving beyond auto settings for nature shots.",
