@@ -172,6 +172,38 @@
       "specialty": "Fine Arts Department",
       "imageUrl": "https://picsum.photos/seed/advisor45/400/400",
       "imageHint": "artist portrait"
+    },
+    {
+      "id": "testimonial-1",
+      "name": "Ayesha Khan",
+      "role": "Vice President",
+      "imageUrl": "https://picsum.photos/seed/member44/400/400",
+      "imageHint": "female portrait",
+      "quote": "Joining this club was the best decision of my college life. The workshops are incredibly insightful, and I've met so many talented photographers who inspire me every day."
+    },
+    {
+      "id": "testimonial-2",
+      "name": "Jamal Ahmed",
+      "role": "Secretary",
+      "imageUrl": "https://picsum.photos/seed/member45/400/400",
+      "imageHint": "person nature",
+      "quote": "The photo walks are my favorite part. We get to explore such amazing places, and I've learned so much about composition and lighting just by shooting alongside other members."
+    },
+    {
+      "id": "testimonial-3",
+      "name": "Nadia Chowdhury",
+      "role": "Member",
+      "imageUrl": "https://picsum.photos/seed/member48/400/400",
+      "imageHint": "woman candid",
+      "quote": "I was a complete beginner when I joined, and now I feel so much more confident with my camera. The community is so welcoming and always ready to help."
+    },
+    {
+      "id": "testimonial-4",
+      "name": "Fahim Rahman",
+      "role": "President",
+      "imageUrl": "https://picsum.photos/seed/member43/400/400",
+      "imageHint": "male portrait",
+      "quote": "As president, it's amazing to see our members grow. We provide the platform, but it's their passion and creativity that truly makes this club special. We're a family."
     }
   ]
 }
