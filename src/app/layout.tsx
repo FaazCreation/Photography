@@ -6,6 +6,7 @@ import { Footer } from '@/components/layout/footer';
 import { Poppins } from 'next/font/google';
 import { cn } from '@/lib/utils';
 import { ThemeProvider } from '@/components/theme-provider';
+import { ScrollToTopButton } from '@/components/scroll-to-top-button';
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -41,6 +42,7 @@ export default function RootLayout({
           <main className="flex-1">{children}</main>
           <Footer />
           <Toaster />
+          <ScrollToTopButton />
         </ThemeProvider>
       </body>
     </html>
