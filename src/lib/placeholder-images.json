@@ -1,86 +1,87 @@
+
 {
   "placeholderImages": [
     {
       "id": "hero-image",
       "description": "A dramatic landscape photo representing creative vision.",
-      "imageUrl": "https://picsum.photos/seed/tcpchero/1920/1080",
+      "imageUrl": "https://picsum.photos/seed/hero42/1920/1080",
       "imageHint": "dramatic landscape"
     },
     {
       "id": "about-us-image",
-      "description": "A group of students with cameras, looking collaborative.",
-      "imageUrl": "https://picsum.photos/seed/tcpabout/800/600",
-      "imageHint": "students cameras"
+      "description": "A group of students with cameras during a college event.",
+      "imageUrl": "https://picsum.photos/seed/about42/800/600",
+      "imageHint": "college event"
     },
     {
       "id": "gallery-1",
-      "description": "A vibrant street photography shot.",
-      "imageUrl": "https://picsum.photos/seed/gallery1/600/400",
+      "description": "A vibrant street photography shot from a busy city.",
+      "imageUrl": "https://picsum.photos/seed/gallery43/600/400",
       "imageHint": "street photography"
     },
     {
       "id": "gallery-2",
-      "description": "A stunning portrait with beautiful lighting.",
-      "imageUrl": "https://picsum.photos/seed/gallery2/600/400",
+      "description": "A stunning portrait with beautiful natural lighting.",
+      "imageUrl": "https://picsum.photos/seed/gallery44/600/400",
       "imageHint": "portrait lighting"
     },
     {
       "id": "gallery-3",
-      "description": "A black and white architectural photo.",
-      "imageUrl": "https://picsum.photos/seed/gallery3/600/400",
-      "imageHint": "architecture monochrome"
+      "description": "A black and white photo of college campus architecture.",
+      "imageUrl": "https://picsum.photos/seed/gallery45/600/400",
+      "imageHint": "campus architecture"
     },
     {
       "id": "gallery-4",
-      "description": "A colorful nature macro shot.",
-      "imageUrl": "https://picsum.photos/seed/gallery4/600/400",
+      "description": "A colorful nature macro shot of a flower.",
+      "imageUrl": "https://picsum.photos/seed/gallery46/600/400",
       "imageHint": "nature macro"
     },
     {
       "id": "gallery-5",
-      "description": "An abstract long exposure image.",
-      "imageUrl": "https://picsum.photos/seed/gallery5/600/400",
-      "imageHint": "abstract exposure"
+      "description": "A beautiful sunset over a mountain landscape.",
+      "imageUrl": "https://picsum.photos/seed/gallery47/600/400",
+      "imageHint": "sunset landscape"
     },
     {
       "id": "gallery-6",
-      "description": "A captivating wildlife photograph.",
-      "imageUrl": "https://picsum.photos/seed/gallery6/600/400",
-      "imageHint": "wildlife animal"
+      "description": "A captivating photo from a college cultural programme.",
+      "imageUrl": "https://picsum.photos/seed/gallery48/600/400",
+      "imageHint": "college programme"
     },
     {
       "id": "blog-1",
-      "title": "Mastering Manual Mode",
-      "description": "Unlock creative control by moving beyond auto settings.",
+      "title": "Mastering Landscape Photography",
+      "description": "Unlock creative control by moving beyond auto settings for nature shots.",
       "author": "Fahim Rahman",
       "date": "October 1, 2024",
-      "imageUrl": "https://picsum.photos/seed/blog1/600/400",
-      "imageHint": "camera dials"
+      "imageUrl": "https://picsum.photos/seed/blog43/600/400",
+      "imageHint": "landscape nature"
     },
     {
       "id": "blog-2",
-      "title": "The Art of Composition",
-      "description": "Learn the rule of thirds, leading lines, and framing.",
+      "title": "The Art of the Portrait",
+      "description": "Learn the rule of thirds, leading lines, and framing for people.",
       "author": "Ayesha Khan",
       "date": "September 25, 2024",
-      "imageUrl": "https://picsum.photos/seed/blog2/600/400",
-      "imageHint": "landscape composition"
+      "imageUrl": "https://picsum.photos/seed/blog44/600/400",
+      "imageHint": "portrait photography"
     },
     {
       "id": "blog-3",
-      "title": "Post-Processing with Lightroom",
-      "description": "A beginner's guide to editing your photos like a pro.",
+      "title": "Capturing Campus Life",
+      "description": "A beginner's guide to documenting events and moments at college.",
       "author": "Jamal Ahmed",
       "date": "September 18, 2024",
-      "imageUrl": "https://picsum.photos/seed/blog3/600/400",
-      "imageHint": "photo editing"
+      "imageUrl": "https://picsum.photos/seed/blog45/600/400",
+      "imageHint": "campus life"
     },
     {
       "id": "member-1",
       "name": "Fahim Rahman",
       "role": "President",
       "specialty": "Street & Documentary",
-      "imageUrl": "https://picsum.photos/seed/member1/400/400",
+      "imageUrl": "https://picsum.photos/seed/member43/400/400",
       "imageHint": "male portrait"
     },
     {
@@ -88,7 +89,7 @@
       "name": "Ayesha Khan",
       "role": "Vice President",
       "specialty": "Portrait & Fashion",
-      "imageUrl": "https://picsum.photos/seed/member2/400/400",
+      "imageUrl": "https://picsum.photos/seed/member44/400/400",
       "imageHint": "female portrait"
     },
     {
@@ -96,7 +97,7 @@
       "name": "Jamal Ahmed",
       "role": "Secretary",
       "specialty": "Landscape & Travel",
-      "imageUrl": "https://picsum.photos/seed/member3/400/400",
+      "imageUrl": "https://picsum.photos/seed/member45/400/400",
       "imageHint": "person nature"
     },
     {
@@ -104,7 +105,7 @@
       "name": "Sadia Islam",
       "role": "Treasurer",
       "specialty": "Macro & Nature",
-      "imageUrl": "https://picsum.photos/seed/member4/400/400",
+      "imageUrl": "https://picsum.photos/seed/member46/400/400",
       "imageHint": "woman smiling"
     },
     {
@@ -112,7 +113,7 @@
       "name": "Rahim Ali",
       "role": "Member",
       "specialty": "Architectural",
-      "imageUrl": "https://picsum.photos/seed/member5/400/400",
+      "imageUrl": "https://picsum.photos/seed/member47/400/400",
       "imageHint": "man portrait"
     },
     {
@@ -120,7 +121,7 @@
       "name": "Nadia Chowdhury",
       "role": "Member",
       "specialty": "Event Photography",
-      "imageUrl": "https://picsum.photos/seed/member6/400/400",
+      "imageUrl": "https://picsum.photos/seed/member48/400/400",
       "imageHint": "woman candid"
     },
     {
@@ -128,7 +129,7 @@
       "name": "Kamal Hossain",
       "role": "Member",
       "specialty": "Abstract",
-      "imageUrl": "https://picsum.photos/seed/member7/400/400",
+      "imageUrl": "https://picsum.photos/seed/member49/400/400",
       "imageHint": "male outdoor"
     },
     {
@@ -136,7 +137,7 @@
       "name": "Fatima Begum",
       "role": "Member",
       "specialty": "Wildlife",
-      "imageUrl": "https://picsum.photos/seed/member8/400/400",
+      "imageUrl": "https://picsum.photos/seed/member50/400/400",
       "imageHint": "female nature"
     },
     {
@@ -144,7 +145,7 @@
       "name": "Dr. Anisur Rahman",
       "role": "Chief Advisor",
       "specialty": "Head of Computer Science",
-      "imageUrl": "https://picsum.photos/seed/advisor1/400/400",
+      "imageUrl": "https://picsum.photos/seed/advisor43/400/400",
       "imageHint": "professor portrait"
     },
     {
@@ -152,7 +153,7 @@
       "name": "Prof. Sharmin Sultana",
       "role": "Advisor",
       "specialty": "Department of English",
-      "imageUrl": "https://picsum.photos/seed/advisor2/400/400",
+      "imageUrl": "https://picsum.photos/seed/advisor44/400/400",
       "imageHint": "teacher portrait"
     },
     {
@@ -160,7 +161,7 @@
       "name": "Mr. Karim Chowdhury",
       "role": "Advisor",
       "specialty": "Fine Arts Department",
-      "imageUrl": "https://picsum.photos/seed/advisor3/400/400",
+      "imageUrl": "https://picsum.photos/seed/advisor45/400/400",
       "imageHint": "artist portrait"
     }
   ]
