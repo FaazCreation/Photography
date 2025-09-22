@@ -34,3 +34,7 @@ export function getBlogImages(): ImagePlaceholder[] {
 export function getMemberImages(): ImagePlaceholder[] {
   return placeholderImages.filter(img => img.id.startsWith('member-'));
 }
+
+export function getAdvisorImages(): ImagePlaceholder[] {
+  return placeholderImages.filter(img => img.id.startsWith('advisor-'));
+}

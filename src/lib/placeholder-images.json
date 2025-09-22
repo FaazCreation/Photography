@@ -138,6 +138,30 @@
       "specialty": "Wildlife",
       "imageUrl": "https://picsum.photos/seed/member8/400/400",
       "imageHint": "female nature"
+    },
+    {
+      "id": "advisor-1",
+      "name": "Dr. Anisur Rahman",
+      "role": "Chief Advisor",
+      "specialty": "Head of Computer Science",
+      "imageUrl": "https://picsum.photos/seed/advisor1/400/400",
+      "imageHint": "professor portrait"
+    },
+    {
+      "id": "advisor-2",
+      "name": "Prof. Sharmin Sultana",
+      "role": "Advisor",
+      "specialty": "Department of English",
+      "imageUrl": "https://picsum.photos/seed/advisor2/400/400",
+      "imageHint": "teacher portrait"
+    },
+    {
+      "id": "advisor-3",
+      "name": "Mr. Karim Chowdhury",
+      "role": "Advisor",
+      "specialty": "Fine Arts Department",
+      "imageUrl": "https://picsum.photos/seed/advisor3/400/400",
+      "imageHint": "artist portrait"
     }
   ]
 }
