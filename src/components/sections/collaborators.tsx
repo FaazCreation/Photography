@@ -37,11 +37,11 @@ export function Collaborators() {
             Our photography club often collaborates with other clubs at Tejgaon College to cover their events and share creative projects.
           </p>
         </div>
-        <div className="mx-auto grid max-w-5xl items-center justify-center gap-8 pt-16 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mx-auto grid max-w-7xl items-center justify-center gap-6 pt-16 grid-cols-2 sm:grid-cols-3 lg:grid-cols-6">
           {collaboratorsList.map((collaborator) => (
-            <div key={collaborator.name} className="group flex flex-col items-center justify-center space-y-4 rounded-lg bg-background p-6 text-center shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl">
+            <div key={collaborator.name} className="group flex flex-col items-center justify-center space-y-4 rounded-lg bg-background p-4 text-center shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl aspect-square">
               {collaborator.icon}
-              <p className="text-lg font-semibold text-foreground">{collaborator.name}</p>
+              <p className="text-base font-semibold text-foreground">{collaborator.name}</p>
             </div>
           ))}
         </div>
