@@ -13,6 +13,7 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/com
 import { membershipApplicationSchema } from '@/lib/schemas';
 import { Check } from 'lucide-react';
 import { Separator } from '@/components/ui/separator';
+import Link from 'next/link';
 
 const premiumBenefits = [
   'Priority access to club equipment',
@@ -170,8 +171,8 @@ export default function JoinPage() {
                       </div>
                   ))}
               </div>
-              <Button size="lg" className="w-full">
-                  Upgrade to Premium Now
+              <Button asChild size="lg" className="w-full">
+                  <Link href="/join/premium">Upgrade to Premium Now</Link>
               </Button>
           </CardContent>
         </Card>
