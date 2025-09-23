@@ -1,6 +1,8 @@
 "use client";
 
 import Image from 'next/image';
+import * as React from 'react';
+import Autoplay from 'embla-carousel-autoplay';
 import { Card, CardContent } from '@/components/ui/card';
 import {
   Carousel,
@@ -14,6 +16,7 @@ import { AnimatedHeadline } from '../animated-headline';
 
 export function Gallery() {
   const generalMembers = getGeneralMemberImages();
+  const plugin = React.useRef(Autoplay({ delay: 3000, stopOnInteraction: true }));
 
   return (
     <section id="gallery" className="w-full py-12 md:py-24 lg:py-32 bg-secondary animate-fade-in-up [animation-delay:0.5s] animation-duration-1000">
@@ -28,10 +31,13 @@ export function Gallery() {
         </div>
         <div className="py-12">
           <Carousel
+            plugins={[plugin.current]}
             opts={{
               align: "start",
               loop: true,
             }}
+            onMouseEnter={plugin.current.stop}
+            onMouseLeave={plugin.current.reset}
             className="w-full max-w-6xl mx-auto"
           >
             <CarouselContent>
