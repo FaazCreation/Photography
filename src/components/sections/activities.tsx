@@ -30,9 +30,9 @@ export function Activities() {
     <section id="activities" className="w-full py-12 md:py-24 lg:py-32 bg-secondary">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center space-y-4 text-center">
-          <AnimatedHeadline text="Workshops & Activities" />
+          <AnimatedHeadline text="Club Activities" />
           <p className="max-w-[900px] text-muted-foreground text-base md:text-lg">
-            Engage, learn, and grow with our diverse range of activities tailored for every photography enthusiast.
+            Engage, learn, and grow with our diverse range of activities <br className="sm:hidden" /> tailored for every photography enthusiast.
           </p>
         </div>
         <div className="mx-auto grid max-w-5xl items-start gap-8 sm:grid-cols-2 md:grid-cols-4 pt-12">
