@@ -27,6 +27,7 @@ export default function ProposeEventPage() {
       eventName: '',
       proposerName: '',
       proposerEmail: '',
+      whatsappNumber: '',
       eventDescription: '',
     },
   });
@@ -107,6 +108,20 @@ export default function ProposeEventPage() {
                     )}
                   />
                 </div>
+                
+                <FormField
+                  control={form.control}
+                  name="whatsappNumber"
+                  render={({ field }) => (
+                    <FormItem>
+                      <FormLabel>WhatsApp Number (Optional)</FormLabel>
+                      <FormControl>
+                        <Input placeholder="e.g., 01712345678" {...field} />
+                      </FormControl>
+                      <FormMessage />
+                    </FormItem>
+                  )}
+                />
 
                 <FormField
                     control={form.control}

@@ -35,6 +35,7 @@ export default function EventRegistrationPage() {
     defaultValues: {
       name: '',
       email: '',
+      whatsappNumber: '',
       memberId: '',
       eventId: '',
     },
@@ -104,10 +105,23 @@ export default function EventRegistrationPage() {
                 </div>
                  <FormField
                     control={form.control}
+                    name="whatsappNumber"
+                    render={({ field }) => (
+                    <FormItem>
+                        <FormLabel>WhatsApp Number (Optional)</FormLabel>
+                        <FormControl>
+                        <Input placeholder="e.g., 01712345678" {...field} />
+                        </FormControl>
+                        <FormMessage />
+                    </FormItem>
+                    )}
+                />
+                 <FormField
+                    control={form.control}
                     name="memberId"
                     render={({ field }) => (
                     <FormItem>
-                        <FormLabel>Member ID</FormLabel>
+                        <FormLabel>Student ID</FormLabel>
                         <FormControl>
                         <Input placeholder="TC123456" {...field} />
                         </FormControl>

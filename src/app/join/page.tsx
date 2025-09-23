@@ -32,6 +32,7 @@ export default function JoinPage() {
     defaultValues: {
       name: '',
       email: '',
+      whatsappNumber: '',
       memberId: '',
       department: '',
       interests: '',
@@ -100,13 +101,28 @@ export default function JoinPage() {
                     )}
                   />
                 </div>
+
+                <FormField
+                  control={form.control}
+                  name="whatsappNumber"
+                  render={({ field }) => (
+                    <FormItem>
+                      <FormLabel>WhatsApp Number (Optional)</FormLabel>
+                      <FormControl>
+                        <Input placeholder="e.g., 01712345678" {...field} />
+                      </FormControl>
+                      <FormMessage />
+                    </FormItem>
+                  )}
+                />
+
                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                     <FormField
                         control={form.control}
                         name="memberId"
                         render={({ field }) => (
                         <FormItem>
-                            <FormLabel>Member ID</FormLabel>
+                            <FormLabel>Student ID</FormLabel>
                             <FormControl>
                             <Input placeholder="TC123456" {...field} />
                             </FormControl>

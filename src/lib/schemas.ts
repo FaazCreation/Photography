@@ -7,6 +7,11 @@ export const StyleSuggestionSchema = z.object({
 export const membershipApplicationSchema = z.object({
   name: z.string().min(2, { message: 'Name must be at least 2 characters.' }),
   email: z.string().email({ message: 'Please enter a valid email address.' }),
+  whatsappNumber: z.string().optional().or(z.literal(''))
+    .transform((val) => (val === '' ? undefined : val))
+    .refine((val) => !val || /^\+?[0-9\s-]{10,15}$/.test(val), {
+        message: 'Please enter a valid phone number.',
+    }),
   memberId: z.string().min(4, { message: 'Please enter a valid Member ID.'}),
   department: z.string().min(2, { message: 'Please enter your department.'}),
   interests: z.string().min(10, { message: 'Please tell us about your interests.' }),
@@ -16,6 +21,11 @@ export const eventProposalSchema = z.object({
   eventName: z.string().min(5, { message: 'Event name must be at least 5 characters.' }),
   proposerName: z.string().min(2, { message: 'Your name must be at least 2 characters.' }),
   proposerEmail: z.string().email({ message: 'Please enter a valid email address.' }),
+  whatsappNumber: z.string().optional().or(z.literal(''))
+    .transform((val) => (val === '' ? undefined : val))
+    .refine((val) => !val || /^\+?[0-9\s-]{10,15}$/.test(val), {
+        message: 'Please enter a valid phone number.',
+    }),
   proposedDate: z.date().optional(),
   eventDescription: z.string().min(20, { message: 'Description must be at least 20 characters.' }),
 });
@@ -23,6 +33,11 @@ export const eventProposalSchema = z.object({
 export const bookingSchema = z.object({
   name: z.string().min(2, { message: "Name must be at least 2 characters." }),
   email: z.string().email({ message: "Please enter a valid email address." }),
+  whatsappNumber: z.string().optional().or(z.literal(''))
+    .transform((val) => (val === '' ? undefined : val))
+    .refine((val) => !val || /^\+?[0-9\s-]{10,15}$/.test(val), {
+        message: 'Please enter a valid phone number.',
+    }),
   eventName: z.string().min(5, { message: "Event name must be at least 5 characters." }),
   eventDate: z.date({
     required_error: "An event date is required.",
@@ -42,6 +57,24 @@ export const premiumPaymentSchema = z.object({
 export const eventRegistrationSchema = z.object({
   name: z.string().min(2, { message: 'Name must be at least 2 characters.' }),
   email: z.string().email({ message: 'Please enter a valid email address.' }),
+  whatsappNumber: z.string().optional().or(z.literal(''))
+    .transform((val) => (val === '' ? undefined : val))
+    .refine((val) => !val || /^\+?[0-9\s-]{10,15}$/.test(val), {
+        message: 'Please enter a valid phone number.',
+    }),
   memberId: z.string().min(4, { message: 'Please enter a valid Member ID.'}),
   eventId: z.string({ required_error: 'Please select an event.' }),
+});
+
+
+export const contactFormSchema = z.object({
+  name: z.string().min(2, { message: 'Name must be at least 2 characters.' }),
+  email: z.string().email({ message: 'Please enter a valid email address.' }),
+  whatsappNumber: z.string().optional().or(z.literal(''))
+    .transform((val) => (val === '' ? undefined : val))
+    .refine((val) => !val || /^\+?[0-9\s-]{10,15}$/.test(val), {
+        message: 'Please enter a valid phone number.',
+    }),
+  subject: z.string().min(5, { message: 'Subject must be at least 5 characters.' }),
+  message: z.string().min(10, { message: 'Message must be at least 10 characters.' }),
 });

@@ -10,7 +10,8 @@ import { Textarea } from '@/components/ui/textarea';
 import { useToast } from '@/hooks/use-toast';
 import { Mail, Send } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
-import { Metadata } from 'next';
+import { contactFormSchema } from '@/lib/schemas';
+
 
 // This is a client component, but we can't export metadata from it.
 // We'll manage metadata from the parent or a separate file if this page were dynamic.
@@ -22,14 +23,6 @@ export const metadata: Metadata = {
 };
 */
 
-
-const contactFormSchema = z.object({
-  name: z.string().min(2, { message: 'Name must be at least 2 characters.' }),
-  email: z.string().email({ message: 'Please enter a valid email address.' }),
-  subject: z.string().min(5, { message: 'Subject must be at least 5 characters.' }),
-  message: z.string().min(10, { message: 'Message must be at least 10 characters.' }),
-});
-
 type ContactFormValues = z.infer<typeof contactFormSchema>;
 
 export default function ContactPage() {
@@ -39,6 +32,7 @@ export default function ContactPage() {
     defaultValues: {
       name: '',
       email: '',
+      whatsappNumber: '',
       subject: '',
       message: '',
     },
@@ -106,6 +100,19 @@ export default function ContactPage() {
                     )}
                   />
                 </div>
+                 <FormField
+                  control={form.control}
+                  name="whatsappNumber"
+                  render={({ field }) => (
+                    <FormItem>
+                      <FormLabel>WhatsApp Number (Optional)</FormLabel>
+                      <FormControl>
+                        <Input placeholder="e.g., 01712345678" {...field} />
+                      </FormControl>
+                      <FormMessage />
+                    </FormItem>
+                  )}
+                />
                 <FormField
                   control={form.control}
                   name="subject"
