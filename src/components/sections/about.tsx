@@ -3,6 +3,8 @@ import { Card, CardContent } from '@/components/ui/card';
 import { getImageById } from '@/lib/placeholder-images';
 import { AnimatedHeadline } from '@/components/animated-headline';
 import { TypingAnimation } from '../typing-animation';
+import { Button } from '../ui/button';
+import Link from 'next/link';
 
 export function About() {
   const aboutImage = getImageById('about-us-image');
@@ -22,6 +24,11 @@ We organize workshops, photo walks, exhibitions and competitions to help our mem
               sequence={aboutText} 
               className="max-w-[600px] text-muted-foreground text-base md:text-lg space-y-4 whitespace-pre-wrap" 
             />
+            <div className="pt-4">
+              <Button asChild>
+                <Link href="/about">Learn More</Link>
+              </Button>
+            </div>
           </div>
           <div className="flex items-center justify-center">
             <Card className="overflow-hidden shadow-2xl rounded-lg">
