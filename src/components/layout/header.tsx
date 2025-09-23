@@ -8,6 +8,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { cn } from '@/lib/utils';
 import { ThemeToggle } from '@/components/theme-toggle';
+import { Separator } from '../ui/separator';
 
 const navLinks = [
   { href: '/about', label: 'About' },
@@ -18,7 +19,7 @@ const navLinks = [
   { href: '/contact', label: 'Contact' },
 ];
 
-const NavLinks = ({ onClick }: { onClick?: () => void }) => {
+const NavLinks = ({ onClick, className }: { onClick?: () => void, className?: string }) => {
   const pathname = usePathname();
   return (
     <>
@@ -29,7 +30,8 @@ const NavLinks = ({ onClick }: { onClick?: () => void }) => {
           onClick={onClick}
           className={cn(
             'text-sm font-medium hover:text-primary transition-colors',
-            pathname === href ? 'text-primary' : 'text-muted-foreground'
+            pathname === href ? 'text-primary' : 'text-muted-foreground',
+            className
           )}
         >
           {label}
@@ -62,7 +64,7 @@ export function Header() {
               </Button>
             </SheetTrigger>
             <SheetContent side="right" className="w-full max-w-xs">
-              <div className="p-4">
+              <div className="p-4 flex flex-col h-full">
                 <Link
                   href="/"
                   className="flex items-center gap-2 text-lg font-semibold mb-8"
@@ -72,18 +74,21 @@ export function Header() {
                   <span className="font-bold">Tejgaon College PC</span>
                 </Link>
                 <nav className="grid gap-5">
-                  <NavLinks onClick={() => setIsSheetOpen(false)} />
-                   <Button asChild className="w-full mt-4">
-                    <Link href="/propose-event" onClick={() => setIsSheetOpen(false)}>
-                      Propose an Event
-                    </Link>
-                  </Button>
-                  <Button asChild className="w-full mt-4">
-                    <Link href="/join" onClick={() => setIsSheetOpen(false)}>
-                      Join Us
-                    </Link>
-                  </Button>
+                  <NavLinks onClick={() => setIsSheetOpen(false)} className="text-base" />
                 </nav>
+                 <Separator className="my-6" />
+                 <div className="grid gap-4">
+                    <Button asChild className="w-full" size="lg">
+                      <Link href="/propose-event" onClick={() => setIsSheetOpen(false)}>
+                        Propose an Event
+                      </Link>
+                    </Button>
+                    <Button asChild className="w-full" size="lg">
+                      <Link href="/join" onClick={() => setIsSheetOpen(false)}>
+                        Join Us
+                      </Link>
+                    </Button>
+                 </div>
               </div>
             </SheetContent>
           </Sheet>
