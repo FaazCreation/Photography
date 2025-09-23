@@ -8,6 +8,7 @@ import Link from "next/link";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { getEventImages } from "@/lib/placeholder-images";
 import Image from "next/image";
+import { Badge } from "@/components/ui/badge";
 
 const events = [
   {
@@ -78,9 +79,9 @@ const EventCard = ({ event }: { event: (typeof events)[0] }) => {
     return (
         <Card className="flex flex-col">
             <CardHeader>
-                <div className="flex items-center justify-between">
+                <div className="flex flex-col-reverse sm:flex-row sm:items-start sm:justify-between gap-2">
                     <CardTitle>{event.title}</CardTitle>
-                    <span className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">{event.type}</span>
+                    <Badge variant="secondary" className="w-fit">{event.type}</Badge>
                 </div>
                 <CardDescription className="flex items-center gap-2 pt-1">
                     <Calendar className="h-4 w-4" /> 
