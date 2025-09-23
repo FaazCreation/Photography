@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { getAdvisorImages, getAdminPanelImages, getGeneralMemberImages, getImageById, getAlumniImages } from "@/lib/placeholder-images";
@@ -93,7 +94,7 @@ export default function MembersPage() {
     const alumni = getAlumniImages();
 
     return (
-        <div className="overflow-x-hidden">
+        <div>
             <div className="container py-12 md:py-24 lg:py-32">
                 <div className="flex flex-col items-center space-y-4 text-center">
                     <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl text-primary leading-tight">
@@ -134,7 +135,7 @@ export default function MembersPage() {
             </div>
 
             {/* Photographer of the month - full width section */}
-            <div className="my-16">
+            <div className="my-16 overflow-hidden">
                 <PhotographerOfTheMonth />
             </div>
             
