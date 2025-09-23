@@ -17,12 +17,12 @@ export function Collaborators() {
         </div>
         <div className="mx-auto grid max-w-6xl items-center justify-center gap-4 pt-16 grid-cols-3 md:grid-cols-6">
           {collaborators.map((collaborator) => (
-            <div key={collaborator.id} className="group flex flex-col items-center justify-center space-y-3 rounded-lg bg-background p-4 text-center shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl aspect-square">
-              <Card className="rounded-full overflow-hidden border-2 border-primary/10 w-24 h-24">
+            <div key={collaborator.id} className="group flex flex-col items-center justify-center space-y-2 rounded-lg bg-background p-2 md:p-4 text-center shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl aspect-square">
+              <Card className="rounded-full overflow-hidden border-2 border-primary/10 w-16 h-16 md:w-24 md:h-24">
                 <CardContent className="p-0">
                   <Image
                     src={collaborator.imageUrl}
-                    alt={collaborator.name || 'Collaborator Club Logo'}
+                    alt={collaborator.name ? `Logo for ${collaborator.name}` : 'Collaborator Club Logo for TCPC'}
                     width={100}
                     height={100}
                     className="object-cover w-full h-full transition-transform group-hover:scale-105"
@@ -30,7 +30,7 @@ export function Collaborators() {
                   />
                 </CardContent>
               </Card>
-              <p className="text-sm font-semibold text-foreground text-center">{collaborator.name}</p>
+              <p className="text-xs md:text-sm font-semibold text-foreground text-center">{collaborator.name}</p>
             </div>
           ))}
         </div>
