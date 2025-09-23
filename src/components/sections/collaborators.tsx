@@ -19,7 +19,7 @@ export function Collaborators() {
         <div className="mx-auto grid max-w-6xl justify-center gap-6 pt-16 grid-cols-3 sm:grid-cols-4 md:grid-cols-6">
           {collaborators.map((collaborator) => (
             <div key={collaborator.id} className="group flex flex-col items-center justify-center space-y-2">
-              <Card className="rounded-full aspect-square overflow-hidden border-2 border-primary/10 w-20 h-20 md:w-24 md:h-24 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl bg-background">
+              <Card className="rounded-full overflow-hidden border-2 border-primary/10 w-20 h-20 md:w-24 md:h-24 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl bg-background">
                 <CardContent className="p-2 h-full w-full">
                   <div className="relative w-full h-full">
                     <Image
