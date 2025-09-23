@@ -9,7 +9,7 @@ import { HelpCircle } from "lucide-react";
 
 const faqItems = [
     {
-        question: "Who can join the Tejgaon College Photography Club?",
+        question: "Who can join the Tejgaon College Photography Club (TCPC)?",
         answer: "Membership is open to all currently enrolled students at Tejgaon College, regardless of their department or skill level. Whether you're a seasoned photographer or just starting with a smartphone, you're welcome to join."
     },
     {
@@ -25,7 +25,7 @@ const faqItems = [
         answer: "We typically hold meetings or workshops every Friday afternoon. Photo walks and special events are usually scheduled on weekends. All event details are posted on our Events page and social media channels."
     },
     {
-        question: "What kind of activities does the club organize?",
+        question: "What kind of activities does the TCPC organize?",
         answer: "We organize a wide range of activities including technical workshops (e.g., lighting, post-processing), creative photo walks, guest speaker sessions with professional photographers, internal competitions and an annual public exhibition."
     }
 ]
@@ -38,7 +38,7 @@ export function Faq() {
             <div className="bg-primary/10 p-4 rounded-full">
                 <HelpCircle className="h-10 w-10 text-primary" />
             </div>
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-primary">
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-primary leading-tight">
                 <span className="sm:hidden">FAQ</span>
                 <span className="hidden sm:inline">Frequently Asked Questions</span>
             </h2>

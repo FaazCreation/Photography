@@ -18,8 +18,8 @@ import { useHotkeys } from 'react-hotkeys-hook';
 // This page would need to be a parent server component to export metadata.
 /*
 export const metadata: Metadata = {
-  title: 'Gallery',
-  description: 'Explore the events gallery of the Tejgaon College Photography Club. A collection of moments captured during our workshops, photo walks, and events.',
+  title: 'Gallery | TCPC',
+  description: 'Explore the events gallery of the Tejgaon College Photography Club (TCPC). A collection of moments captured during our workshops, photo walks, and events.',
 };
 */
 
@@ -71,11 +71,11 @@ export default function GalleryPage() {
   return (
     <div className="container py-12 md:py-24 lg:py-32">
       <div className="flex flex-col items-center space-y-4 text-center">
-        <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl text-primary">
+        <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl text-primary leading-tight">
           Our Gallery
         </h1>
         <p className="max-w-[900px] text-muted-foreground text-base md:text-lg px-4">
-          A collection of moments captured during our workshops, photo walks, and events.
+          A collection of moments captured by TCPC during our workshops, photo walks, and events.
         </p>
       </div>
 
@@ -103,7 +103,7 @@ export default function GalleryPage() {
               <CardContent className="p-0">
                 <Image
                   src={image.imageUrl}
-                  alt={image.description || 'Gallery image'}
+                  alt={image.description || 'Gallery image from Tejgaon College Photography Club (TCPC)'}
                   width={400}
                   height={400}
                   className="w-full h-full object-cover aspect-square transition-transform duration-300 group-hover:scale-110"
@@ -126,7 +126,7 @@ export default function GalleryPage() {
              <div className="relative w-full h-full flex items-center justify-center">
                 <Image
                     src={selectedImage.imageUrl}
-                    alt={selectedImage.description || 'Enlarged gallery image'}
+                    alt={selectedImage.description || 'Enlarged gallery image from Tejgaon College Photography Club (TCPC)'}
                     width={1600}
                     height={1200}
                     className="max-w-full max-h-[85vh] object-contain rounded-lg shadow-2xl"

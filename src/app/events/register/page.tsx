@@ -16,7 +16,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 /*
 export const metadata: Metadata = {
   title: 'Event Registration',
-  description: 'Register for an upcoming event with the Tejgaon College Photography Club.',
+  description: 'Register for an upcoming event with the Tejgaon College Photography Club (TCPC).',
 };
 */
 
@@ -53,11 +53,11 @@ export default function EventRegistrationPage() {
   return (
     <div className="container py-12 md:py-24 lg:py-32">
       <div className="flex flex-col items-center space-y-4 text-center">
-        <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl text-primary">
+        <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl text-primary leading-tight">
           Event Registration
         </h1>
         <p className="max-w-[900px] text-muted-foreground text-base md:text-lg px-4">
-          Confirm your spot for one of our upcoming events.
+          Confirm your spot for one of our upcoming TCPC events.
         </p>
       </div>
 

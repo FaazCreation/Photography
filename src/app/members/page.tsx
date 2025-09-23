@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { getAdvisorImages, getAdminPanelImages, getGeneralMemberImages, getImageById, getAlumniImages } from "@/lib/placeholder-images";
@@ -20,7 +19,7 @@ const MemberCard = ({ member }: { member: any }) => (
             <div className="w-full aspect-square overflow-hidden rounded-t-lg">
                 <Image
                     src={member.imageUrl}
-                    alt={`Portrait of ${member.name}, member of Tejgaon College Photography Club`}
+                    alt={`Portrait of ${member.name}, member of Tejgaon College Photography Club (TCPC)`}
                     width={400}
                     height={400}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
@@ -56,7 +55,7 @@ const PhotographerOfTheMonth = () => {
                         <CardContent className="p-0">
                             <Image
                             src={spotlightMember.imageUrl}
-                            alt={spotlightMember.name || 'Portrait of a featured member from Tejgaon College Photography Club'}
+                            alt={spotlightMember.name || 'Portrait of a featured member from Tejgaon College Photography Club (TCPC)'}
                             width={600}
                             height={600}
                             className="object-cover w-full h-full aspect-square"
@@ -67,7 +66,7 @@ const PhotographerOfTheMonth = () => {
                     </div>
                     <div className="space-y-4">
                         <Badge>Featured TCPC Member</Badge>
-                        <h3 className="text-3xl font-bold tracking-tighter text-primary">
+                        <h3 className="text-3xl font-bold tracking-tighter text-primary leading-tight">
                             {spotlightMember.name}
                         </h3>
                         <div className="prose max-w-full text-muted-foreground text-base md:text-lg">
@@ -96,18 +95,18 @@ export default function MembersPage() {
     return (
         <div className="container py-12 md:py-24 lg:py-32">
             <div className="flex flex-col items-center space-y-4 text-center">
-                <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl text-primary">
+                <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl text-primary leading-tight">
                     Our Club Structure at TCPC
                 </h1>
                 <p className="max-w-[900px] text-muted-foreground text-base md:text-lg px-4">
-                    Meet the dedicated individuals who form the backbone of the Tejgaon College Photography Club, from our advisors and committee to our talented members and alumni.
+                    Meet the dedicated individuals who form the backbone of the Tejgaon College Photography Club (TCPC), from our advisors and committee to our talented members and alumni.
                 </p>
             </div>
 
             <div className="space-y-16 mt-16">
                 {/* Advisor Panel Section */}
                 <section>
-                    <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl text-center mb-8">
+                    <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-center mb-8 leading-tight">
                         Advisor Panel
                     </h2>
                     <div className="mx-auto grid max-w-4xl gap-8 grid-cols-1 xs:grid-cols-2 lg:grid-cols-3">
@@ -121,7 +120,7 @@ export default function MembersPage() {
 
                 {/* Current Committee Section */}
                 <section>
-                    <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl text-center mb-8">
+                    <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-center mb-8 leading-tight">
                         Current Committee
                     </h2>
                     <div className="mx-auto grid max-w-6xl gap-8 grid-cols-1 xs:grid-cols-2 lg:grid-cols-4">
@@ -140,7 +139,7 @@ export default function MembersPage() {
             <div className="space-y-16">
                  {/* Active Members Section */}
                 <section>
-                    <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl text-center mb-8">
+                    <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-center mb-8 leading-tight">
                         Active Members
                     </h2>
                     <div className="mx-auto grid max-w-6xl gap-8 pt-2 grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5">
@@ -154,7 +153,7 @@ export default function MembersPage() {
                 
                 {/* Alumni Section */}
                 <section>
-                    <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl text-center mb-8">
+                    <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-center mb-8 leading-tight">
                         Our Alumni
                     </h2>
                     <div className="mx-auto grid max-w-6xl gap-8 pt-2 grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5">

@@ -36,7 +36,7 @@ export default function ProposeEventPage() {
     console.log(data);
     toast({
       title: 'Proposal Submitted!',
-      description: 'Thank you for your suggestion. The committee will review your event proposal.',
+      description: 'Thank you for your suggestion. The TCPC committee will review your event proposal.',
     });
     form.reset();
   }
@@ -44,11 +44,11 @@ export default function ProposeEventPage() {
   return (
     <div className="container py-12 md:py-24 lg:py-32">
       <div className="flex flex-col items-center space-y-4 text-center">
-        <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl text-primary">
+        <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl text-primary leading-tight">
           Propose an Event
         </h1>
         <p className="max-w-[900px] text-muted-foreground text-base md:text-lg px-4">
-          Have an idea for a photo walk, workshop, or guest speaker? Let us know!
+          Have an idea for a photo walk, workshop, or guest speaker for TCPC? Let us know!
         </p>
       </div>
 

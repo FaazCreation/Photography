@@ -15,7 +15,7 @@ export function MemberSpotlight() {
         <div className="flex flex-col items-center space-y-4 text-center mb-12">
             <AnimatedHeadline text="Member Spotlight" />
             <p className="max-w-[700px] text-muted-foreground text-base md:text-lg">
-                This month, we're featuring one of our most dedicated members. Get to know the artist behind the lens.
+                This month, TCPC features one of our most dedicated members. Get to know the artist behind the lens.
             </p>
         </div>
         <div className="grid gap-10 lg:grid-cols-2 lg:gap-16 items-center">
@@ -24,7 +24,7 @@ export function MemberSpotlight() {
               <CardContent className="p-0">
                 <Image
                   src={spotlightMember.imageUrl}
-                  alt={spotlightMember.name || 'Portrait of member'}
+                  alt={spotlightMember.name || 'Portrait of member of Tejgaon College Photography Club (TCPC)'}
                   width={600}
                   height={600}
                   className="object-cover w-full h-full aspect-square"
@@ -35,7 +35,7 @@ export function MemberSpotlight() {
           </div>
           <div className="space-y-4">
             <Badge>Featured Member</Badge>
-            <h3 className="text-3xl font-bold tracking-tighter text-primary">
+            <h3 className="text-3xl font-bold tracking-tighter text-primary leading-tight">
                 {spotlightMember.name}
             </h3>
              <div className="prose max-w-full text-muted-foreground text-base md:text-lg">

@@ -53,11 +53,11 @@ export default function BookUsPage() {
   return (
     <div className="container py-12 md:py-24 lg:py-32">
       <div className="flex flex-col items-center space-y-4 text-center">
-        <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl text-primary">
+        <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl text-primary leading-tight">
           Book Our Services
         </h1>
         <p className="max-w-[900px] text-muted-foreground text-base md:text-lg px-4">
-          Need coverage for your event? Fill out the form below to book the Tejgaon College Photography Club.
+          Need coverage for your event? Fill out the form below to book the Tejgaon College Photography Club (TCPC).
         </p>
       </div>
 
@@ -85,7 +85,7 @@ export default function BookUsPage() {
                     </li>
                     <li className="flex items-start gap-3">
                         <span className="text-primary font-bold mt-1">&#x2713;</span>
-                        <span>The <strong className="font-semibold text-foreground">Tejgaon College Photography Club</strong> must be credited in all event promotions and media.</span>
+                        <span>The <strong className="font-semibold text-foreground">Tejgaon College Photography Club (TCPC)</strong> must be credited in all event promotions and media.</span>
                     </li>
                     <li className="flex items-start gap-3">
                         <span className="text-primary font-bold mt-1">&#x2713;</span>

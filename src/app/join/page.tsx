@@ -43,7 +43,7 @@ export default function JoinPage() {
     console.log(data);
     toast({
       title: 'Application Sent!',
-      description: "Thanks for your interest in joining! We'll review your application and get back to you soon.",
+      description: "Thanks for your interest in joining TCPC! We'll review your application and get back to you soon.",
     });
     form.reset();
   }
@@ -51,11 +51,11 @@ export default function JoinPage() {
   return (
     <div className="container py-12 md:py-24 lg:py-32">
       <div className="flex flex-col items-center space-y-4 text-center">
-        <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl text-primary">
+        <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl text-primary leading-tight">
           Become a Member
         </h1>
         <p className="max-w-[900px] text-muted-foreground text-base md:text-lg px-4">
-          Ready to start your photography journey with us? Fill out the form below to apply for a standard membership.
+          Ready to start your photography journey with us? Fill out the form below to apply for a standard membership at TCPC.
         </p>
       </div>
 
@@ -175,7 +175,7 @@ export default function JoinPage() {
                 Upgrade to Premium
             </CardTitle>
             <CardDescription>
-                Unlock exclusive benefits and take your photography skills to the next level with a Premium Membership.
+                Unlock exclusive benefits and take your photography skills to the next level with a TCPC Premium Membership.
             </CardDescription>
           </CardHeader>
           <CardContent className="space-y-6">
