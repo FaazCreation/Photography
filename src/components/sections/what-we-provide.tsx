@@ -11,7 +11,7 @@ const benefits = [
   {
     icon: <Camera className="h-10 w-10 text-primary" />,
     title: "Regular Photo Walks",
-    description: "Join curated trips to explore interesting locations, practice your skills, and capture stunning images with fellow members.",
+    description: "Join curated trips to explore interesting locations, practice your skills and capture stunning images with fellow members.",
   },
   {
     icon: <Award className="h-10 w-10 text-primary" />,
@@ -21,12 +21,12 @@ const benefits = [
   {
     icon: <Lightbulb className="h-10 w-10 text-primary" />,
     title: "Creative Community",
-    description: "Connect with a diverse group of passionate photographers, share ideas, receive feedback, and grow together.",
+    description: "Connect with a diverse group of passionate photographers, share ideas, receive feedback and grow together.",
   },
   {
     icon: <Film className="h-10 w-10 text-primary" />,
     title: "Access to Equipment",
-    description: "Get hands-on experience with a variety of club-owned cameras, lenses, and lighting gear for your projects.",
+    description: "Get hands-on experience with a variety of club-owned cameras, lenses and lighting gear for your projects.",
   },
   {
     icon: <Briefcase className="h-10 w-10 text-primary" />,

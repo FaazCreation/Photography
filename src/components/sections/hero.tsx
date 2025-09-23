@@ -22,7 +22,7 @@ export function Hero() {
           Tejgaon College Photography Club
         </h1>
         <p className="mt-4 text-lg md:text-xl text-slate-200 max-w-3xl mx-auto drop-shadow animate-fade-in-up [animation-delay:0.2s]">
-          A creative community dedicated to capturing the moment, honing our craft, and sharing our vision.
+          A creative community dedicated to capturing the moment, honing our craft and sharing our vision.
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-4 animate-fade-in-up [animation-delay:0.4s]">
           <Button asChild size="lg">

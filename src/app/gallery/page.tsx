@@ -12,7 +12,7 @@ export default function GalleryPage() {
           Events Gallery
         </h1>
         <p className="max-w-[900px] text-muted-foreground text-base md:text-lg">
-          A collection of moments captured during our workshops, photo walks, and events.
+          A collection of moments captured during our workshops, photo walks and events.
         </p>
       </div>
       <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6 lg:gap-8 pt-12">

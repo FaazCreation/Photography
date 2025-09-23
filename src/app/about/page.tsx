@@ -12,7 +12,7 @@ export default function AboutPage() {
             Our Story
             </h1>
             <p className="max-w-[900px] text-muted-foreground text-base md:text-lg">
-            Learn more about who we are, what we do, and why we do it.
+            Learn more about who we are, what we do and why we do it.
             </p>
         </div>
       </div>

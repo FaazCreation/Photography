@@ -31,10 +31,10 @@ export function AdvisorSpeech() {
             </h2>
              <div className="prose max-w-full text-muted-foreground text-base md:text-lg">
                 <p>
-                "Photography is a powerful medium of expression. It allows us to freeze a moment, tell a story, and share our unique perspective with the world. Here at Tejgaon College Photography Club, we are more than just a group of students with cameras; we are a family of creators, innovators, and storytellers."
+                "Photography is a powerful medium of expression. It allows us to freeze a moment, tell a story and share our unique perspective with the world. Here at Tejgaon College Photography Club, we are more than just a group of students with cameras; we are a family of creators, innovators and storytellers."
                 </p>
                 <p>
-                "I have watched this club grow and flourish, and I am continually impressed by the talent and passion of our members. Whether you are capturing the bustling energy of Dhaka's streets, the serene beauty of a village landscape, or the intimate emotion of a portrait, you are contributing to a rich visual tapestry. I encourage you all to keep exploring, keep learning, and never be afraid to push the boundaries of your creativity. Your vision is valuable, and we are here to support you in every step of your photographic journey."
+                "I have watched this club grow and flourish, and I am continually impressed by the talent and passion of our members. Whether you are capturing the bustling energy of Dhaka's streets, the serene beauty of a village landscape, or the intimate emotion of a portrait, you are contributing to a rich visual tapestry. I encourage you all to keep exploring, keep learning and never be afraid to push the boundaries of your creativity. Your vision is valuable, and we are here to support you in every step of your photographic journey."
                 </p>
              </div>
              <div className='pt-4'>

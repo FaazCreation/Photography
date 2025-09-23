@@ -7,9 +7,9 @@ import { TypingAnimation } from '../typing-animation';
 export function About() {
   const aboutImage = getImageById('about-us-image');
   const aboutText = [
-    `Founded in 2020, the Tejgaon College Photography Club is a vibrant community for students passionate about capturing the world through a lens. Our mission is to foster creativity, technical skill, and a shared love for photography.
+    `Founded in 2020, the Tejgaon College Photography Club is a vibrant community for students passionate about capturing the world through a lens. Our mission is to foster creativity, technical skill and a shared love for photography.
 
-We organize workshops, photo walks, exhibitions, and competitions to help our members grow as photographers. Whether you're a seasoned pro with a DSLR or a beginner with a smartphone, you'll find a welcoming space here to learn, share, and create.`
+We organize workshops, photo walks, exhibitions and competitions to help our members grow as photographers. Whether you're a seasoned pro with a DSLR or a beginner with a smartphone, you'll find a welcoming space here to learn, share and create.`
   ];
 
   return (

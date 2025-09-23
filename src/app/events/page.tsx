@@ -42,7 +42,7 @@ export default function EventsPage() {
           Upcoming Events
         </h1>
         <p className="max-w-[900px] text-muted-foreground text-base md:text-lg">
-          Join us for workshops, photo walks, and more. All events are free for members.
+          Join us for workshops, photo walks and more. All events are free for members.
         </p>
          <Button asChild>
             <Link href="/propose-event">
