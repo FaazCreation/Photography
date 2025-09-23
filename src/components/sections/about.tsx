@@ -1,3 +1,6 @@
+
+'use client';
+
 import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/card';
 import { getImageById } from '@/lib/placeholder-images';
@@ -5,14 +8,16 @@ import { AnimatedHeadline } from '@/components/animated-headline';
 import { TypingAnimation } from '../typing-animation';
 import { Button } from '../ui/button';
 import Link from 'next/link';
+import { useState } from 'react';
+import { cn } from '@/lib/utils';
 
 export function About() {
+  const [typingFinished, setTypingFinished] = useState(false);
   const aboutImage = getImageById('about-us-image');
-  const aboutText = [
-    `Founded in 2020, the Tejgaon College Photography Club is a vibrant community for students passionate about capturing the world through a lens. Our mission is to foster creativity, technical skill and a shared love for photography.
+  
+  const aboutText = `Founded in 2020, the Tejgaon College Photography Club is a vibrant community for students passionate about capturing the world through a lens. Our mission is to foster creativity, technical skill and a shared love for photography.
 
-We organize workshops, photo walks, exhibitions and competitions to help our members grow as photographers. Whether you're a seasoned pro with a DSLR or a beginner with a smartphone, you'll find a welcoming space here to learn, share and create.`
-  ];
+We organize workshops, photo walks, exhibitions and competitions to help our members grow as photographers. Whether you're a seasoned pro with a DSLR or a beginner with a smartphone, you'll find a welcoming space here to learn, share and create.`;
 
   return (
     <section id="about" className="w-full py-12 md:py-24 lg:py-32 animate-fade-in-up [animation-delay:0.4s] animation-duration-1000">
@@ -21,10 +26,13 @@ We organize workshops, photo walks, exhibitions and competitions to help our mem
           <div className="space-y-4">
             <AnimatedHeadline text="About Us" className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl" />
             <TypingAnimation 
-              sequence={aboutText} 
+              sequence={[
+                aboutText,
+                () => setTypingFinished(true)
+              ]} 
               className="max-w-[600px] text-muted-foreground text-base md:text-lg space-y-4 whitespace-pre-wrap" 
             />
-            <div className="pt-4">
+            <div className={cn("pt-4 transition-opacity duration-1000", typingFinished ? "opacity-100" : "opacity-0")}>
               <Button asChild>
                 <Link href="/about">Learn More</Link>
               </Button>
