@@ -1,12 +1,12 @@
 import Image from "next/image";
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "../components/ui/card";
-import { getAdvisorImages, getAdminPanelImages, getGeneralMemberImages, getImageById, getAlumniImages } from "../lib/placeholder-images";
-import { Badge } from "../components/ui/badge";
-import { Separator } from "../components/ui/separator";
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "../../components/ui/card";
+import { getAdvisorImages, getAdminPanelImages, getGeneralMemberImages, getImageById, getAlumniImages } from "../../lib/placeholder-images";
+import { Badge } from "../../components/ui/badge";
+import { Separator } from "../../components/ui/separator";
 import { Metadata } from "next";
-import { Button } from "../components/ui/button";
+import { Button } from "../../components/ui/button";
 import Link from "next/link";
-import { AnimatedHeadline } from "../components/animated-headline";
+import { AnimatedHeadline } from "../../components/animated-headline";
 
 export const metadata: Metadata = {
   title: 'Our Members | TCPC',

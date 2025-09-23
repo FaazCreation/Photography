@@ -3,20 +3,20 @@
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
-import { Button } from '../components/ui/button';
-import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '../components/ui/form';
-import { Input } from '../components/ui/input';
-import { Textarea } from '../components/ui/textarea';
-import { useToast } from '../hooks/use-toast';
+import { Button } from '../../components/ui/button';
+import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '../../components/ui/form';
+import { Input } from '../../components/ui/input';
+import { Textarea } from '../../components/ui/textarea';
+import { useToast } from '../../hooks/use-toast';
 import { CalendarCheck, List, Send } from 'lucide-react';
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '../components/ui/card';
-import { bookingSchema } from '../lib/schemas';
-import { Popover, PopoverContent, PopoverTrigger } from '../components/ui/popover';
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '../../components/ui/card';
+import { bookingSchema } from '../../lib/schemas';
+import { Popover, PopoverContent, PopoverTrigger } from '../../components/ui/popover';
 import { CalendarIcon } from 'lucide-react';
-import { Calendar } from '../components/ui/calendar';
-import { cn } from '../lib/utils';
+import { Calendar } from '../../components/ui/calendar';
+import { cn } from '../../lib/utils';
 import { format } from 'date-fns';
-import { Checkbox } from '../components/ui/checkbox';
+import { Checkbox } from '../../components/ui/checkbox';
 
 const services = [
     { id: "photography", label: "Photography" },
