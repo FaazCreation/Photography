@@ -9,7 +9,7 @@
     {
       "id": "about-us-image",
       "description": "A group of students from Tejgaon College Photography Club (TCPC) with cameras during a college event.",
-      "imageUrl": "/assets/images/about-us-image.jpg",
+      "imageUrl": "/assets/images/cover.jpg",
       "imageHint": "college event"
     },
     {
@@ -508,10 +508,10 @@
     },
     {
       "id": "spotlight-1",
-      "name": "Rizwan Ahmed",
+      "name": "Touhid Islam",
       "role": "Member",
-      "specialty": "Computer Science",
-      "imageUrl": "/assets/images/spotlight-1.jpg",
+      "specialty": "TCPC",
+      "imageUrl": "/assets/images/touhid.jpg",
       "imageHint": "man eating",
       "quote": "What I love most about TCPC is the sense of community. I've learned so much about street photography from just hanging out and shooting with other members. It pushed me to see my city in a new light."
     },
