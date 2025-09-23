@@ -5,7 +5,6 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion"
 import { HelpCircle } from "lucide-react";
-import { AnimatedHeadline } from "../animated-headline";
 
 
 const faqItems = [
@@ -39,7 +38,10 @@ export function Faq() {
             <div className="bg-primary/10 p-4 rounded-full">
                 <HelpCircle className="h-10 w-10 text-primary" />
             </div>
-            <AnimatedHeadline text="Frequently Asked Questions" className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl" />
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-primary">
+                <span className="sm:hidden">FAQ</span>
+                <span className="hidden sm:inline">Frequently Asked Questions</span>
+            </h2>
             <p className="mx-auto max-w-[700px] text-muted-foreground text-base md:text-lg">
                 Have questions? We've got answers. Here are some of the most common inquiries we receive.
             </p>
