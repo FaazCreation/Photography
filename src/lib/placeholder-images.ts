@@ -12,6 +12,7 @@ export type ImagePlaceholder = {
   role?: string;
   specialty?: string;
   quote?: string;
+  category?: string;
 };
 
 export const placeholderImages: ImagePlaceholder[] = data.placeholderImages;
@@ -26,6 +27,10 @@ export function getImageById(id: string): ImagePlaceholder {
 
 export function getGalleryImages(): ImagePlaceholder[] {
   return placeholderImages.filter(img => img.id.startsWith('gallery-'));
+}
+
+export function getGalleryPageImages(): ImagePlaceholder[] {
+  return placeholderImages.filter(img => !!img.category);
 }
 
 export function getBlogImages(): ImagePlaceholder[] {
