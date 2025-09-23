@@ -38,3 +38,10 @@ export const premiumPaymentSchema = z.object({
   memberId: z.string().min(4, { message: "Please enter a valid Member ID." }),
   transactionId: z.string().min(5, { message: "Please enter a valid bKash Transaction ID." }),
 });
+
+export const eventRegistrationSchema = z.object({
+  name: z.string().min(2, { message: 'Name must be at least 2 characters.' }),
+  email: z.string().email({ message: 'Please enter a valid email address.' }),
+  memberId: z.string().min(4, { message: 'Please enter a valid Member ID.'}),
+  eventId: z.string({ required_error: 'Please select an event.' }),
+});

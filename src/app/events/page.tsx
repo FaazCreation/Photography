@@ -1,14 +1,24 @@
 
+
 'use client';
 
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Calendar, Camera, MapPin, PlusCircle, CheckCircle } from "lucide-react";
+import { Calendar, Camera, MapPin, CheckCircle } from "lucide-react";
 import Link from "next/link";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { getEventImages } from "@/lib/placeholder-images";
 import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
+
+// Metadata cannot be exported from a client component.
+// This is a placeholder for where you would define it if this were a server component.
+/*
+export const metadata: Metadata = {
+  title: 'Events',
+  description: 'Join us for workshops, photo walks, and more. See what we\'ve been up to and register for upcoming events.',
+};
+*/
 
 const events = [
   {
@@ -80,8 +90,8 @@ const EventCard = ({ event }: { event: (typeof events)[0] }) => {
         <Card className="flex flex-col">
             <CardHeader>
                 <div className="flex flex-col-reverse sm:flex-row sm:items-start sm:justify-between gap-2">
-                    <CardTitle>{event.title}</CardTitle>
-                    <Badge variant="secondary" className="w-fit">{event.type}</Badge>
+                    <CardTitle className="pr-4">{event.title}</CardTitle>
+                    <Badge variant="secondary" className="w-fit mb-2 sm:mb-0">{event.type}</Badge>
                 </div>
                 <CardDescription className="flex items-center gap-2 pt-1">
                     <Calendar className="h-4 w-4" /> 
@@ -123,7 +133,7 @@ const EventCard = ({ event }: { event: (typeof events)[0] }) => {
                 <CardFooter>
                     {event.registrationOpen ? (
                         <Button className="w-full" asChild>
-                            <Link href="/book-us">Register Now</Link>
+                            <Link href="/events/register">Register Now</Link>
                         </Button>
                     ) : (
                         <Button className="w-full" disabled variant="outline">
@@ -150,12 +160,6 @@ export default function EventsPage() {
         <p className="max-w-[900px] text-muted-foreground text-base md:text-lg px-4">
           Join us for workshops, photo walks and more. See what we've been up to.
         </p>
-         <Button asChild>
-            <Link href="/propose-event">
-              <PlusCircle className="mr-2" />
-              Propose an Event
-            </Link>
-        </Button>
       </div>
       
       <div className="mx-auto max-w-6xl pt-12">
