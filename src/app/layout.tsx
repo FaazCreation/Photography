@@ -1,7 +1,8 @@
+
 import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
-import { Header } from '@/components/layout/header';
-import { Footer } from '@/components/layout/footer';
+import { Header } from '../components/layout/header';
+import { Footer } from '../components/layout/footer';
 import { Poppins } from 'next/font/google';
 import { cn } from '@/lib/utils';
 import { ThemeProvider } from '@/components/theme-provider';
@@ -16,11 +17,11 @@ const poppins = Poppins({
 
 const siteConfig = {
   name: 'Tejgaon College Photography Club (TCPC)',
-  description: 'The official website for the Tejgaon College Photography Club (TCPC). A vibrant community for student photographers at Tejgaon College, offering workshops, photo walks, and exhibitions to foster creativity and technical skill.',
-  url: 'https://tcpc.vercel.app', // Replace with your actual domain
-  ogImage: 'https://tcpc.vercel.app/og-image.png', // Replace with your OG image URL
+  description: 'The official website for the Tejgaon College Photography Club (TCPC), a vibrant community for student photographers at Tejgaon College in Dhaka. We offer workshops, photo walks, and exhibitions to foster creativity and technical skill. Join TCPC to enhance your photography journey.',
+  url: 'https://tcpc.vercel.app',
+  ogImage: 'https://tcpc.vercel.app/og-image.png',
   links: {
-    twitter: 'https://twitter.com/your-profile', // Replace with your Twitter profile
+    twitter: 'https://twitter.com/your-profile',
   },
 }
 
@@ -30,7 +31,7 @@ export const metadata: Metadata = {
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,
-  keywords: ["Tejgaon College Photography Club", "TCPC", "Tejgaon College", "Photography Club", "Student Photography", "Dhaka", "Workshops", "Photo Walks"],
+  keywords: ["Tejgaon College Photography Club", "TCPC", "Tejgaon College", "Photography Club Dhaka", "Student Photography Bangladesh", "College Club Dhaka", "Photography Workshops Dhaka"],
   authors: [{ name: "Tejgaon College Photography Club" }],
   creator: "Firebase Studio",
   metadataBase: new URL(siteConfig.url),
@@ -55,7 +56,7 @@ export const metadata: Metadata = {
     title: siteConfig.name,
     description: siteConfig.description,
     images: [siteConfig.ogImage],
-    creator: '@TejgaonCollegePC', // Replace with your twitter handle
+    creator: '@TejgaonCollegePC',
   },
   icons: {
     icon: '/favicon.ico',
