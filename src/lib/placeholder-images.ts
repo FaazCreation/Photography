@@ -61,3 +61,7 @@ export function getEventImages(ids: string[]): ImagePlaceholder[] {
 export function getAlumniImages(): ImagePlaceholder[] {
   return placeholderImages.filter(img => img.id.startsWith('alumni-'));
 }
+
+export function getCollaboratorImages(): ImagePlaceholder[] {
+    return placeholderImages.filter(img => img.id.startsWith('collaborator-'));
+}

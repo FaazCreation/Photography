@@ -43,7 +43,7 @@
     {
       "id": "gallery-5",
       "description": "A beautiful sunset over a mountain landscape captured by Tejgaon College Photography Club.",
-      "imageUrl": "https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzdW5zZXQlMjBsYW5kc2NhcGV8ZW58MHx8fHwxNzU4NTkyMjIzfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzdW5zZXQlMjBsYW5kc2NhcGV8ZW58MHx8fHwxNzU4NTkyMjIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "sunset landscape",
       "category": "nature-street"
     },
@@ -64,7 +64,7 @@
     {
       "id": "gallery-8",
       "description": "Exploring light and shadow in a portrait session at Tejgaon College Photography Club.",
-      "imageUrl": "https://images.unsplash.com/photo-1614711038621-0378b1aa088f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwb3J0cmFpdCUyMHNlc3Npb258ZW58MHx8fHwxNzU4NjEwMDY5fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1614711038621-0378b1aa088f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwb3J0cmFpdCUyMHNlc3Npb258ZW58MHx8fHwxNzU4NjEwMDY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "portrait session",
       "category": "portraits"
     },
@@ -99,7 +99,7 @@
     {
       "id": "gallery-13",
       "description": "An artwork displayed at the Tejgaon College Photography Club annual exhibition.",
-      "imageUrl": "https://images.unsplash.com/photo-1549420689-9403de3c35b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhcnQlMjBleGhpYml0aW9ufGVufDB8fHx8MTc1ODYxMDA2OXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1549420689-9403de3c35b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhcnQlMjBleGhpYml0aW9ufGVufDB8fHx8MTc1ODYxMDA2OXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "art exhibition",
       "category": "exhibitions"
     },
@@ -120,7 +120,7 @@
     {
       "id": "gallery-16",
       "description": "Graduation day ceremony on Tejgaon College campus.",
-      "imageUrl": "https://images.unsplash.com/photo-1579227547146-c25f441b4442?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmFkdWF0aW9uJTIwY2VyZW1vbnl8ZW58MHx8fHwxNzU4NjEwMDY5fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1579227547146-c25f441b4442?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmFkdWF0aW9uJTIwY2VyZW1vbnl8ZW58MHx8fHwxNzU4NjEwMDY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "graduation ceremony",
       "category": "event"
     },
@@ -139,7 +139,7 @@
     {
       "id": "event-3",
       "description": "Opening ceremony of the 'Dhaka Through Our Eyes' TCPC exhibition.",
-      "imageUrl": "https://images.unsplash.com/photo-1560801122-b59974a71aca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxvcGVuaW5nJTIwY2VyZW1vbnl8ZW58MHx8fHwxNzU4NjEyMTY4fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1560801122-b59974a71aca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxvcGVuaW5nJTIwY2VyZW1vbnl8ZW58MHx8fHwxNzU4NjEyMTY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "opening ceremony"
     },
     {
@@ -163,7 +163,7 @@
     {
       "id": "event-7",
       "description": "A boat at Sadarghat terminal, from a TCPC photo walk.",
-      "imageUrl": "https://images.unsplash.com/photo-1616997865668-97bb97499459?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxyaXZlciUyMGJvYXR8ZW58MHx8fHwxNzU4NjEyMTY4fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1616997865668-97bb97499459?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxyaXZlciUyMGJvYXR8ZW58MHx8fHwxNzU4NjEyMTY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "river boat"
     },
     {
@@ -175,7 +175,7 @@
     {
       "id": "event-9",
       "description": "The bustling morning activity at Sadarghat, captured by TCPC.",
-      "imageUrl": "https://images.unsplash.com/photo-1689701692313-601c6e782f94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxidXN5JTIwcG9ydHxlbnwwfHx8fDE3NTg2MTIxNjh8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1689701692313-601c6e782f94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxidXN5JTIwcG9ydHxlbnwwfHx8fDE3NTg2MTIxNjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "busy port"
     },
     {
@@ -199,7 +199,7 @@
       "name": "Jamal Ahmed",
       "role": "Secretary",
       "specialty": "Landscape & Travel",
-      "imageUrl": "https://images.unsplash.com/photo-1624262770204-188e8f1e4d5c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwZXJzb24lMjBuYXR1cmV8ZW58MHx8fHwxNzU4NTg4NTg2fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1624262770204-188e8f1e4d5c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwZXJzb24lMjBuYXR1cmV8ZW58MHx8fHwxNzU4NTg4NTg2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "person nature"
     },
     {
@@ -207,7 +207,7 @@
       "name": "Sadia Islam",
       "role": "Treasurer",
       "specialty": "Macro & Nature",
-      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b21hbiUyMHNtaWxpbmd8ZW58MHx8fHwxNzU4NTUwODkzfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b21hbiUyMHNtaWxpbmd8ZW58MHx8fHwxNzU4NTUwODkzfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "woman smiling"
     },
     {
@@ -215,7 +215,7 @@
       "name": "Rahim Ali",
       "role": "Member",
       "specialty": "Economics",
-      "imageUrl": "https://images.unsplash.com/photo-1522556189639-b150ed9c4330?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTg1ODI4MTZ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1522556189639-b150ed9c4330?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTg1ODI4MTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "man portrait"
     },
     {
@@ -223,7 +223,7 @@
       "name": "Nadia Chowdhury",
       "role": "Member",
       "specialty": "English",
-      "imageUrl": "https://images.unsplash.com/photo-1683334833238-12b2d2ab1394?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3b21hbiUyMGNhbmRpZHxlbnwwfHx8fDE3NTg2MTAwNjl8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1683334833238-12b2d2ab1394?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3b21hbiUyMGNhbmRpZHxlbnwwfHx8fDE3NTg2MTAwNjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "woman candid"
     },
     {
@@ -231,7 +231,7 @@
       "name": "Kamal Hossain",
       "role": "Member",
       "specialty": "Political Science",
-      "imageUrl": "https://images.unsplash.com/photo-1664543019179-61a7bfdbedad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYWxlJTIwb3V0ZG9vcnxlbnwwfHx8fDE3NTg2MTAwNjl8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1664543019179-61a7bfdbedad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYWxlJTIwb3V0ZG9vcnxlbnwwfHx8fDE3NTg2MTAwNjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "male outdoor"
     },
     {
@@ -239,7 +239,7 @@
       "name": "Fatima Begum",
       "role": "Member",
       "specialty": "Management",
-      "imageUrl": "https://images.unsplash.com/photo-1594327073408-a91f13a3a47d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmZW1hbGUlMjBuYXR1cmV8ZW58MHx8fHwxNzU4NjEwMDY5fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1594327073408-a91f13a3a47d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmZW1hbGUlMjBuYXR1cmV8ZW58MHx8fHwxNzU4NjEwMDY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "female nature"
     },
     {
@@ -247,7 +247,7 @@
       "name": "Arif Khan",
       "role": "Member",
       "specialty": "Marketing",
-      "imageUrl": "https://images.unsplash.com/photo-1602241389682-65ebfc849aa9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bWFuJTIwY2l0eXxlbnwwfHx8fDE3NTg2MTAwNjl8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1602241389682-65ebfc849aa9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bWFuJTIwY2l0eXxlbnwwfHx8fDE3NTg2MTAwNjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "man city"
     },
     {
@@ -255,7 +255,7 @@
       "name": "Sumaiya Akter",
       "role": "Member",
       "specialty": "Sociology",
-      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc1ODU1NDA2MXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc1ODU1NDA2MXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "woman portrait"
     },
     {
@@ -263,7 +263,7 @@
       "name": "Rizwan Ahmed",
       "role": "Member",
       "specialty": "Computer Science",
-      "imageUrl": "https://images.unsplash.com/photo-1537216559801-9cfef32e9b93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtYW4lMjBlYXRpbmd8ZW58MHx8fHwxNzU4NjEwMDY5fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1537216559801-9cfef32e9b93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtYW4lMjBlYXRpbmd8ZW58MHx8fHwxNzU4NjEwMDY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "man eating"
     },
     {
@@ -271,7 +271,7 @@
       "name": "Ishrat Jahan",
       "role": "Member",
       "specialty": "Accounting",
-      "imageUrl": "https://images.unsplash.com/photo-1571513722275-4b41940f54b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3b21hbiUyMGZhc2hpb258ZW58MHx8fHwxNzU4NTg2MDg2fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1571513722275-4b41940f54b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3b21hbiUyMGZhc2hpb258ZW58MHx8fHwxNzU4NTg2MDg2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "woman fashion"
     },
     {
@@ -287,7 +287,7 @@
       "name": "Farhana Yasmin",
       "role": "Member",
       "specialty": "Botany",
-      "imageUrl": "https://images.unsplash.com/photo-1659105355298-3c3d1376a2af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b21hbiUyMGluZG9vcnxlbnwwfHx8fDE3NTg2MTAwNjl8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1659105355298-3c3d1376a2af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b21hbiUyMGluZG9vcnxlbnwwfHx8fDE3NTg2MTAwNjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "woman indoor"
     },
     {
@@ -295,7 +295,7 @@
       "name": "Imran Mahmud",
       "role": "Member",
       "specialty": "Zoology",
-      "imageUrl": "https://images.unsplash.com/photo-1665072750074-f708730eab23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW4lMjBuZXdzcGFwZXJ8ZW58MHx8fHwxNzU4NjEwMDY5fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1665072750074-f708730eab23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW4lMjBuZXdzcGFwZXJ8ZW58MHx8fHwxNzU4NjEwMDY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "man newspaper"
     },
     {
@@ -303,7 +303,7 @@
       "name": "Jannatul Ferdous",
       "role": "Member",
       "specialty": "History",
-      "imageUrl": "https://images.unsplash.com/photo-1461468611824-46457c0e11fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3b21hbiUyMHRoaW5raW5nfGVufDB8fHx8MTc1ODU5MjkwNHww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1461468611824-46457c0e11fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3b21hbiUyMHRoaW5raW5nfGVufDB8fHx8MTc1ODU5MjkwNHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "woman thinking"
     },
     {
@@ -327,7 +327,7 @@
       "name": "Saidul Islam",
       "role": "Member",
       "specialty": "Bangla",
-      "imageUrl": "https://images.unsplash.com/photo-1594741606753-3411489e5e5e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtYW4lMjBuaWdodHxlbnwwfHx8fDE3NTg2MTAwNjl8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1594741606753-3411489e5e5e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtYW4lMjBuaWdodHxlbnwwfHx8fDE3NTg2MTAwNjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "man night"
     },
     {
@@ -351,7 +351,7 @@
       "name": "Maliha Rahman",
       "role": "Member",
       "specialty": "Mathematics",
-      "imageUrl": "https://images.unsplash.com/photo-1590973812604-f7d4c42eb66c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3b21hbiUyMG11c2V1bXxlbnwwfHx8fDE3NTg1OTg5MjJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1590973812604-f7d4c42eb66c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3b21hbiUyMG11c2V1bXxlbnwwfHx8fDE3NTg1OTg5MjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "woman museum"
     },
     {
@@ -367,7 +367,7 @@
       "name": "Tanzina Afroz",
       "role": "Member",
       "specialty": "Psychology",
-      "imageUrl": "https://images.unsplash.com/photo-1543428390-52250776dd46?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3b21hbiUyMHBob25lfGVufDB8fHx8MTc1ODYxMDA2OXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1543428390-52250776dd46?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3b21hbiUyMHBob25lfGVufDB8fHx8MTc1ODYxMDA2OXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "woman phone"
     },
     {
@@ -375,7 +375,7 @@
       "name": "Ashraful Alam",
       "role": "Member",
       "specialty": "Marketing",
-      "imageUrl": "https://images.unsplash.com/photo-1633918383146-46abc91dd5da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtYW4lMjB3YXRlcnxlbnwwfHx8fDE3NTg2MTAwNjl8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1633918383146-46abc91dd5da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtYW4lMjB3YXRlcnxlbnwwfHx8fDE3NTg2MTAwNjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "man water"
     },
     {
@@ -383,7 +383,7 @@
       "name": "Sharmin Akter",
       "role": "Member",
       "specialty": "English",
-      "imageUrl": "https://images.unsplash.com/photo-1631002475783-3c211089db26?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b21hbiUyMHNpbXBsZXxlbnwwfHx8fDE3NTg2MTAwNjl8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1631002475783-3c211089db26?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b21hbiUyMHNpbXBsZXxlbnwwfHx8fDE3NTg2MTAwNjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "woman simple"
     },
     {
@@ -391,7 +391,7 @@
       "name": "Rakibul Islam",
       "role": "Member",
       "specialty": "Management",
-      "imageUrl": "https://images.unsplash.com/photo-1713636220438-6cd52ddd58eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtYW4lMjBsaWdodHxlbnwwfHx8fDE3NTg2MTAwNjl8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1713636220438-6cd52ddd58eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtYW4lMjBsaWdodHxlbnwwfHx8fDE3NTg2MTAwNjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "man light"
     },
     {
@@ -407,7 +407,7 @@
       "name": "Mehedi Hasan",
       "role": "Member",
       "specialty": "Computer Science",
-      "imageUrl": "https://images.unsplash.com/photo-1487297977649-04b1dc408d93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtYW4lMjBzdW5zZXR8ZW58MHx8fHwxNzU4NjEwMDY5fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1487297977649-04b1dc408d93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtYW4lMjBzdW5zZXR8ZW58MHx8fHwxNzU4NjEwMDY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "man sunset"
     },
     {
@@ -415,7 +415,7 @@
       "name": "Sanjida Islam",
       "role": "Member",
       "specialty": "Political Science",
-      "imageUrl": "https://images.unsplash.com/photo-1610888937548-ca9e0be66cb9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3b21hbiUyMGR1c2t8ZW58MHx8fHwxNzU4NjEwMDY5fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1610888937548-ca9e0be66cb9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3b21hbiUyMGR1c2t8ZW58MHx8fHwxNzU4NjEwMDY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "woman dusk"
     },
     {
@@ -423,7 +423,7 @@
       "name": "Firoz Mahmud",
       "role": "Member",
       "specialty": "Finance",
-      "imageUrl": "https://images.unsplash.com/photo-1582694306039-d067e536e22a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bWFuJTIwdXJiYW58ZW58MHx8fHwxNzU4NjEwMDY5fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1582694306039-d067e536e22a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bWFuJTIwdXJiYW58ZW58MHx8fHwxNzU4NjEwMDY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "man urban"
     },
     {
@@ -439,7 +439,7 @@
       "name": "Sabbir Ahmed",
       "role": "Member",
       "specialty": "Sociology",
-      "imageUrl": "https://images.unsplash.com/photo-1585058825954-2fba50a23b7d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtYW4lMjBkaXl8ZW58MHx8fHwxNzU4NjEwMDY5fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1585058825954-2fba50a23b7d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtYW4lMjBkaXl8ZW58MHx8fHwxNzU4NjEwMDY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "man diy"
     },
     {
@@ -455,7 +455,7 @@
       "name": "Shamima Yasmin",
       "role": "Chief Advisor",
       "specialty": "Principal (Acting), Tejgaon College",
-      "imageUrl": "https://images.unsplash.com/photo-1524255684952-d7185b509571?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmZW1hbGUlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTg1ODQyNDJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1524255684952-d7185b509571?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmZW1hbGUlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTg1ODQyNDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "female portrait"
     },
     {
@@ -463,7 +463,7 @@
       "name": "Syed Muhammad Zubayer",
       "role": "Associate Advisor",
       "specialty": "Lecturer, Theatre and Media Studies",
-      "imageUrl": "https://images.unsplash.com/photo-1508341591423-4347099e1f19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtYWxlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzU4NTg0MjQyfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1508341591423-4347099e1f19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtYWxlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzU4NTg0MjQyfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "male portrait"
     },
     {
@@ -471,7 +471,7 @@
       "name": "Atiqul Islam",
       "role": "Associate Advisor",
       "specialty": "Lecturer, Theatre and Media Studies",
-      "imageUrl": "https://images.unsplash.com/photo-1678724755867-74cb720b99bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW4lMjBvdXRkb29yfGVufDB8fHx8MTc1ODU4Nzk0Nnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1678724755867-74cb720b99bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW4lMjBvdXRkb29yfGVufDB8fHx8MTc1ODU4Nzk0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "man outdoor"
     },
     {
@@ -486,7 +486,7 @@
       "id": "testimonial-2",
       "name": "Jamal Ahmed",
       "role": "Secretary",
-      "imageUrl": "https://images.unsplash.com/photo-1675908910500-2dcef146f9cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwZXJzb24lMjBuYXR1cmV8ZW58MHx8fHwxNzU4NTg4NTg2fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1675908910500-2dcef146f9cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwZXJzb24lMjBuYXR1cmV8ZW58MHx8fHwxNzU4NTg4NTg2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "person nature",
       "quote": "The TCPC photo walks are my favorite part. We get to explore such amazing places and I've learned so much about composition and lighting just by shooting alongside other members."
     },
@@ -494,7 +494,7 @@
       "id": "testimonial-3",
       "name": "Nadia Chowdhury",
       "role": "Member",
-      "imageUrl": "https://images.unsplash.com/photo-1706089846154-b640eea10ecb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b21hbiUyMGNhbmRpZHxlbnwwfHx8fDE3NTg2MTAwNjl8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1706089846154-b640eea10ecb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b21hbiUyMGNhbmRpZHxlbnwwfHx8fDE3NTg2MTAwNjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "woman candid",
       "quote": "I was a complete beginner when I joined TCPC and now I feel so much more confident with my camera. The community is so welcoming and always ready to help."
     },
@@ -502,7 +502,7 @@
       "id": "testimonial-4",
       "name": "Fahim Rahman",
       "role": "President",
-      "imageUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtYWxlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzU4NTg0MjQyfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtYWxlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzU4NTg0MjQyfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "male portrait",
       "quote": "As president of TCPC, it's amazing to see our members grow. We provide the platform, but it's their passion and creativity that truly makes this club special. We're a family."
     },
@@ -511,7 +511,7 @@
       "name": "Rizwan Ahmed",
       "role": "Member",
       "specialty": "Computer Science",
-      "imageUrl": "https://images.unsplash.com/photo-1581357008089-4f003ab54549?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bWFuJTIwZWF0aW5nfGVufDB8fHx8MTc1ODYxMDA2OXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1581357008089-4f003ab54549?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bWFuJTIwZWF0aW5nfGVufDB8fHx8MTc1ODYxMDA2OXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "man eating",
       "quote": "What I love most about TCPC is the sense of community. I've learned so much about street photography from just hanging out and shooting with other members. It pushed me to see my city in a new light."
     },
@@ -520,7 +520,7 @@
       "name": "Karim Benzema",
       "role": "Alumni",
       "specialty": "Batch of 2022",
-      "imageUrl": "https://images.unsplash.com/photo-1618374509396-6081512411ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtYW4lMjBzbWlsaW5nfGVufDB8fHx8MTc1ODU4NDI0Mnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1618374509396-6081512411ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtYW4lMjBzbWlsaW5nfGVufDB8fHx8MTc1ODU4NDI0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "man smiling"
     },
     {
@@ -528,7 +528,7 @@
       "name": "Maria Sharapova",
       "role": "Alumni",
       "specialty": "Batch of 2021",
-      "imageUrl": "https://images.unsplash.com/photo-1645224327778-99d9841d1a12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3b21hbiUyMGNvZmZlZXxlbnwwfHx8fDE3NTg1OTg5MjJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1645224327778-99d9841d1a12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3b21hbiUyMGNvZmZlZXxlbnwwfHx8fDE3NTg1OTg5MjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "woman coffee"
     },
     {
@@ -536,7 +536,7 @@
       "name": "David Beckham",
       "role": "Alumni",
       "specialty": "Batch of 2022",
-      "imageUrl": "https://images.unsplash.com/photo-1590874135246-e41e170811e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtYW4lMjBzbWlsaW5nfGVufDB8fHx8MTc1ODU4NDI0Mnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1590874135246-e41e170811e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtYW4lMjBzbWlsaW5nfGVufDB8fHx8MTc1ODU4NDI0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "man smiling"
     },
     {
@@ -544,7 +544,7 @@
       "name": "Serena Williams",
       "role": "Alumni",
       "specialty": "Batch of 2023",
-      "imageUrl": "https://images.unsplash.com/photo-1629732163133-7a9b441da025?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8d29tYW4lMjBzbWlsaW5nfGVufDB8fHx8MTc1ODU1MDg5M3ww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1629732163133-7a9b441da025?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8d29tYW4lMjBzbWlsaW5nfGVufDB8fHx8MTc1ODU1MDg5M3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "woman smiling"
     },
     {
@@ -552,8 +552,38 @@
       "name": "Zinedine Zidane",
       "role": "Alumni",
       "specialty": "Batch of 2021",
-      "imageUrl": "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTg1ODI4MTZ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTg1ODI4MTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "man portrait"
+    },
+    {
+      "id": "collaborator-1",
+      "name": "Zoology Club",
+      "imageUrl": "https://images.unsplash.com/photo-1708020290075-ce4ae69b8e95?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhbmltYWwlMjBuYXR1cmV8ZW58MHx8fHwxNzU4NjI3ODc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "animal nature"
+    },
+    {
+      "id": "collaborator-2",
+      "name": "Programming Club",
+      "imageUrl": "https://images.unsplash.com/photo-1635775017492-1eb935a082a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb2RlJTIwY29tcHV0ZXJ8ZW58MHx8fHwxNzU4NjAzODc4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "code computer"
+    },
+    {
+      "id": "collaborator-3",
+      "name": "Sociology Club",
+      "imageUrl": "https://images.unsplash.com/photo-1723202594801-bae926165ef9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwZW9wbGUlMjBjb21tdW5pdHl8ZW58MHx8fHwxNzU4NjE2NzI1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "people community"
+    },
+    {
+      "id": "collaborator-4",
+      "name": "Business Club",
+      "imageUrl": "https://images.unsplash.com/photo-1551836022-4c4c79ecde51?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxidXNpbmVzcyUyMG1lZXRpbmd8ZW58MHx8fHwxNzU4NTg1NjE2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "business meeting"
+    },
+    {
+      "id": "collaborator-5",
+      "name": "Debating Club",
+      "imageUrl": "https://images.unsplash.com/photo-1660795308005-031ed6ad1932?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzcGVlY2glMjBkZWJhdGV8ZW58MHx8fHwxNzU4NjI3ODc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "speech debate"
     }
   ]
 }
