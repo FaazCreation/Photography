@@ -8,6 +8,7 @@ const stats = [
     value: 2020,
     suffix: '',
     label: 'Founded',
+    separator: '',
   },
   {
     icon: <Users className="h-10 w-10 text-primary" />,
@@ -44,7 +45,7 @@ export function Stats() {
             <div key={stat.label} className="flex flex-col items-center justify-center space-y-2 text-center">
               {stat.icon}
               <p className="text-4xl font-bold text-primary">
-                <Counter end={stat.value} suffix={stat.suffix} />
+                <Counter end={stat.value} suffix={stat.suffix} separator={stat.separator} />
               </p>
               <p className="text-base font-semibold text-muted-foreground">{stat.label}</p>
             </div>

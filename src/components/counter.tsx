@@ -6,9 +6,10 @@ import { useInView } from 'react-intersection-observer';
 type CounterProps = {
   end: number;
   suffix?: string;
+  separator?: string;
 };
 
-export function Counter({ end, suffix }: CounterProps) {
+export function Counter({ end, suffix, separator = ',' }: CounterProps) {
   const { ref, inView } = useInView({
     triggerOnce: true,
     threshold: 0.1,
@@ -16,7 +17,7 @@ export function Counter({ end, suffix }: CounterProps) {
 
   return (
     <span ref={ref}>
-      {inView ? <CountUp end={end} duration={2.5} suffix={suffix} /> : '0'}
+      {inView ? <CountUp end={end} duration={2.5} suffix={suffix} separator={separator} /> : '0'}
     </span>
   );
 }
