@@ -87,11 +87,11 @@ const EventCard = ({ event }: { event: (typeof events)[0] }) => {
     return (
         <Card className="flex flex-col">
             <CardHeader>
-                <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2">
-                    <CardTitle className="pr-4">{event.title}</CardTitle>
-                    <Badge variant="secondary" className="w-fit mb-2 sm:mb-0 sm:order-first">{event.type}</Badge>
+                <CardTitle>{event.title}</CardTitle>
+                <div className="flex justify-between items-center">
+                    <Badge variant="secondary" className="w-fit">{event.type}</Badge>
                 </div>
-                <CardDescription className="flex items-center gap-2 pt-1">
+                <CardDescription className="flex items-center gap-2 pt-2">
                     <Calendar className="h-4 w-4" /> 
                     {event.date}
                 </CardDescription>
