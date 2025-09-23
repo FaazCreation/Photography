@@ -19,15 +19,16 @@ export function Collaborators() {
           {collaborators.map((collaborator) => (
             <div key={collaborator.id} className="group flex flex-col items-center justify-center space-y-2 rounded-lg bg-background p-2 text-center shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl aspect-square">
               <Card className="rounded-full overflow-hidden border-2 border-primary/10 w-16 h-16 md:w-20 md:h-20">
-                <CardContent className="p-0">
-                  <Image
-                    src={collaborator.imageUrl}
-                    alt={collaborator.name ? `Logo for ${collaborator.name}` : 'Collaborator Club Logo for TCPC'}
-                    width={100}
-                    height={100}
-                    className="object-cover w-full h-full transition-transform group-hover:scale-105"
-                    data-ai-hint={collaborator.imageHint}
-                  />
+                <CardContent className="p-2 h-full w-full">
+                  <div className="relative w-full h-full">
+                    <Image
+                      src={collaborator.imageUrl}
+                      alt={collaborator.name ? `Logo for ${collaborator.name}` : 'Collaborator Club Logo for TCPC'}
+                      fill
+                      className="object-contain transition-transform group-hover:scale-105"
+                      data-ai-hint={collaborator.imageHint}
+                    />
+                  </div>
                 </CardContent>
               </Card>
               <p className="text-xs font-semibold text-foreground text-center">{collaborator.name}</p>
