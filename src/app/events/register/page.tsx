@@ -11,12 +11,14 @@ import { UserCheck, Send } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { eventRegistrationSchema } from '@/lib/schemas';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import { Metadata } from 'next';
 
+// Metadata cannot be exported from a client component.
+/*
 export const metadata: Metadata = {
   title: 'Event Registration',
   description: 'Register for an upcoming event with the Tejgaon College Photography Club.',
 };
+*/
 
 // This would typically come from a database or API
 const upcomingEvents = [
