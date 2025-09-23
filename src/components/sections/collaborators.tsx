@@ -1,4 +1,3 @@
-
 import Image from 'next/image';
 import { getCollaboratorImages } from '@/lib/placeholder-images';
 import { AnimatedHeadline } from '@/components/animated-headline';
@@ -18,8 +17,8 @@ export function Collaborators() {
         </div>
         <div className="mx-auto grid max-w-6xl justify-center gap-6 pt-16 grid-cols-3 sm:grid-cols-4 md:grid-cols-6">
           {collaborators.map((collaborator) => (
-            <div key={collaborator.id} className="group flex flex-col items-center justify-center space-y-2">
-              <Card className="rounded-full overflow-hidden border-2 border-primary/10 w-20 h-20 md:w-24 md:h-24 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl bg-background">
+            <div key={collaborator.id} className="group flex flex-col items-center justify-center space-y-2 rounded-lg bg-background p-2 text-center shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl aspect-square">
+              <Card className="rounded-full overflow-hidden border-2 border-primary/10 w-16 h-16 md:w-20 md:h-20">
                 <CardContent className="p-2 h-full w-full">
                   <div className="relative w-full h-full">
                     <Image
