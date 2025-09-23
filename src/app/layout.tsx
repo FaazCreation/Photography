@@ -1,5 +1,3 @@
-'use client';
-
 import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 import { Header } from '@/components/layout/header';
@@ -8,7 +6,7 @@ import { Poppins } from 'next/font/google';
 import { cn } from '@/lib/utils';
 import { ThemeProvider } from '@/components/theme-provider';
 import { ScrollToTopButton } from '@/components/scroll-to-top-button';
-import { useEffect } from 'react';
+import { Metadata, Viewport } from 'next';
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -16,53 +14,76 @@ const poppins = Poppins({
   variable: '--font-sans',
 });
 
+const siteConfig = {
+  name: 'Tejgaon College Photography Club',
+  description: 'A vibrant community for student photographers at Tejgaon College, offering workshops, photo walks, and exhibitions to foster creativity and technical skill.',
+  url: 'https://your-domain.com', // Replace with your actual domain
+  ogImage: 'https://your-domain.com/og-image.png', // Replace with your OG image URL
+  links: {
+    twitter: 'https://twitter.com/your-profile', // Replace with your Twitter profile
+  },
+}
+
+export const metadata: Metadata = {
+  title: {
+    default: siteConfig.name,
+    template: `%s | ${siteConfig.name}`,
+  },
+  description: siteConfig.description,
+  keywords: ["Photography Club", "Tejgaon College", "Student Photography", "Dhaka", "Workshops", "Photo Walks"],
+  authors: [{ name: "Tejgaon College Photography Club" }],
+  creator: "Firebase Studio",
+  metadataBase: new URL(siteConfig.url),
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: siteConfig.url,
+    title: siteConfig.name,
+    description: siteConfig.description,
+    siteName: siteConfig.name,
+    images: [
+      {
+        url: siteConfig.ogImage,
+        width: 1200,
+        height: 630,
+        alt: siteConfig.name,
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: siteConfig.name,
+    description: siteConfig.description,
+    images: [siteConfig.ogImage],
+    creator: '@your-creator-handle', // Replace with your twitter handle
+  },
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon-16x16.png',
+    apple: '/apple-touch-icon.png',
+  },
+  manifest: `${siteConfig.url}/site.webmanifest`,
+};
+
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "white" },
+    { media: "(prefers-color-scheme: dark)", color: "black" },
+  ],
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  useEffect(() => {
-    const handleContextMenu = (e: MouseEvent) => {
-      e.preventDefault();
-    };
-
-    const handleKeyDown = (e: KeyboardEvent) => {
-      // Disable F12
-      if (e.key === 'F12') {
-        e.preventDefault();
-      }
-      // Disable Ctrl+Shift+I
-      if (e.ctrlKey && e.shiftKey && e.key === 'I') {
-        e.preventDefault();
-      }
-      // Disable Ctrl+Shift+J
-      if (e.ctrlKey && e.shiftKey && e.key === 'J') {
-        e.preventDefault();
-      }
-      // Disable Ctrl+U
-      if (e.ctrlKey && e.key === 'U') {
-        e.preventDefault();
-      }
-    };
-
-    document.addEventListener('contextmenu', handleContextMenu);
-    document.addEventListener('keydown', handleKeyDown);
-
-    return () => {
-      document.removeEventListener('contextmenu', handleContextMenu);
-      document.removeEventListener('keydown', handleKeyDown);
-    };
-  }, []);
 
   return (
     <html lang="en" className="scroll-smooth" suppressHydrationWarning>
-      <head>
-        <title>Tejgaon College Photography Club</title>
-        <meta name="description" content="A vibrant community for student photographers at Tejgaon College." />
-      </head>
+      <head />
       <body
         className={cn(
-          'min-h-screen bg-background font-sans antialiased flex flex-col',
+          'min-h-screen bg-background font-sans antialiased flex flex-col overflow-x-hidden',
           poppins.variable
         )}
       >

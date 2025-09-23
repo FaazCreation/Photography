@@ -2,6 +2,12 @@ import { About } from '@/components/sections/about';
 import { AdvisorPanel } from '@/components/sections/advisor-panel';
 import { AdvisorSpeech } from '@/components/sections/advisor-speech';
 import { MissionVision } from '@/components/sections/mission-vision';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'About Us',
+  description: 'Learn about the story, mission, and vision of the Tejgaon College Photography Club. Meet our advisors and understand our passion for photography.',
+};
 
 export default function AboutPage() {
   return (
@@ -11,7 +17,7 @@ export default function AboutPage() {
             <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl text-primary">
             Our Story
             </h1>
-            <p className="max-w-[900px] text-muted-foreground text-base md:text-lg">
+            <p className="max-w-[900px] text-muted-foreground text-base md:text-lg px-4">
             Learn more about who we are, what we do and why we do it.
             </p>
         </div>

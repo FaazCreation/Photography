@@ -2,6 +2,12 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/com
 import { Button } from "@/components/ui/button";
 import { Calendar, Camera, MapPin, PlusCircle } from "lucide-react";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: 'Upcoming Events',
+  description: 'Join the Tejgaon College Photography Club for our upcoming events. Find details on photo walks, workshops, guest speaker sessions, and exhibitions.',
+};
 
 const events = [
   {
@@ -41,7 +47,7 @@ export default function EventsPage() {
         <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl text-primary">
           Upcoming Events
         </h1>
-        <p className="max-w-[900px] text-muted-foreground text-base md:text-lg">
+        <p className="max-w-[900px] text-muted-foreground text-base md:text-lg px-4">
           Join us for workshops, photo walks and more. All events are free for members.
         </p>
          <Button asChild>

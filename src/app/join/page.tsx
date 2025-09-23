@@ -53,7 +53,7 @@ export default function JoinPage() {
         <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl text-primary">
           Become a Member
         </h1>
-        <p className="max-w-[900px] text-muted-foreground text-base md:text-lg">
+        <p className="max-w-[900px] text-muted-foreground text-base md:text-lg px-4">
           Ready to start your photography journey with us? Fill out the form below to apply for a standard membership.
         </p>
       </div>

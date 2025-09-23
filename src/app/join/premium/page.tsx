@@ -12,7 +12,6 @@ import { z } from "zod";
 import { premiumPaymentSchema } from "@/lib/schemas";
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
-import { Separator } from "@/components/ui/separator";
 
 const premiumBenefits = [
   'Priority access to club equipment',
@@ -63,7 +62,7 @@ export default function PremiumPage() {
                     <CardTitle className="text-3xl font-bold tracking-tighter sm:text-4xl text-primary mt-4">
                         Premium Membership
                     </CardTitle>
-                    <CardDescription className="text-xl text-muted-foreground">
+                    <CardDescription className="text-xl text-muted-foreground px-4">
                         Unlock your full creative potential.
                     </CardDescription>
                 </CardHeader>

@@ -10,6 +10,18 @@ import { Textarea } from '@/components/ui/textarea';
 import { useToast } from '@/hooks/use-toast';
 import { Mail, Send } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
+import { Metadata } from 'next';
+
+// This is a client component, but we can't export metadata from it.
+// We'll manage metadata from the parent or a separate file if this page were dynamic.
+// For now, this comment serves as a placeholder for where you'd define it.
+/*
+export const metadata: Metadata = {
+  title: 'Contact Us',
+  description: 'Get in touch with the Tejgaon College Photography Club. Send us a message for collaborations, questions, or just to say hello.',
+};
+*/
+
 
 const contactFormSchema = z.object({
   name: z.string().min(2, { message: 'Name must be at least 2 characters.' }),
@@ -47,7 +59,7 @@ export default function ContactPage() {
         <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl text-primary">
           Get in Touch
         </h1>
-        <p className="max-w-[900px] text-muted-foreground text-base md:text-lg">
+        <p className="max-w-[900px] text-muted-foreground text-base md:text-lg px-4">
           Have a question or want to collaborate? Send us a message.
         </p>
       </div>

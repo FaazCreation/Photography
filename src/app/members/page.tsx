@@ -4,6 +4,12 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { getAdvisorImages, getAdminPanelImages, getGeneralMemberImages } from "@/lib/placeholder-images";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: 'Our Members',
+  description: 'Meet the dedicated individuals of the Tejgaon College Photography Club, from our experienced advisor panel to our passionate general members.',
+};
 
 const MemberCard = ({ member }: { member: any }) => (
     <Card className="text-center group overflow-hidden">
@@ -40,7 +46,7 @@ export default function MembersPage() {
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl text-primary">
                     Our Club Structure
                 </h1>
-                <p className="max-w-[900px] text-muted-foreground text-base md:text-lg">
+                <p className="max-w-[900px] text-muted-foreground text-base md:text-lg px-4">
                     Meet the dedicated individuals who form the backbone of our club.
                 </p>
             </div>

@@ -1,6 +1,12 @@
 import Image from "next/image";
 import { getGalleryImages } from "@/lib/placeholder-images";
 import { Card, CardContent } from "@/components/ui/card";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: 'Gallery',
+  description: 'Explore the events gallery of the Tejgaon College Photography Club. A collection of moments captured during our workshops, photo walks, and events.',
+};
 
 export default function GalleryPage() {
   const galleryImages = getGalleryImages();
@@ -11,7 +17,7 @@ export default function GalleryPage() {
         <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl text-primary">
           Events Gallery
         </h1>
-        <p className="max-w-[900px] text-muted-foreground text-base md:text-lg">
+        <p className="max-w-[900px] text-muted-foreground text-base md:text-lg px-4">
           A collection of moments captured during our workshops, photo walks and events.
         </p>
       </div>

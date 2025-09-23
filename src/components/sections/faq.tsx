@@ -14,7 +14,7 @@ const faqItems = [
     },
     {
         question: "Is there a membership fee?",
-        answer: "There is a small annual fee for standard membership, which helps cover the costs of workshops, equipment maintenance, and events. We also offer a premium membership with additional benefits."
+        answer: "There is a small annual fee for standard membership, which helps cover the costs of workshops, equipment maintenance and events. We also offer a premium membership with additional benefits."
     },
     {
         question: "Do I need to own a professional camera?",
@@ -26,7 +26,7 @@ const faqItems = [
     },
     {
         question: "What kind of activities does the club organize?",
-        answer: "We organize a wide range of activities including technical workshops (e.g., lighting, post-processing), creative photo walks, guest speaker sessions with professional photographers, internal competitions, and an annual public exhibition."
+        answer: "We organize a wide range of activities including technical workshops (e.g., lighting, post-processing), creative photo walks, guest speaker sessions with professional photographers, internal competitions and an annual public exhibition."
     }
 ]
 
@@ -51,7 +51,7 @@ export function Faq() {
                 {faqItems.map((item, index) => (
                     <AccordionItem key={index} value={`item-${index + 1}`}>
                         <AccordionTrigger className="text-base sm:text-lg text-left hover:no-underline">{item.question}</AccordionTrigger>
-                        <AccordionContent className="text-sm sm:text-base text-muted-foreground">
+                        <AccordionContent className="text-sm sm:text-base text-muted-foreground pr-6">
                             {item.answer}
                         </AccordionContent>
                     </AccordionItem>
