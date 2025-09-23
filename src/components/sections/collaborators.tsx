@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import { getCollaboratorImages } from '../../lib/placeholder-images';
-import { AnimatedHeadline } from '../animated-headline';
-import { Card, CardContent } from '../ui/card';
+import { getCollaboratorImages } from '@/lib/placeholder-images';
+import { AnimatedHeadline } from '@/components/animated-headline';
+import { Card, CardContent } from '@/components/ui/card';
 
 export function Collaborators() {
   const collaborators = getCollaboratorImages();

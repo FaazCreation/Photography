@@ -1,6 +1,6 @@
 import { Calendar, Users, Camera, Milestone } from 'lucide-react';
-import { AnimatedHeadline } from '../animated-headline';
-import { Counter } from '../counter';
+import { AnimatedHeadline } from '@/components/animated-headline';
+import { Counter } from '@/components/counter';
 
 const stats = [
   {

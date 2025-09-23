@@ -2,7 +2,7 @@
 'use client';
 
 import { TypeAnimation } from 'react-type-animation';
-import { cn } from '../lib/utils';
+import { cn } from '@/lib/utils';
 import { useState, useEffect } from 'react';
 import { useInView } from 'react-intersection-observer';
 

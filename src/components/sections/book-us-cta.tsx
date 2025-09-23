@@ -1,7 +1,7 @@
 import Link from 'next/link';
-import { Button } from '../ui/button';
+import { Button } from '@/components/ui/button';
 import { CalendarCheck } from 'lucide-react';
-import { AnimatedHeadline } from '../animated-headline';
+import { AnimatedHeadline } from '@/components/animated-headline';
 
 export function BookUsCta() {
   return (

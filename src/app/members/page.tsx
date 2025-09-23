@@ -1,12 +1,12 @@
 import Image from "next/image";
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "../../components/ui/card";
-import { getAdvisorImages, getAdminPanelImages, getGeneralMemberImages, getImageById, getAlumniImages } from "../../lib/placeholder-images";
-import { Badge } from "../../components/ui/badge";
-import { Separator } from "../../components/ui/separator";
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import { getAdvisorImages, getAdminPanelImages, getGeneralMemberImages, getImageById, getAlumniImages } from "@/lib/placeholder-images";
+import { Badge } from "@/components/ui/badge";
+import { Separator } from "@/components/ui/separator";
 import { Metadata } from "next";
-import { Button } from "../../components/ui/button";
+import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { AnimatedHeadline } from "../../components/animated-headline";
+import { AnimatedHeadline } from "@/components/animated-headline";
 
 export const metadata: Metadata = {
   title: 'Our Members | TCPC',
@@ -49,7 +49,7 @@ const PhotographerOfTheMonth = () => {
                         This month, TCPC features one of our most dedicated members. Get to know the artist behind the lens.
                     </p>
                 </div>
-                <div className="grid gap-10 lg:grid-cols-2 lg:gap-8 items-center">
+                <div className="grid gap-6 lg:grid-cols-2 lg:gap-8 items-center">
                     <div className="flex items-center justify-center">
                         <Card className="overflow-hidden shadow-2xl rounded-lg max-w-md w-full">
                         <CardContent className="p-0">

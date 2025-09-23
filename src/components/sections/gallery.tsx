@@ -3,16 +3,16 @@
 import Image from 'next/image';
 import * as React from 'react';
 import Autoplay from 'embla-carousel-autoplay';
-import { Card, CardContent } from '../ui/card';
+import { Card, CardContent } from '@/components/ui/card';
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from '../ui/carousel';
-import { getGeneralMemberImages } from '../../lib/placeholder-images';
-import { AnimatedHeadline } from '../animated-headline';
+} from '@/components/ui/carousel';
+import { getGeneralMemberImages } from '@/lib/placeholder-images';
+import { AnimatedHeadline } from '@/components/animated-headline';
 
 export function Gallery() {
   const generalMembers = getGeneralMemberImages();

@@ -1,7 +1,7 @@
-import { About } from '../../components/sections/about';
-import { AdvisorPanel } from '../../components/sections/advisor-panel';
-import { AdvisorSpeech } from '../../components/sections/advisor-speech';
-import { MissionVision } from '../../components/sections/mission-vision';
+import { About } from '@/components/sections/about';
+import { AdvisorPanel } from '@/components/sections/advisor-panel';
+import { AdvisorSpeech } from '@/components/sections/advisor-speech';
+import { MissionVision } from '@/components/sections/mission-vision';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

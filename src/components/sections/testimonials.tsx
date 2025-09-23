@@ -5,15 +5,15 @@ import * as React from 'react';
 import Image from 'next/image';
 import Autoplay from 'embla-carousel-autoplay';
 
-import { Card, CardContent } from '../../components/ui/card';
+import { Card, CardContent } from '@/components/ui/card';
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from '../../components/ui/carousel';
-import { getTestimonials } from '../../lib/placeholder-images';
+} from '@/components/ui/carousel';
+import { getTestimonials } from '@/lib/placeholder-images';
 import { Quote } from 'lucide-react';
 
 export function Testimonials() {
@@ -58,12 +58,12 @@ export function Testimonials() {
                           "{testimonial.quote}"
                         </p>
                         <div className="mt-6 flex items-center gap-4">
-                          <div className="relative h-16 w-16">
+                          <div className="relative h-16 w-16 rounded-full overflow-hidden">
                             <Image
                                 src={testimonial.imageUrl}
                                 alt={testimonial.name!}
                                 fill
-                                className="rounded-full object-cover"
+                                className="object-cover"
                                 data-ai-hint={testimonial.imageHint}
                             />
                           </div>

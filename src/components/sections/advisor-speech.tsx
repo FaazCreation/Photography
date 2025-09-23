@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import { Card, CardContent } from '../ui/card';
-import { getImageById } from '../../lib/placeholder-images';
-import { Badge } from '../ui/badge';
+import { Card, CardContent } from '@/components/ui/card';
+import { getImageById } from '@/lib/placeholder-images';
+import { Badge } from '@/components/ui/badge';
 
 export function AdvisorSpeech() {
   const chiefAdvisor = getImageById('advisor-1');

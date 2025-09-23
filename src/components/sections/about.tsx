@@ -2,14 +2,14 @@
 'use client';
 
 import Image from 'next/image';
-import { Card, CardContent } from '../ui/card';
-import { getImageById } from '../../lib/placeholder-images';
-import { AnimatedHeadline } from '../animated-headline';
-import { TypingAnimation } from '../typing-animation';
-import { Button } from '../ui/button';
+import { Card, CardContent } from '@/components/ui/card';
+import { getImageById } from '@/lib/placeholder-images';
+import { AnimatedHeadline } from '@/components/animated-headline';
+import { TypingAnimation } from '@/components/typing-animation';
+import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 import { useState } from 'react';
-import { cn } from '../../lib/utils';
+import { cn } from '@/lib/utils';
 
 export function About() {
   const [typingFinished, setTypingFinished] = useState(false);

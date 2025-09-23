@@ -1,7 +1,7 @@
 import Image from "next/image";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../ui/card";
-import { getAdvisorImages } from "../../lib/placeholder-images";
-import { Badge } from "../ui/badge";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { getAdvisorImages } from "@/lib/placeholder-images";
+import { Badge } from "@/components/ui/badge";
 
 export function AdvisorPanel() {
   const advisors = getAdvisorImages();

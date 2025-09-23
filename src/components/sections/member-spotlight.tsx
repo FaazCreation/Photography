@@ -1,10 +1,10 @@
 
 import Image from 'next/image';
-import { Card, CardContent } from '../ui/card';
-import { getImageById } from '../../lib/placeholder-images';
-import { Badge } from '../ui/badge';
-import { AnimatedHeadline } from '../animated-headline';
-import { Button } from '../ui/button';
+import { Card, CardContent } from '@/components/ui/card';
+import { getImageById } from '@/lib/placeholder-images';
+import { Badge } from '@/components/ui/badge';
+import { AnimatedHeadline } from '@/components/animated-headline';
+import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 
 export function MemberSpotlight() {
@@ -19,7 +19,7 @@ export function MemberSpotlight() {
                 This month, TCPC features one of our most dedicated members. Get to know the artist behind the lens.
             </p>
         </div>
-        <div className="grid gap-10 lg:grid-cols-2 lg:gap-8 items-center">
+        <div className="grid gap-6 lg:grid-cols-2 lg:gap-8 items-center">
            <div className="flex items-center justify-center">
             <Card className="overflow-hidden shadow-2xl rounded-lg max-w-md w-full">
               <CardContent className="p-0">
