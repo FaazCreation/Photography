@@ -52,3 +52,7 @@ export function getAdvisorImages(): ImagePlaceholder[] {
 export function getTestimonials(): ImagePlaceholder[] {
   return placeholderImages.filter(img => img.id.startsWith('testimonial-'));
 }
+
+export function getEventImages(ids: string[]): ImagePlaceholder[] {
+  return placeholderImages.filter(img => ids.includes(img.id));
+}
