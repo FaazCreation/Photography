@@ -40,15 +40,15 @@ export function WhatWeProvide() {
     <section id="benefits" className="w-full py-12 md:py-24 lg:py-32 animate-fade-in-up [animation-delay:0.6s] animation-duration-1000">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center space-y-4 text-center">
-          <AnimatedHeadline text="What We Provide" className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl" />
+          <AnimatedHeadline text="What We Provide" />
           <p className="max-w-[900px] text-muted-foreground text-base md:text-lg">
             As a member of our club, you'll receive access to a wide range of resources and opportunities to fuel your passion for photography.
           </p>
         </div>
         <div className="mx-auto grid max-w-7xl gap-8 pt-12 sm:grid-cols-2 lg:grid-cols-3">
           {benefits.map((benefit, index) => (
-            <Card key={index} className="flex flex-col text-center items-center p-6 bg-secondary/50 border-0 shadow-none">
-              <CardHeader className="p-0">
+            <Card key={index} className="text-center p-6 bg-secondary/50 border-0 shadow-none">
+              <CardHeader className="p-0 flex flex-col items-center">
                 {benefit.icon}
                 <CardTitle className="mt-4 text-xl">{benefit.title}</CardTitle>
               </CardHeader>

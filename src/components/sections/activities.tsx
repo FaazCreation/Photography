@@ -30,15 +30,15 @@ export function Activities() {
     <section id="activities" className="w-full py-12 md:py-24 lg:py-32 bg-secondary">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center space-y-4 text-center">
-          <AnimatedHeadline text="Workshops & Activities" className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl" />
+          <AnimatedHeadline text="Workshops & Activities" />
           <p className="max-w-[900px] text-muted-foreground text-base md:text-lg">
             Engage, learn, and grow with our diverse range of activities tailored for every photography enthusiast.
           </p>
         </div>
         <div className="mx-auto grid max-w-5xl items-start gap-8 sm:grid-cols-2 md:grid-cols-4 pt-12">
           {activities.map((activity, index) => (
-            <Card key={index} className="text-center flex flex-col items-center p-6 bg-background">
-              <CardHeader className="p-0">
+            <Card key={index} className="text-center p-6 bg-background">
+              <CardHeader className="p-0 flex flex-col items-center">
                 {activity.icon}
                 <CardTitle className="mt-4 text-xl">{activity.title}</CardTitle>
               </CardHeader>
