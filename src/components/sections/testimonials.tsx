@@ -5,17 +5,16 @@ import * as React from 'react';
 import Image from 'next/image';
 import Autoplay from 'embla-carousel-autoplay';
 
-import { Card, CardContent } from '../ui/card';
+import { Card, CardContent } from '../../components/ui/card';
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from '../ui/carousel';
+} from '../../components/ui/carousel';
 import { getTestimonials } from '../../lib/placeholder-images';
 import { Quote } from 'lucide-react';
-import { AnimatedHeadline } from '../animated-headline';
 
 export function Testimonials() {
   const testimonials = getTestimonials();
@@ -29,7 +28,10 @@ export function Testimonials() {
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
-            <AnimatedHeadline text="What Our Members Say" className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl" />
+             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-primary leading-tight">
+                <span className="sm:hidden">Words of Appreciation</span>
+                <span className="hidden sm:inline">What Our Members Say</span>
+            </h2>
             <p className="max-w-[900px] text-muted-foreground text-base md:text-lg">
               Hear directly from our community about their experiences with the club.
             </p>
@@ -56,14 +58,15 @@ export function Testimonials() {
                           "{testimonial.quote}"
                         </p>
                         <div className="mt-6 flex items-center gap-4">
-                          <Image
-                            src={testimonial.imageUrl}
-                            alt={testimonial.name!}
-                            width={64}
-                            height={64}
-                            className="rounded-full object-cover"
-                            data-ai-hint={testimonial.imageHint}
-                          />
+                          <div className="relative h-16 w-16">
+                            <Image
+                                src={testimonial.imageUrl}
+                                alt={testimonial.name!}
+                                fill
+                                className="rounded-full object-cover"
+                                data-ai-hint={testimonial.imageHint}
+                            />
+                          </div>
                           <div>
                             <p className="font-semibold text-left">{testimonial.name}</p>
                             <p className="text-sm text-muted-foreground text-left">{testimonial.role}</p>
