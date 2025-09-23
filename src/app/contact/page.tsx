@@ -8,22 +8,19 @@ import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { useToast } from '@/hooks/use-toast';
-import { Mail, Send } from 'lucide-react';
+import { Mail, Send, MapPin, Info } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { contactFormSchema } from '@/lib/schemas';
-
-
-// This is a client component, but we can't export metadata from it.
-// We'll manage metadata from the parent or a separate file if this page were dynamic.
-// For now, this comment serves as a placeholder for where you'd define it.
-/*
-export const metadata: Metadata = {
-  title: 'Contact Us',
-  description: 'Get in touch with the Tejgaon College Photography Club. Send us a message for collaborations, questions, or just to say hello.',
-};
-*/
+import { SocialIcon } from 'react-social-icons';
+import { Separator } from '@/components/ui/separator';
 
 type ContactFormValues = z.infer<typeof contactFormSchema>;
+
+const socialLinks = [
+  { network: 'facebook', url: 'https://facebook.com/your-club' },
+  { network: 'instagram', url: 'https://instagram.com/your-club' },
+  { network: 'x', url: 'https://x.com/your-club' },
+];
 
 export default function ContactPage() {
   const { toast } = useToast();
@@ -54,15 +51,72 @@ export default function ContactPage() {
           Get in Touch
         </h1>
         <p className="max-w-[900px] text-muted-foreground text-base md:text-lg px-4">
-          Have a question or want to collaborate? Send us a message.
+          Have a question or want to collaborate? Send us a message or find us online.
         </p>
       </div>
 
-      <div className="mx-auto max-w-2xl pt-12">
-        <Card>
+      <div className="mx-auto max-w-6xl pt-12 grid grid-cols-1 lg:grid-cols-2 lg:gap-12 items-start">
+        
+        <Card className="order-2 lg:order-1 mt-12 lg:mt-0">
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
-                <Mail />
+                <Info />
+                Contact Information
+            </CardTitle>
+             <CardDescription>
+                Other ways to connect with us.
+            </CardDescription>
+          </CardHeader>
+          <CardContent className="space-y-6">
+              <div className="flex items-start gap-4">
+                <div className="bg-primary/10 p-3 rounded-full flex-shrink-0">
+                    <Mail className="h-6 w-6 text-primary" />
+                </div>
+                <div>
+                    <p className="font-semibold text-foreground">Club Email</p>
+                    <a href="mailto:contact@tcpc.edu" className="text-muted-foreground hover:text-primary transition-colors">
+                        contact@tcpc.edu
+                    </a>
+                </div>
+              </div>
+
+              <Separator />
+
+              <div className="flex items-start gap-4">
+                <div className="bg-primary/10 p-3 rounded-full flex-shrink-0">
+                    <MapPin className="h-6 w-6 text-primary" />
+                </div>
+                <div>
+                    <p className="font-semibold text-foreground">Our Location</p>
+                    <p className="text-muted-foreground">Room 304, Arts Building</p>
+                    <p className="text-muted-foreground">Tejgaon College, Dhaka-1215</p>
+                </div>
+              </div>
+
+              <Separator />
+
+               <div>
+                    <p className="font-semibold text-foreground mb-4">Follow Us</p>
+                    <div className="flex items-center gap-4">
+                      {socialLinks.map((social) => (
+                        <SocialIcon 
+                            key={social.network} 
+                            url={social.url} 
+                            style={{ height: 40, width: 40 }}
+                            className="hover:scale-110 transition-transform" 
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        />
+                      ))}
+                    </div>
+               </div>
+          </CardContent>
+        </Card>
+        
+        <Card className="order-1 lg:order-2">
+          <CardHeader>
+            <CardTitle className="flex items-center gap-2">
+                <Send />
                 Send us a Message
             </CardTitle>
             <CardDescription>
