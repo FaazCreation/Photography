@@ -3,15 +3,15 @@
 import Image from 'next/image';
 import * as React from 'react';
 import Autoplay from 'embla-carousel-autoplay';
-import { Card, CardContent } from '@/components/ui/card';
+import { Card, CardContent } from '../ui/card';
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from '@/components/ui/carousel';
-import { getGeneralMemberImages } from '@/lib/placeholder-images';
+} from '../ui/carousel';
+import { getGeneralMemberImages } from '../../lib/placeholder-images';
 import { AnimatedHeadline } from '../animated-headline';
 
 export function Gallery() {

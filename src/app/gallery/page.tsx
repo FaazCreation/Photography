@@ -1,16 +1,16 @@
 'use client';
 
 import Image from 'next/image';
-import { getGalleryPageImages, ImagePlaceholder } from '@/lib/placeholder-images';
-import { Card, CardContent } from '@/components/ui/card';
+import { getGalleryPageImages, ImagePlaceholder } from '../lib/placeholder-images';
+import { Card, CardContent } from '../components/ui/card';
 import { Metadata } from 'next';
 import { useState, useMemo, useCallback } from 'react';
-import { Button } from '@/components/ui/button';
+import { Button } from '../components/ui/button';
 import {
   Dialog,
   DialogContent,
   DialogClose,
-} from '@/components/ui/dialog';
+} from '../components/ui/dialog';
 import { ChevronLeft, ChevronRight, X } from 'lucide-react';
 import { useHotkeys } from 'react-hotkeys-hook';
 

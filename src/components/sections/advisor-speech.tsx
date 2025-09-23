@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import { Card, CardContent } from '@/components/ui/card';
-import { getImageById } from '@/lib/placeholder-images';
+import { Card, CardContent } from '../ui/card';
+import { getImageById } from '../../lib/placeholder-images';
 import { Badge } from '../ui/badge';
 
 export function AdvisorSpeech() {

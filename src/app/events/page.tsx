@@ -1,13 +1,13 @@
 'use client';
 
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "../components/ui/card";
+import { Button } from "../components/ui/button";
 import { Calendar, Camera, MapPin, CheckCircle } from "lucide-react";
 import Link from "next/link";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { getEventImages } from "@/lib/placeholder-images";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "../components/ui/tabs";
+import { getEventImages } from "../lib/placeholder-images";
 import Image from "next/image";
-import { Badge } from "@/components/ui/badge";
+import { Badge } from "../components/ui/badge";
 
 // Metadata cannot be exported from a client component.
 // This is a placeholder for where you would define it if this were a server component.
@@ -88,9 +88,7 @@ const EventCard = ({ event }: { event: (typeof events)[0] }) => {
         <Card className="flex flex-col">
             <CardHeader>
                 <CardTitle>{event.title}</CardTitle>
-                <div className="flex justify-between items-center">
-                    <Badge variant="secondary" className="w-fit">{event.type}</Badge>
-                </div>
+                <Badge variant="secondary" className="w-fit mt-1">{event.type}</Badge>
                 <CardDescription className="flex items-center gap-2 pt-2">
                     <Calendar className="h-4 w-4" /> 
                     {event.date}

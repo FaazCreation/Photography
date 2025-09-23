@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import { Button } from '@/components/ui/button';
-import { getImageById } from '@/lib/placeholder-images';
+import { Button } from '../ui/button';
+import { getImageById } from '../../lib/placeholder-images';
 import Link from 'next/link';
 
 export function Hero() {

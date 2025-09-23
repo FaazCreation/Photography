@@ -1,5 +1,5 @@
 import { Camera, Image, Map, Trophy } from "lucide-react";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "../ui/card";
 import { AnimatedHeadline } from "../animated-headline";
 
 const activities = [

@@ -5,15 +5,15 @@ import * as React from 'react';
 import Image from 'next/image';
 import Autoplay from 'embla-carousel-autoplay';
 
-import { Card, CardContent } from '@/components/ui/card';
+import { Card, CardContent } from '../ui/card';
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from '@/components/ui/carousel';
-import { getTestimonials } from '@/lib/placeholder-images';
+} from '../ui/carousel';
+import { getTestimonials } from '../../lib/placeholder-images';
 import { Quote } from 'lucide-react';
 import { AnimatedHeadline } from '../animated-headline';
 

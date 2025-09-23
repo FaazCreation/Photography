@@ -2,12 +2,12 @@
 
 import * as React from 'react';
 import { Camera, Menu } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
+import { Button } from '../ui/button';
+import { Sheet, SheetContent, SheetTrigger } from '../ui/sheet';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { cn } from '@/lib/utils';
-import { ThemeToggle } from '@/components/theme-toggle';
+import { cn } from '../../lib/utils';
+import { ThemeToggle } from '../theme-toggle';
 import { Separator } from '../ui/separator';
 
 const navLinks = [
