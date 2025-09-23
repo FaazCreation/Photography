@@ -49,7 +49,7 @@ const PhotographerOfTheMonth = () => {
                         This month, TCPC features one of our most dedicated members. Get to know the artist behind the lens.
                     </p>
                 </div>
-                <div className="grid gap-10 lg:grid-cols-2 lg:gap-16 items-center">
+                <div className="grid gap-10 lg:grid-cols-2 lg:gap-8 items-center">
                     <div className="flex items-center justify-center">
                         <Card className="overflow-hidden shadow-2xl rounded-lg max-w-md w-full">
                         <CardContent className="p-0">
@@ -58,7 +58,7 @@ const PhotographerOfTheMonth = () => {
                             alt={spotlightMember.name || 'Portrait of a featured member from Tejgaon College Photography Club (TCPC)'}
                             width={600}
                             height={600}
-                            className="object-cover w-full h-full aspect-square"
+                            className="object-cover object-top w-full h-full aspect-square"
                             data-ai-hint={spotlightMember.imageHint}
                             />
                         </CardContent>
