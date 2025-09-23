@@ -1,14 +1,17 @@
 
 import Image from "next/image";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { getAdvisorImages, getAdminPanelImages, getGeneralMemberImages } from "@/lib/placeholder-images";
+import { getAdvisorImages, getAdminPanelImages, getGeneralMemberImages, getImageById, getAlumniImages } from "@/lib/placeholder-images";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { Metadata } from "next";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
+import { AnimatedHeadline } from "@/components/animated-headline";
 
 export const metadata: Metadata = {
   title: 'Our Members',
-  description: 'Meet the dedicated individuals of the Tejgaon College Photography Club, from our experienced advisor panel to our passionate general members.',
+  description: 'Meet the dedicated individuals of the Tejgaon College Photography Club, from our experienced advisor panel to our passionate general members and distinguished alumni.',
 };
 
 const MemberCard = ({ member }: { member: any }) => (
@@ -35,10 +38,60 @@ const MemberCard = ({ member }: { member: any }) => (
     </Card>
 );
 
+
+const PhotographerOfTheMonth = () => {
+    const spotlightMember = getImageById('spotlight-1');
+    return (
+        <section className="bg-secondary py-12 md:py-24 lg:py-32">
+            <div className="container">
+                 <div className="flex flex-col items-center space-y-4 text-center mb-12">
+                    <AnimatedHeadline text="Photographer of the Month" />
+                    <p className="max-w-[700px] text-muted-foreground text-base md:text-lg">
+                        This month, we're featuring one of our most dedicated members. Get to know the artist behind the lens.
+                    </p>
+                </div>
+                <div className="grid gap-10 lg:grid-cols-2 lg:gap-16 items-center">
+                    <div className="flex items-center justify-center">
+                        <Card className="overflow-hidden shadow-2xl rounded-lg max-w-md w-full">
+                        <CardContent className="p-0">
+                            <Image
+                            src={spotlightMember.imageUrl}
+                            alt={spotlightMember.name || 'Portrait of member'}
+                            width={600}
+                            height={600}
+                            className="object-cover w-full h-full aspect-square"
+                            data-ai-hint={spotlightMember.imageHint}
+                            />
+                        </CardContent>
+                        </Card>
+                    </div>
+                    <div className="space-y-4">
+                        <Badge>Featured Member</Badge>
+                        <h3 className="text-3xl font-bold tracking-tighter text-primary">
+                            {spotlightMember.name}
+                        </h3>
+                        <div className="prose max-w-full text-muted-foreground text-base md:text-lg">
+                            <p>
+                                "{spotlightMember.quote}"
+                            </p>
+                        </div>
+                        <div className='pt-2'>
+                            <p className='font-bold'>{spotlightMember.name}</p>
+                            <p className='text-sm text-muted-foreground'>{spotlightMember.role}, {spotlightMember.specialty}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
+};
+
+
 export default function MembersPage() {
     const advisors = getAdvisorImages();
-    const adminPanel = getAdminPanelImages();
-    const generalMembers = getGeneralMemberImages();
+    const committee = getAdminPanelImages();
+    const activeMembers = getGeneralMemberImages();
+    const alumni = getAlumniImages();
 
     return (
         <div className="container py-12 md:py-24 lg:py-32">
@@ -47,7 +100,7 @@ export default function MembersPage() {
                     Our Club Structure
                 </h1>
                 <p className="max-w-[900px] text-muted-foreground text-base md:text-lg px-4">
-                    Meet the dedicated individuals who form the backbone of our club.
+                    Meet the dedicated individuals who form the backbone of our club, from our advisors and committee to our talented members and alumni.
                 </p>
             </div>
 
@@ -66,27 +119,46 @@ export default function MembersPage() {
 
                 <Separator />
 
-                {/* Admin Panel Section */}
+                {/* Current Committee Section */}
                 <section>
                     <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl text-center mb-8">
-                        Admin Panel
+                        Current Committee
                     </h2>
                     <div className="mx-auto grid max-w-6xl gap-8 grid-cols-1 xs:grid-cols-2 lg:grid-cols-4">
-                        {adminPanel.map((member) => (
+                        {committee.map((member) => (
+                            <MemberCard key={member.id} member={member} />
+                        ))}
+                    </div>
+                </section>
+            </div>
+
+            {/* Photographer of the month - full width section */}
+            <div className="my-16 -mx-4 sm:-mx-6 md:-mx-8 lg:-mx-16 xl:-mx-32">
+                <PhotographerOfTheMonth />
+            </div>
+
+            <div className="space-y-16">
+                 {/* Active Members Section */}
+                <section>
+                    <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl text-center mb-8">
+                        Active Members
+                    </h2>
+                    <div className="mx-auto grid max-w-6xl gap-8 pt-2 grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5">
+                        {activeMembers.map((member) => (
                             <MemberCard key={member.id} member={member} />
                         ))}
                     </div>
                 </section>
 
                 <Separator />
-
-                {/* General Members Section */}
+                
+                {/* Alumni Section */}
                 <section>
                     <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl text-center mb-8">
-                        General Members
+                        Our Alumni
                     </h2>
                     <div className="mx-auto grid max-w-6xl gap-8 pt-2 grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5">
-                        {generalMembers.map((member) => (
+                        {alumni.map((member) => (
                             <MemberCard key={member.id} member={member} />
                         ))}
                     </div>

@@ -127,55 +127,55 @@
     {
       "id": "event-1",
       "description": "Guests observing photos at the exhibition.",
-      "imageUrl": "https://images.unsplash.com/photo-1733947491884-e4a8ff11b3d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxleGhpYml0aW9uJTIwZ3Vlc3RzfGVufDB8fHx8MTc1ODYxMjE2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1733947491884-e4a8ff11b3d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxleGhpYml0aW9uJTIwZ3Vlc3RzfGVufDB8fHx8MTc1ODYxMjE2OHww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "exhibition guests"
     },
     {
       "id": "event-2",
       "description": "A featured photograph at the annual exhibition.",
-      "imageUrl": "https://images.unsplash.com/photo-1650260875513-b63b35156c88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZmVhdHVyZWQlMjBwaG90b3xlbnwwfHx8fDE3NTg2MTIxNjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1650260875513-b63b35156c88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZmVhdHVyZWQlMjBwaG90b3xlbnwwfHx8fDE3NTg2MTIxNjh8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "featured photo"
     },
     {
       "id": "event-3",
       "description": "Opening ceremony of the 'Dhaka Through Our Eyes' exhibition.",
-      "imageUrl": "https://images.unsplash.com/photo-1560801122-b59974a71aca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxvcGVuaW5nJTIwY2VyZW1vbnl8ZW58MHx8fHwxNzU4NjEyMTY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1560801122-b59974a71aca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxvcGVuaW5nJTIwY2VyZW1vbnl8ZW58MHx8fHwxNzU4NjEyMTY4fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "opening ceremony"
     },
     {
       "id": "event-4",
       "description": "Winning entry of the Monsoon Moments contest.",
-      "imageUrl": "https://images.unsplash.com/photo-1695055439415-bcdc5c48e613?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtb25zb29uJTIwcGhvdG98ZW58MHx8fHwxNzU4NjEyMTY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-169505543915-bcdc5c48e613?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtb25zb29uJTIwcGhvdG98ZW58MHx8fHwxNzU4NjEyMTY4fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "monsoon photo"
     },
     {
       "id": "event-5",
       "description": "Runner-up photo from the monsoon competition.",
-      "imageUrl": "https://images.unsplash.com/photo-1528402520525-05f8b9608a6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxyYWlueSUyMGRheXxlbnwwfHx8fDE3NTg2MTIxNjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1528402520525-05f8b9608a6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxyYWlueSUyMGRheXxlbnwwfHx8fDE3NTg2MTIxNjl8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "rainy day"
     },
     {
       "id": "event-6",
       "description": "An honorable mention from the contest.",
-      "imageUrl": "https://images.unsplash.com/photo-1488642945284-f5b65425f15a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8d2F0ZXIlMjBkcm9wc3xlbnwwfHx8fDE3NTg2MTIxNjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1488642945284-f5b65425f15a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8d2F0ZXIlMjBkcm9wc3xlbnwwfHx8fDE3NTg2MTIxNjh8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "water drops"
     },
     {
       "id": "event-7",
       "description": "A boat at Sadarghat terminal.",
-      "imageUrl": "https://images.unsplash.com/photo-1616997865668-97bb97499459?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxyaXZlciUyMGJvYXR8ZW58MHx8fHwxNzU4NjEyMTY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1616997865668-97bb97499459?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxyaXZlciUyMGJvYXR8ZW58MHx8fHwxNzU4NjEyMTY4fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "river boat"
     },
     {
       "id": "event-8",
       "description": "Portrait of a worker at the terminal.",
-      "imageUrl": "https://images.unsplash.com/photo-1679679811837-c28b2586f533?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b3JrZXIlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTg2MTE1OTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1679679811837-c28b2586f533?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b3JrZXIlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTg2MTE1OTV8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "worker portrait"
     },
     {
       "id": "event-9",
       "description": "The bustling morning activity at Sadarghat.",
-      "imageUrl": "https://images.unsplash.com/photo-1689701692313-601c6e782f94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxidXN5JTIwcG9ydHxlbnwwfHx8fDE3NTg2MTIxNjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1689701692313-601c6e782f94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxidXN5JTIwcG9ydHxlbnwwfHx8fDE3NTg2MTIxNjh8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "busy port"
     },
     {
@@ -514,6 +514,46 @@
       "imageUrl": "https://images.unsplash.com/photo-1581357008089-4f003ab54549?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bWFuJTIwZWF0aW5nfGVufDB8fHx8MTc1ODYxMDA2OXww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "man eating",
       "quote": "What I love most about the club is the sense of community. I've learned so much about street photography from just hanging out and shooting with other members. It pushed me to see my city in a new light."
+    },
+    {
+      "id": "alumni-1",
+      "name": "Karim Benzema",
+      "role": "Alumni",
+      "specialty": "Batch of 2022",
+      "imageUrl": "https://images.unsplash.com/photo-1618374509396-6081512411ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtYW4lMjBzbWlsaW5nfGVufDB8fHx8MTc1ODU4NDI0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man smiling"
+    },
+    {
+      "id": "alumni-2",
+      "name": "Maria Sharapova",
+      "role": "Alumni",
+      "specialty": "Batch of 2021",
+      "imageUrl": "https://images.unsplash.com/photo-1645224327778-99d9841d1a12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3b21hbiUyMGNvZmZlZXxlbnwwfHx8fDE3NTg1OTg5MjJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman coffee"
+    },
+    {
+      "id": "alumni-3",
+      "name": "David Beckham",
+      "role": "Alumni",
+      "specialty": "Batch of 2022",
+      "imageUrl": "https://images.unsplash.com/photo-1590874135246-e41e170811e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtYW4lMjBzbWlsaW5nfGVufDB8fHx8MTc1ODU4NDI0Mnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "man smiling"
+    },
+    {
+      "id": "alumni-4",
+      "name": "Serena Williams",
+      "role": "Alumni",
+      "specialty": "Batch of 2023",
+      "imageUrl": "https://images.unsplash.com/photo-1629732163133-7a9b441da025?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8d29tYW4lMjBzbWlsaW5nfGVufDB8fHx8MTc1ODU1MDg5M3ww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman smiling"
+    },
+    {
+      "id": "alumni-5",
+      "name": "Zinedine Zidane",
+      "role": "Alumni",
+      "specialty": "Batch of 2021",
+      "imageUrl": "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTg1ODI4MTZ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
     }
   ]
 }

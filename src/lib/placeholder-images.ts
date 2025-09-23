@@ -1,3 +1,4 @@
+
 import data from './placeholder-images.json';
 
 export type ImagePlaceholder = {
@@ -55,4 +56,8 @@ export function getTestimonials(): ImagePlaceholder[] {
 
 export function getEventImages(ids: string[]): ImagePlaceholder[] {
   return placeholderImages.filter(img => ids.includes(img.id));
+}
+
+export function getAlumniImages(): ImagePlaceholder[] {
+  return placeholderImages.filter(img => img.id.startsWith('alumni-'));
 }
