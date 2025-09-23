@@ -2,7 +2,7 @@
   "placeholderImages": [
     {
       "id": "hero-image",
-      "description": "A dramatic landscape photo representing creative vision at Tejgaon College Photography Club.",
+      "description": "A dramatic landscape photo representing creative vision at Tejgaon College Photography Club (TCPC).",
       "imageUrl": "/assets/images/hero-image.jpg",
       "imageHint": "dramatic landscape"
     },
@@ -21,14 +21,14 @@
     },
     {
       "id": "gallery-2",
-      "description": "A stunning portrait with beautiful natural lighting, from a Tejgaon College Photography Club workshop.",
+      "description": "A stunning portrait with beautiful natural lighting, from a Tejgaon College Photography Club (TCPC) workshop.",
       "imageUrl": "/assets/images/gallery-2.jpg",
       "imageHint": "portrait lighting",
       "category": "portraits"
     },
     {
       "id": "gallery-3",
-      "description": "A black and white photo of Tejgaon College campus architecture.",
+      "description": "A black and white photo of Tejgaon College campus architecture, taken by a member of the Tejgaon College Photography Club (TCPC).",
       "imageUrl": "/assets/images/gallery-3.jpg",
       "imageHint": "campus architecture",
       "category": "campus"
@@ -42,7 +42,7 @@
     },
     {
       "id": "gallery-5",
-      "description": "A beautiful sunset over a mountain landscape captured by Tejgaon College Photography Club.",
+      "description": "A beautiful sunset over a mountain landscape captured by Tejgaon College Photography Club (TCPC).",
       "imageUrl": "/assets/images/gallery-5.jpg",
       "imageHint": "sunset landscape",
       "category": "nature-street"
@@ -63,14 +63,14 @@
     },
     {
       "id": "gallery-8",
-      "description": "Exploring light and shadow in a portrait session at Tejgaon College Photography Club.",
+      "description": "Exploring light and shadow in a portrait session at Tejgaon College Photography Club (TCPC).",
       "imageUrl": "/assets/images/gallery-8.jpg",
       "imageHint": "portrait session",
       "category": "portraits"
     },
     {
       "id": "gallery-9",
-      "description": "Capturing the energy of a live music event on Tejgaon College campus.",
+      "description": "Capturing the energy of a live music event on Tejgaon College campus, by a TCPC photographer.",
       "imageUrl": "/assets/images/gallery-9.jpg",
       "imageHint": "music event",
       "category": "event"
@@ -98,14 +98,14 @@
     },
     {
       "id": "gallery-13",
-      "description": "An artwork displayed at the Tejgaon College Photography Club annual exhibition.",
+      "description": "An artwork displayed at the Tejgaon College Photography Club (TCPC) annual exhibition.",
       "imageUrl": "/assets/images/gallery-13.jpg",
       "imageHint": "art exhibition",
       "category": "exhibitions"
     },
     {
       "id": "gallery-14",
-      "description": "Students studying together in the Tejgaon College library.",
+      "description": "Students studying together in the Tejgaon College library, a moment captured by TCPC.",
       "imageUrl": "/assets/images/gallery-14.jpg",
       "imageHint": "college library",
       "category": "campus"
@@ -119,7 +119,7 @@
     },
     {
       "id": "gallery-16",
-      "description": "Graduation day ceremony on Tejgaon College campus.",
+      "description": "Graduation day ceremony on Tejgaon College campus, photographed by Tejgaon College Photography Club (TCPC).",
       "imageUrl": "/assets/images/gallery-16.jpg",
       "imageHint": "graduation ceremony",
       "category": "event"
@@ -132,7 +132,7 @@
     },
     {
       "id": "event-2",
-      "description": "A featured photograph at the Tejgaon College Photography Club annual exhibition.",
+      "description": "A featured photograph at the Tejgaon College Photography Club (TCPC) annual exhibition.",
       "imageUrl": "/assets/images/event-2.jpg",
       "imageHint": "featured photo"
     },
@@ -150,7 +150,7 @@
     },
     {
       "id": "event-5",
-      "description": "Runner-up photo from the Tejgaon College Photography Club monsoon competition.",
+      "description": "Runner-up photo from the Tejgaon College Photography Club (TCPC) monsoon competition.",
       "imageUrl": "/assets/images/event-5.jpg",
       "imageHint": "rainy day"
     },
@@ -168,7 +168,7 @@
     },
     {
       "id": "event-8",
-      "description": "Portrait of a worker at the terminal, by a Tejgaon College Photography Club member.",
+      "description": "Portrait of a worker at the terminal, by a Tejgaon College Photography Club (TCPC) member.",
       "imageUrl": "/assets/images/event-8.jpg",
       "imageHint": "worker portrait"
     },
@@ -480,7 +480,7 @@
       "role": "Vice President",
       "imageUrl": "/assets/images/testimonial-1.jpg",
       "imageHint": "female portrait",
-      "quote": "Joining the Tejgaon College Photography Club was the best decision of my college life. The workshops are incredibly insightful and I've met so many talented photographers who inspire me every day."
+      "quote": "Joining the Tejgaon College Photography Club (TCPC) was the best decision of my college life. The workshops are incredibly insightful and I've met so many talented photographers who inspire me every day."
     },
     {
       "id": "testimonial-2",
@@ -558,32 +558,38 @@
     {
       "id": "collaborator-1",
       "name": "Zoology Club",
-      "imageUrl": "/assets/images/collaborator-1.jpg",
+      "imageUrl": "/assets/images/zoology.jpg",
       "imageHint": "animal nature"
     },
     {
       "id": "collaborator-2",
       "name": "Programming Club",
-      "imageUrl": "/assets/images/collaborator-2.jpg",
+      "imageUrl": "/assets/images/pc.jpg",
       "imageHint": "code computer"
     },
     {
       "id": "collaborator-3",
       "name": "Sociology Club",
-      "imageUrl": "/assets/images/collaborator-3.jpg",
+      "imageUrl": "/assets/images/sociology.jpg",
       "imageHint": "people community"
     },
     {
       "id": "collaborator-4",
       "name": "Business Club",
-      "imageUrl": "/assets/images/collaborator-4.jpg",
+      "imageUrl": "/assets/images/business.jpg",
       "imageHint": "business meeting"
     },
     {
       "id": "collaborator-5",
       "name": "Debating Club",
-      "imageUrl": "/assets/images/collaborator-5.jpg",
+      "imageUrl": "/assets/images/debating.jpg",
       "imageHint": "speech debate"
+    },
+    {
+      "id": "collaborator-6",
+      "name": "Accounting Club",
+      "imageUrl": "/assets/images/accounting.jpg",
+      "imageHint": "calculator numbers"
     }
   ]
 }
