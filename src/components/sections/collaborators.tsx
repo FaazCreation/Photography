@@ -15,10 +15,10 @@ export function Collaborators() {
             Our photography club often collaborates with other clubs at Tejgaon College to cover their events and share creative projects.
           </p>
         </div>
-        <div className="mx-auto grid max-w-6xl items-center justify-center gap-4 pt-16 grid-cols-3 md:grid-cols-6">
+        <div className="mx-auto grid max-w-6xl justify-center gap-4 pt-16 grid-cols-3 sm:grid-cols-4 md:grid-cols-6">
           {collaborators.map((collaborator) => (
-            <div key={collaborator.id} className="group flex flex-col items-center justify-center space-y-2 rounded-lg bg-background p-2 md:p-4 text-center shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl aspect-square">
-              <Card className="rounded-full overflow-hidden border-2 border-primary/10 w-16 h-16 md:w-24 md:h-24">
+            <div key={collaborator.id} className="group flex flex-col items-center justify-center space-y-2 rounded-lg bg-background p-2 text-center shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl aspect-square">
+              <Card className="rounded-full overflow-hidden border-2 border-primary/10 w-16 h-16">
                 <CardContent className="p-0">
                   <Image
                     src={collaborator.imageUrl}
@@ -30,7 +30,7 @@ export function Collaborators() {
                   />
                 </CardContent>
               </Card>
-              <p className="text-xs md:text-sm font-semibold text-foreground text-center">{collaborator.name}</p>
+              <p className="text-xs font-semibold text-foreground text-center">{collaborator.name}</p>
             </div>
           ))}
         </div>
