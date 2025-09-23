@@ -49,7 +49,7 @@ const PhotographerOfTheMonth = () => {
                         This month, TCPC features one of our most dedicated members. Get to know the artist behind the lens.
                     </p>
                 </div>
-                <div className="grid gap-6 lg:grid-cols-2 lg:gap-8 items-center">
+                <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
                     <div className="flex items-center justify-center">
                         <Card className="overflow-hidden shadow-2xl rounded-lg max-w-md w-full">
                         <CardContent className="p-0">
@@ -93,75 +93,79 @@ export default function MembersPage() {
     const alumni = getAlumniImages();
 
     return (
-        <div className="container py-12 md:py-24 lg:py-32">
-            <div className="flex flex-col items-center space-y-4 text-center">
-                <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl text-primary leading-tight">
-                    Our Club Structure at TCPC
-                </h1>
-                <p className="max-w-[900px] text-muted-foreground text-base md:text-lg px-4">
-                    Meet the dedicated individuals who form the backbone of the Tejgaon College Photography Club (TCPC), from our advisors and committee to our talented members and alumni.
-                </p>
-            </div>
+        <div className="overflow-x-hidden">
+            <div className="container py-12 md:py-24 lg:py-32">
+                <div className="flex flex-col items-center space-y-4 text-center">
+                    <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl text-primary leading-tight">
+                        Our Club Structure at TCPC
+                    </h1>
+                    <p className="max-w-[900px] text-muted-foreground text-base md:text-lg px-4">
+                        Meet the dedicated individuals who form the backbone of the Tejgaon College Photography Club (TCPC), from our advisors and committee to our talented members and alumni.
+                    </p>
+                </div>
 
-            <div className="space-y-16 mt-16">
-                {/* Advisor Panel Section */}
-                <section>
-                    <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-center mb-8 leading-tight">
-                        Advisor Panel
-                    </h2>
-                    <div className="mx-auto grid max-w-4xl gap-8 grid-cols-1 xs:grid-cols-2 lg:grid-cols-3">
-                        {advisors.map((member) => (
-                            <MemberCard key={member.id} member={member} />
-                        ))}
-                    </div>
-                </section>
+                <div className="space-y-16 mt-16">
+                    {/* Advisor Panel Section */}
+                    <section>
+                        <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-center mb-8 leading-tight">
+                            Advisor Panel
+                        </h2>
+                        <div className="mx-auto grid max-w-4xl gap-8 grid-cols-1 xs:grid-cols-2 lg:grid-cols-3">
+                            {advisors.map((member) => (
+                                <MemberCard key={member.id} member={member} />
+                            ))}
+                        </div>
+                    </section>
 
-                <Separator />
+                    <Separator />
 
-                {/* Current Committee Section */}
-                <section>
-                    <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-center mb-8 leading-tight">
-                        Current Committee
-                    </h2>
-                    <div className="mx-auto grid max-w-6xl gap-8 grid-cols-1 xs:grid-cols-2 lg:grid-cols-4">
-                        {committee.map((member) => (
-                            <MemberCard key={member.id} member={member} />
-                        ))}
-                    </div>
-                </section>
+                    {/* Current Committee Section */}
+                    <section>
+                        <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-center mb-8 leading-tight">
+                            Current Committee
+                        </h2>
+                        <div className="mx-auto grid max-w-6xl gap-8 grid-cols-1 xs:grid-cols-2 lg:grid-cols-4">
+                            {committee.map((member) => (
+                                <MemberCard key={member.id} member={member} />
+                            ))}
+                        </div>
+                    </section>
+                </div>
             </div>
 
             {/* Photographer of the month - full width section */}
-            <div className="my-16 -mx-4 sm:-mx-6 md:-mx-8 lg:-mx-16 xl:-mx-32">
+            <div className="my-16">
                 <PhotographerOfTheMonth />
             </div>
+            
+            <div className="container">
+                <div className="space-y-16">
+                    {/* Active Members Section */}
+                    <section>
+                        <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-center mb-8 leading-tight">
+                            Active Members
+                        </h2>
+                        <div className="mx-auto grid max-w-6xl gap-8 pt-2 grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5">
+                            {activeMembers.map((member) => (
+                                <MemberCard key={member.id} member={member} />
+                            ))}
+                        </div>
+                    </section>
 
-            <div className="space-y-16">
-                 {/* Active Members Section */}
-                <section>
-                    <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-center mb-8 leading-tight">
-                        Active Members
-                    </h2>
-                    <div className="mx-auto grid max-w-6xl gap-8 pt-2 grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5">
-                        {activeMembers.map((member) => (
-                            <MemberCard key={member.id} member={member} />
-                        ))}
-                    </div>
-                </section>
-
-                <Separator />
-                
-                {/* Alumni Section */}
-                <section>
-                    <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-center mb-8 leading-tight">
-                        Our Alumni
-                    </h2>
-                    <div className="mx-auto grid max-w-6xl gap-8 pt-2 grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5">
-                        {alumni.map((member) => (
-                            <MemberCard key={member.id} member={member} />
-                        ))}
-                    </div>
-                </section>
+                    <Separator />
+                    
+                    {/* Alumni Section */}
+                    <section>
+                        <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-center mb-8 leading-tight">
+                            Our Alumni
+                        </h2>
+                        <div className="mx-auto grid max-w-6xl gap-8 pt-2 grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5">
+                            {alumni.map((member) => (
+                                <MemberCard key={member.id} member={member} />
+                            ))}
+                        </div>
+                    </section>
+                </div>
             </div>
         </div>
     );
