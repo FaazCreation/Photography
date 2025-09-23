@@ -15,10 +15,10 @@ const poppins = Poppins({
 });
 
 const siteConfig = {
-  name: 'Tejgaon College Photography Club',
-  description: 'A vibrant community for student photographers at Tejgaon College, offering workshops, photo walks, and exhibitions to foster creativity and technical skill.',
-  url: 'https://your-domain.com', // Replace with your actual domain
-  ogImage: 'https://your-domain.com/og-image.png', // Replace with your OG image URL
+  name: 'Tejgaon College Photography Club (TCPC)',
+  description: 'The official website for the Tejgaon College Photography Club (TCPC). A vibrant community for student photographers at Tejgaon College, offering workshops, photo walks, and exhibitions to foster creativity and technical skill.',
+  url: 'https://tcpc.vercel.app', // Replace with your actual domain
+  ogImage: 'https://tcpc.vercel.app/og-image.png', // Replace with your OG image URL
   links: {
     twitter: 'https://twitter.com/your-profile', // Replace with your Twitter profile
   },
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,
-  keywords: ["Photography Club", "Tejgaon College", "Student Photography", "Dhaka", "Workshops", "Photo Walks"],
+  keywords: ["Tejgaon College Photography Club", "TCPC", "Tejgaon College", "Photography Club", "Student Photography", "Dhaka", "Workshops", "Photo Walks"],
   authors: [{ name: "Tejgaon College Photography Club" }],
   creator: "Firebase Studio",
   metadataBase: new URL(siteConfig.url),
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     title: siteConfig.name,
     description: siteConfig.description,
     images: [siteConfig.ogImage],
-    creator: '@your-creator-handle', // Replace with your twitter handle
+    creator: '@TejgaonCollegePC', // Replace with your twitter handle
   },
   icons: {
     icon: '/favicon.ico',

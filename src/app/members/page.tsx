@@ -10,8 +10,8 @@ import Link from "next/link";
 import { AnimatedHeadline } from "@/components/animated-headline";
 
 export const metadata: Metadata = {
-  title: 'Our Members',
-  description: 'Meet the dedicated individuals of the Tejgaon College Photography Club, from our experienced advisor panel to our passionate general members and distinguished alumni.',
+  title: 'Our Members | TCPC',
+  description: 'Meet the dedicated individuals of the Tejgaon College Photography Club (TCPC), from our experienced advisor panel to our passionate general members and distinguished alumni.',
 };
 
 const MemberCard = ({ member }: { member: any }) => (
@@ -20,7 +20,7 @@ const MemberCard = ({ member }: { member: any }) => (
             <div className="w-full aspect-square overflow-hidden rounded-t-lg">
                 <Image
                     src={member.imageUrl}
-                    alt={`Portrait of ${member.name}`}
+                    alt={`Portrait of ${member.name}, member of Tejgaon College Photography Club`}
                     width={400}
                     height={400}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
@@ -47,7 +47,7 @@ const PhotographerOfTheMonth = () => {
                  <div className="flex flex-col items-center space-y-4 text-center mb-12">
                     <AnimatedHeadline text="Photographer of the Month" />
                     <p className="max-w-[700px] text-muted-foreground text-base md:text-lg">
-                        This month, we're featuring one of our most dedicated members. Get to know the artist behind the lens.
+                        This month, TCPC features one of our most dedicated members. Get to know the artist behind the lens.
                     </p>
                 </div>
                 <div className="grid gap-10 lg:grid-cols-2 lg:gap-16 items-center">
@@ -56,7 +56,7 @@ const PhotographerOfTheMonth = () => {
                         <CardContent className="p-0">
                             <Image
                             src={spotlightMember.imageUrl}
-                            alt={spotlightMember.name || 'Portrait of member'}
+                            alt={spotlightMember.name || 'Portrait of a featured member from Tejgaon College Photography Club'}
                             width={600}
                             height={600}
                             className="object-cover w-full h-full aspect-square"
@@ -66,7 +66,7 @@ const PhotographerOfTheMonth = () => {
                         </Card>
                     </div>
                     <div className="space-y-4">
-                        <Badge>Featured Member</Badge>
+                        <Badge>Featured TCPC Member</Badge>
                         <h3 className="text-3xl font-bold tracking-tighter text-primary">
                             {spotlightMember.name}
                         </h3>
@@ -97,10 +97,10 @@ export default function MembersPage() {
         <div className="container py-12 md:py-24 lg:py-32">
             <div className="flex flex-col items-center space-y-4 text-center">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl text-primary">
-                    Our Club Structure
+                    Our Club Structure at TCPC
                 </h1>
                 <p className="max-w-[900px] text-muted-foreground text-base md:text-lg px-4">
-                    Meet the dedicated individuals who form the backbone of our club, from our advisors and committee to our talented members and alumni.
+                    Meet the dedicated individuals who form the backbone of the Tejgaon College Photography Club, from our advisors and committee to our talented members and alumni.
                 </p>
             </div>
 

@@ -5,8 +5,8 @@ import { MissionVision } from '@/components/sections/mission-vision';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'About Us',
-  description: 'Learn about the story, mission, and vision of the Tejgaon College Photography Club. Meet our advisors and understand our passion for photography.',
+  title: 'About TCPC',
+  description: 'Learn about the story, mission, and vision of the Tejgaon College Photography Club (TCPC). Meet our advisors and understand our passion for photography.',
 };
 
 export default function AboutPage() {
@@ -18,7 +18,7 @@ export default function AboutPage() {
             Our Story
             </h1>
             <p className="max-w-[900px] text-muted-foreground text-base md:text-lg px-4">
-            Learn more about who we are, what we do and why we do it.
+            Learn more about who we are, what we do and why we do it at Tejgaon College Photography Club.
             </p>
         </div>
       </div>

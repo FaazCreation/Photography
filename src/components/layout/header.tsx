@@ -49,7 +49,7 @@ export function Header() {
       <div className="container flex h-16 max-w-7xl items-center">
         <Link href="/" className="flex items-center gap-2 mr-auto md:mr-6">
           <Camera className="h-6 w-6 text-primary" />
-          <span className="font-bold text-lg sm:text-xl hidden xs:inline-block">TCPC</span>
+          <span className="font-bold text-lg sm:text-xl">TCPC</span>
         </Link>
         <nav className="hidden md:flex items-center gap-6 text-sm">
           <NavLinks />

@@ -15,8 +15,8 @@ import { Badge } from "@/components/ui/badge";
 // This is a placeholder for where you would define it if this were a server component.
 /*
 export const metadata: Metadata = {
-  title: 'Events',
-  description: 'Join us for workshops, photo walks, and more. See what we\'ve been up to and register for upcoming events.',
+  title: 'Events | TCPC',
+  description: 'Join us for workshops, photo walks, and more. See what we\'ve been up to and register for upcoming Tejgaon College Photography Club (TCPC) events.',
 };
 */
 
@@ -28,7 +28,7 @@ const events = [
     date: "Saturday, October 12, 2024",
     time: "8:00 AM - 12:00 PM",
     location: "Meet at Star Mosque",
-    description: "Explore the historic streets and vibrant life of Old Dhaka. A great opportunity for street photography.",
+    description: "Explore the historic streets and vibrant life of Old Dhaka. A great opportunity for street photography with TCPC.",
     registrationOpen: true,
   },
   {
@@ -38,7 +38,7 @@ const events = [
     date: "Friday, October 18, 2024",
     time: "3:00 PM - 5:00 PM",
     location: "Room 304, Arts Building",
-    description: "Learn the fundamentals of using natural and artificial light to create stunning portraits.",
+    description: "Learn the fundamentals of using natural and artificial light to create stunning portraits. Hosted by Tejgaon College Photography Club.",
     registrationOpen: true,
   },
   {
@@ -48,7 +48,7 @@ const events = [
     date: "Friday, November 1, 2024",
     time: "3:30 PM - 4:30 PM",
     location: "College Auditorium",
-    description: "Renowned travel photographer Yousuf Tushar shares his experiences and tips for capturing the world.",
+    description: "Renowned travel photographer Yousuf Tushar shares his experiences and tips for capturing the world. A TCPC special event.",
     registrationOpen: false,
   },
   {
@@ -58,7 +58,7 @@ const events = [
     date: "December 5-7, 2023",
     time: "10:00 AM - 6:00 PM",
     location: "Zainul Gallery, Faculty of Fine Arts",
-    description: "Our year-end exhibition showcased the best work from club members throughout the year.",
+    description: "Our year-end exhibition showcased the best work from Tejgaon College Photography Club members throughout the year.",
     imageIds: ["event-1", "event-2", "event-3"],
   },
   {
@@ -68,7 +68,7 @@ const events = [
     date: "July 15, 2023",
     time: "Online Submission",
     location: "Online",
-    description: "A month-long online competition to capture the essence of the monsoon season in Bangladesh.",
+    description: "A month-long online competition by TCPC to capture the essence of the monsoon season in Bangladesh.",
     imageIds: ["event-4", "event-5", "event-6"],
   },
   {
@@ -78,7 +78,7 @@ const events = [
     date: "June 10, 2023",
     time: "7:00 AM - 11:00 AM",
     location: "Sadarghat Launch Terminal",
-    description: "Captured the chaos and beauty of Dhaka's main river port, a hub of activity and stories.",
+    description: "Captured the chaos and beauty of Dhaka's main river port, a hub of activity and stories, with the Tejgaon College Photography Club.",
     imageIds: ["event-7", "event-8", "event-9"],
   },
 ];
@@ -89,9 +89,9 @@ const EventCard = ({ event }: { event: (typeof events)[0] }) => {
     return (
         <Card className="flex flex-col">
             <CardHeader>
-                <div className="flex flex-col-reverse sm:flex-row sm:items-start sm:justify-between gap-2">
+                <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2">
                     <CardTitle className="pr-4">{event.title}</CardTitle>
-                    <Badge variant="secondary" className="w-fit mb-2 sm:mb-0">{event.type}</Badge>
+                    <Badge variant="secondary" className="w-fit mb-2 sm:mb-0 sm:order-first">{event.type}</Badge>
                 </div>
                 <CardDescription className="flex items-center gap-2 pt-1">
                     <Calendar className="h-4 w-4" /> 
@@ -118,7 +118,7 @@ const EventCard = ({ event }: { event: (typeof events)[0] }) => {
                                 <div key={image.id} className="relative aspect-square w-full overflow-hidden rounded-md">
                                     <Image 
                                         src={image.imageUrl} 
-                                        alt={image.description || 'Event photo'} 
+                                        alt={image.description || 'Event photo from Tejgaon College Photography Club'} 
                                         fill
                                         className="object-cover transition-transform hover:scale-105"
                                         data-ai-hint={image.imageHint}
@@ -137,7 +137,7 @@ const EventCard = ({ event }: { event: (typeof events)[0] }) => {
                         </Button>
                     ) : (
                         <Button className="w-full" disabled variant="outline">
-                            <CheckCircle className="mr-2" />
+                            <CheckCircle className="mr-2 h-4 w-4" />
                             Registration Coming Soon
                         </Button>
                     )}
@@ -155,10 +155,10 @@ export default function EventsPage() {
     <div className="container py-12 md:py-24 lg:py-32">
       <div className="flex flex-col items-center space-y-4 text-center">
         <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl text-primary">
-          Club Events
+          TCPC Events
         </h1>
         <p className="max-w-[900px] text-muted-foreground text-base md:text-lg px-4">
-          Join us for workshops, photo walks and more. See what we've been up to.
+          Join us for workshops, photo walks and more. See what the Tejgaon College Photography Club has been up to.
         </p>
       </div>
       

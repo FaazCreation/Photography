@@ -2,179 +2,179 @@
   "placeholderImages": [
     {
       "id": "hero-image",
-      "description": "A dramatic landscape photo representing creative vision.",
+      "description": "A dramatic landscape photo representing creative vision at Tejgaon College Photography Club.",
       "imageUrl": "https://images.unsplash.com/photo-1637587708762-55a447282a3c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxkcmFtYXRpYyUyMGxhbmRzY2FwZXxlbnwwfHx8fDE3NTg2MDM3MDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "dramatic landscape"
     },
     {
       "id": "about-us-image",
-      "description": "A group of students with cameras during a college event.",
+      "description": "A group of students from Tejgaon College Photography Club (TCPC) with cameras during a college event.",
       "imageUrl": "https://images.unsplash.com/photo-1745610976602-749e1d4771ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y29sbGVnZSUyMGV2ZW50fGVufDB8fHx8MTc1ODYxMDA2OXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "college event"
     },
     {
       "id": "gallery-1",
-      "description": "A vibrant street photography shot from a busy city.",
+      "description": "A vibrant street photography shot by a TCPC member.",
       "imageUrl": "https://images.unsplash.com/photo-1599557041284-7e2a15610388?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzdHJlZXQlMjBwaG90b2dyYXBoeXxlbnwwfHx8fDE3NTg2MTAwNjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "street photography",
       "category": "nature-street"
     },
     {
       "id": "gallery-2",
-      "description": "A stunning portrait with beautiful natural lighting.",
-      "imageUrl": "https://images.unsplash.com/photo-1703124686929-ab5f6109e07d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwb3J0cmFpdCUyMGxpZ2h0aW5nfGVufDB8fHx8MTc1ODYxMDA2OXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "description": "A stunning portrait with beautiful natural lighting, from a Tejgaon College Photography Club workshop.",
+      "imageUrl": "https://images.unsplash.com/photo-1703124686929-ab5f6109e07d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwb3J0cmFpdCUyMGxpZ2h0aW5nfGVufDB8fHx8MTc1ODYxMDA2OXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "portrait lighting",
       "category": "portraits"
     },
     {
       "id": "gallery-3",
-      "description": "A black and white photo of college campus architecture.",
-      "imageUrl": "https://images.unsplash.com/photo-1685456891912-c09f9cd252eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjYW1wdXMlMjBhcmNoaXRlY3R1cmV8ZW58MHx8fHwxNzU4NjEwMDY5fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "description": "A black and white photo of Tejgaon College campus architecture.",
+      "imageUrl": "https://images.unsplash.com/photo-1685456891912-c09f9cd252eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjYW1wdXMlMjBhcmNoaXRlY3R1cmV8ZW58MHx8fHwxNzU4NjEwMDY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "campus architecture",
       "category": "campus"
     },
     {
       "id": "gallery-4",
-      "description": "A colorful nature macro shot of a flower.",
-      "imageUrl": "https://images.unsplash.com/photo-1620062317671-ef6441546d7d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxuYXR1cmUlMjBtYWNyb3xlbnwwfHx8fDE3NTg2MDg4OTN8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "description": "A colorful nature macro shot of a flower from a TCPC member.",
+      "imageUrl": "https://images.unsplash.com/photo-1620062317671-ef6441546d7d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxuYXR1cmUlMjBtYWNyb3xlbnwwfHx8fDE3NTg2MDg4OTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "nature macro",
       "category": "nature-street"
     },
     {
       "id": "gallery-5",
-      "description": "A beautiful sunset over a mountain landscape.",
+      "description": "A beautiful sunset over a mountain landscape captured by Tejgaon College Photography Club.",
       "imageUrl": "https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzdW5zZXQlMjBsYW5kc2NhcGV8ZW58MHx8fHwxNzU4NTkyMjIzfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "sunset landscape",
       "category": "nature-street"
     },
     {
       "id": "gallery-6",
-      "description": "A captivating photo from a college cultural programme.",
-      "imageUrl": "https://images.unsplash.com/photo-1659080907168-d567d70d27ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjb2xsZWdlJTIwcHJvZ3JhbW1lfGVufDB8fHx8MTc1ODYxMDA2OXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "description": "A captivating photo from a Tejgaon College cultural programme, covered by TCPC.",
+      "imageUrl": "https://images.unsplash.com/photo-1659080907168-d567d70d27ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjb2xsZWdlJTIwcHJvZ3JhbW1lfGVufDB8fHx8MTc1ODYxMDA2OXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "college programme",
       "category": "event"
     },
     {
       "id": "gallery-7",
-      "description": "Candid moment during a student workshop.",
-      "imageUrl": "https://images.unsplash.com/photo-1545886082-e66c6b9e011a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdHVkZW50JTIwd29ya3Nob3B8ZW58MHx8fHwxNzU4NjEwMDY5fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "description": "Candid moment during a TCPC student workshop.",
+      "imageUrl": "https://images.unsplash.com/photo-1545886082-e66c6b9e011a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdHVkZW50JTIwd29ya3Nob3B8ZW58MHx8fHwxNzU4NjEwMDY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "student workshop",
       "category": "event"
     },
     {
       "id": "gallery-8",
-      "description": "Exploring light and shadow in a portrait session.",
+      "description": "Exploring light and shadow in a portrait session at Tejgaon College Photography Club.",
       "imageUrl": "https://images.unsplash.com/photo-1614711038621-0378b1aa088f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwb3J0cmFpdCUyMHNlc3Npb258ZW58MHx8fHwxNzU4NjEwMDY5fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "portrait session",
       "category": "portraits"
     },
     {
       "id": "gallery-9",
-      "description": "Capturing the energy of a live music event on campus.",
-      "imageUrl": "https://images.unsplash.com/photo-1704919262638-c801f6531c0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtdXNpYyUyMGV2ZW50fGVufDB8fHx8MTc1ODYxMDA2OXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "description": "Capturing the energy of a live music event on Tejgaon College campus.",
+      "imageUrl": "https://images.unsplash.com/photo-1704919262638-c801f6531c0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtdXNpYyUyMGV2ZW50fGVufDB8fHx8MTc1ODYxMDA2OXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "music event",
       "category": "event"
     },
     {
       "id": "gallery-10",
-      "description": "The winning shot from our annual photo competition.",
-      "imageUrl": "https://images.unsplash.com/photo-1656761961831-bf4f231500b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhd2FyZCUyMHdpbm5pbmd8ZW58MHx8fHwxNzU4NjEwMDY5fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "description": "The winning shot from the annual TCPC photo competition.",
+      "imageUrl": "https://images.unsplash.com/photo-1656761961831-bf4f231500b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhd2FyZCUyMHdpbm5pbmd8ZW58MHx8fHwxNzU4NjEwMDY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "award winning",
       "category": "exhibitions"
     },
     {
       "id": "gallery-11",
-      "description": "A wide-angle view of the annual college sports day.",
-      "imageUrl": "https://images.unsplash.com/photo-1538949975769-b518c2ac1f2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjb2xsZWdlJTIwc3BvcnRzfGVufDB8fHx8MTc1ODYxMDA2OXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "description": "A wide-angle view of the annual Tejgaon College sports day, by TCPC.",
+      "imageUrl": "https://images.unsplash.com/photo-1538949975769-b518c2ac1f2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjb2xsZWdlJTIwc3BvcnRzfGVufDB8fHx8MTc1ODYxMDA2OXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "college sports",
       "category": "campus"
     },
     {
       "id": "gallery-12",
-      "description": "Serene morning at the botanical gardens photo walk.",
-      "imageUrl": "https://images.unsplash.com/photo-1728072618333-5fa97ff983c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxib3RhbmljYWwlMjBnYXJkZW5zfGVufDB8fHx8MTc1ODYxMDA2OXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "description": "Serene morning at the botanical gardens photo walk with TCPC.",
+      "imageUrl": "https://images.unsplash.com/photo-1728072618333-5fa97ff983c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxib3RhbmljYWwlMjBnYXJkZW5zfGVufDB8fHx8MTc1ODYxMDA2OXww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "botanical gardens",
       "category": "nature-street"
     },
     {
       "id": "gallery-13",
-      "description": "An artwork displayed at our annual exhibition.",
+      "description": "An artwork displayed at the Tejgaon College Photography Club annual exhibition.",
       "imageUrl": "https://images.unsplash.com/photo-1549420689-9403de3c35b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhcnQlMjBleGhpYml0aW9ufGVufDB8fHx8MTc1ODYxMDA2OXww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "art exhibition",
       "category": "exhibitions"
     },
     {
       "id": "gallery-14",
-      "description": "Students studying together in the college library.",
-      "imageUrl": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2xsZWdlJTIwbGlicmFyeXxlbnwwfHx8fDE3NTg2MTAwNjl8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "description": "Students studying together in the Tejgaon College library.",
+      "imageUrl": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2xsZWdlJTIwbGlicmFyeXxlbnwwfHx8fDE3NTg2MTAwNjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "college library",
       "category": "campus"
     },
     {
       "id": "gallery-15",
-      "description": "A close-up portrait of a student.",
-      "imageUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwb3J0cmFpdHxlbnwwfHx8fDE3NTg1NTQwNjF8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "description": "A close-up portrait of a student member of TCPC.",
+      "imageUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwb3J0cmFpdHxlbnwwfHx8fDE3NTg1NTQwNjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "portrait",
       "category": "portraits"
     },
     {
       "id": "gallery-16",
-      "description": "Graduation day ceremony on campus.",
+      "description": "Graduation day ceremony on Tejgaon College campus.",
       "imageUrl": "https://images.unsplash.com/photo-1579227547146-c25f441b4442?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmFkdWF0aW9uJTIwY2VyZW1vbnl8ZW58MHx8fHwxNzU4NjEwMDY5fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "graduation ceremony",
       "category": "event"
     },
     {
       "id": "event-1",
-      "description": "Guests observing photos at the exhibition.",
-      "imageUrl": "https://images.unsplash.com/photo-1733947491884-e4a8ff11b3d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxleGhpYml0aW9uJTIwZ3Vlc3RzfGVufDB8fHx8MTc1ODYxMjE2OHww&ixlib-rb-4.1.0&q=80&w=1080",
+      "description": "Guests observing photos at the TCPC exhibition.",
+      "imageUrl": "https://images.unsplash.com/photo-1733947491884-e4a8ff11b3d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxleGhpYml0aW9uJTIwZ3Vlc3RzfGVufDB8fHx8MTc1ODYxMjE2OHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "exhibition guests"
     },
     {
       "id": "event-2",
-      "description": "A featured photograph at the annual exhibition.",
-      "imageUrl": "https://images.unsplash.com/photo-1650260875513-b63b35156c88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZmVhdHVyZWQlMjBwaG90b3xlbnwwfHx8fDE3NTg2MTIxNjh8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "description": "A featured photograph at the Tejgaon College Photography Club annual exhibition.",
+      "imageUrl": "https://images.unsplash.com/photo-1650260875513-b63b35156c88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZmVhdHVyZWQlMjBwaG90b3xlbnwwfHx8fDE3NTg2MTIxNjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "featured photo"
     },
     {
       "id": "event-3",
-      "description": "Opening ceremony of the 'Dhaka Through Our Eyes' exhibition.",
+      "description": "Opening ceremony of the 'Dhaka Through Our Eyes' TCPC exhibition.",
       "imageUrl": "https://images.unsplash.com/photo-1560801122-b59974a71aca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxvcGVuaW5nJTIwY2VyZW1vbnl8ZW58MHx8fHwxNzU4NjEyMTY4fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "opening ceremony"
     },
     {
       "id": "event-4",
-      "description": "Winning entry of the Monsoon Moments contest.",
-      "imageUrl": "https://images.unsplash.com/photo-169505543915-bcdc5c48e613?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtb25zb29uJTIwcGhvdG98ZW58MHx8fHwxNzU4NjEyMTY4fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "description": "Winning entry of the TCPC Monsoon Moments contest.",
+      "imageUrl": "https://images.unsplash.com/photo-169505543915-bcdc5c48e613?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtb25zb29uJTIwcGhvdG98ZW58MHx8fHwxNzU4NjEyMTY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "monsoon photo"
     },
     {
       "id": "event-5",
-      "description": "Runner-up photo from the monsoon competition.",
-      "imageUrl": "https://images.unsplash.com/photo-1528402520525-05f8b9608a6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxyYWlueSUyMGRheXxlbnwwfHx8fDE3NTg2MTIxNjl8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "description": "Runner-up photo from the Tejgaon College Photography Club monsoon competition.",
+      "imageUrl": "https://images.unsplash.com/photo-1528402520525-05f8b9608a6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxyYWlueSUyMGRheXxlbnwwfHx8fDE3NTg2MTIxNjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "rainy day"
     },
     {
       "id": "event-6",
-      "description": "An honorable mention from the contest.",
-      "imageUrl": "https://images.unsplash.com/photo-1488642945284-f5b65425f15a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8d2F0ZXIlMjBkcm9wc3xlbnwwfHx8fDE3NTg2MTIxNjh8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "description": "An honorable mention from the TCPC contest.",
+      "imageUrl": "https://images.unsplash.com/photo-1488642945284-f5b65425f15a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8d2F0ZXIlMjBkcm9wc3xlbnwwfHx8fDE3NTg2MTIxNjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "water drops"
     },
     {
       "id": "event-7",
-      "description": "A boat at Sadarghat terminal.",
+      "description": "A boat at Sadarghat terminal, from a TCPC photo walk.",
       "imageUrl": "https://images.unsplash.com/photo-1616997865668-97bb97499459?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxyaXZlciUyMGJvYXR8ZW58MHx8fHwxNzU4NjEyMTY4fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "river boat"
     },
     {
       "id": "event-8",
-      "description": "Portrait of a worker at the terminal.",
-      "imageUrl": "https://images.unsplash.com/photo-1679679811837-c28b2586f533?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b3JrZXIlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTg2MTE1OTV8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "description": "Portrait of a worker at the terminal, by a Tejgaon College Photography Club member.",
+      "imageUrl": "https://images.unsplash.com/photo-1679679811837-c28b2586f533?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b3JrZXIlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTg2MTE1OTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "worker portrait"
     },
     {
       "id": "event-9",
-      "description": "The bustling morning activity at Sadarghat.",
+      "description": "The bustling morning activity at Sadarghat, captured by TCPC.",
       "imageUrl": "https://images.unsplash.com/photo-1689701692313-601c6e782f94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxidXN5JTIwcG9ydHxlbnwwfHx8fDE3NTg2MTIxNjh8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "busy port"
     },
@@ -183,7 +183,7 @@
       "name": "Fahim Rahman",
       "role": "President",
       "specialty": "Street & Documentary",
-      "imageUrl": "https://images.unsplash.com/photo-1528892952291-009c663ce843?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bWFsZSUyMHBvcnRyYWl0fGVufDB8fHx8MTc1ODU4NDI0Mnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1528892952291-009c663ce843?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bWFsZSUyMHBvcnRyYWl0fGVufDB8fHx8MTc1ODU4NDI0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "male portrait"
     },
     {
@@ -191,7 +191,7 @@
       "name": "Ayesha Khan",
       "role": "Vice President",
       "specialty": "Portrait & Fashion",
-      "imageUrl": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxmZW1hbGUlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTg1ODQyNDJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxmZW1hbGUlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTg1ODQyNDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "female portrait"
     },
     {
@@ -480,7 +480,7 @@
       "role": "Vice President",
       "imageUrl": "https://images.unsplash.com/photo-1607569708758-0270aa4651bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxmZW1hbGUlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTg1ODQyNDJ8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "female portrait",
-      "quote": "Joining this club was the best decision of my college life. The workshops are incredibly insightful and I've met so many talented photographers who inspire me every day."
+      "quote": "Joining the Tejgaon College Photography Club was the best decision of my college life. The workshops are incredibly insightful and I've met so many talented photographers who inspire me every day."
     },
     {
       "id": "testimonial-2",
@@ -488,7 +488,7 @@
       "role": "Secretary",
       "imageUrl": "https://images.unsplash.com/photo-1675908910500-2dcef146f9cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwZXJzb24lMjBuYXR1cmV8ZW58MHx8fHwxNzU4NTg4NTg2fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "person nature",
-      "quote": "The photo walks are my favorite part. We get to explore such amazing places and I've learned so much about composition and lighting just by shooting alongside other members."
+      "quote": "The TCPC photo walks are my favorite part. We get to explore such amazing places and I've learned so much about composition and lighting just by shooting alongside other members."
     },
     {
       "id": "testimonial-3",
@@ -496,7 +496,7 @@
       "role": "Member",
       "imageUrl": "https://images.unsplash.com/photo-1706089846154-b640eea10ecb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b21hbiUyMGNhbmRpZHxlbnwwfHx8fDE3NTg2MTAwNjl8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "woman candid",
-      "quote": "I was a complete beginner when I joined and now I feel so much more confident with my camera. The community is so welcoming and always ready to help."
+      "quote": "I was a complete beginner when I joined TCPC and now I feel so much more confident with my camera. The community is so welcoming and always ready to help."
     },
     {
       "id": "testimonial-4",
@@ -504,7 +504,7 @@
       "role": "President",
       "imageUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtYWxlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzU4NTg0MjQyfDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "male portrait",
-      "quote": "As president, it's amazing to see our members grow. We provide the platform, but it's their passion and creativity that truly makes this club special. We're a family."
+      "quote": "As president of TCPC, it's amazing to see our members grow. We provide the platform, but it's their passion and creativity that truly makes this club special. We're a family."
     },
     {
       "id": "spotlight-1",
@@ -513,14 +513,14 @@
       "specialty": "Computer Science",
       "imageUrl": "https://images.unsplash.com/photo-1581357008089-4f003ab54549?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bWFuJTIwZWF0aW5nfGVufDB8fHx8MTc1ODYxMDA2OXww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "man eating",
-      "quote": "What I love most about the club is the sense of community. I've learned so much about street photography from just hanging out and shooting with other members. It pushed me to see my city in a new light."
+      "quote": "What I love most about TCPC is the sense of community. I've learned so much about street photography from just hanging out and shooting with other members. It pushed me to see my city in a new light."
     },
     {
       "id": "alumni-1",
       "name": "Karim Benzema",
       "role": "Alumni",
       "specialty": "Batch of 2022",
-      "imageUrl": "https://images.unsplash.com/photo-1618374509396-6081512411ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtYW4lMjBzbWlsaW5nfGVufDB8fHx8MTc1ODU4NDI0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1618374509396-6081512411ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtYW4lMjBzbWlsaW5nfGVufDB8fHx8MTc1ODU4NDI0Mnww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "man smiling"
     },
     {
