@@ -59,7 +59,7 @@ export default function PremiumPage() {
             <Card>
                 <CardHeader className="text-center">
                     <Gem className="mx-auto h-12 w-12 text-primary" />
-                    <CardTitle className="text-3xl font-bold tracking-tighter sm:text-4xl text-primary mt-4 leading-tight">
+                    <CardTitle className="font-heading text-3xl font-bold tracking-tighter sm:text-4xl text-primary mt-4 leading-tight">
                         TCPC Premium Membership
                     </CardTitle>
                     <CardDescription className="text-xl text-muted-foreground px-4">

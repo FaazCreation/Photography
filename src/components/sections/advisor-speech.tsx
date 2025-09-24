@@ -26,7 +26,7 @@ export function AdvisorSpeech() {
           </div>
           <div className="space-y-4">
             <Badge>Message from our Chief Advisor</Badge>
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-primary leading-tight">
+            <h2 className="font-heading text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-primary leading-tight">
                 A Word of Encouragement
             </h2>
              <div className="prose max-w-full text-muted-foreground text-base md:text-lg">

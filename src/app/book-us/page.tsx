@@ -53,7 +53,7 @@ export default function BookUsPage() {
   return (
     <div className="container py-12 md:py-24 lg:py-32">
       <div className="flex flex-col items-center space-y-4 text-center">
-        <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl text-primary leading-tight">
+        <h1 className="font-heading text-3xl font-bold tracking-tighter sm:text-5xl text-primary leading-tight">
           Book Our Services
         </h1>
         <p className="max-w-[900px] text-muted-foreground text-base md:text-lg px-4">

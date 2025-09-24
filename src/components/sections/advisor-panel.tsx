@@ -10,7 +10,7 @@ export function AdvisorPanel() {
     <section className="w-full py-12 md:py-24 lg:py-32">
         <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center space-y-4 text-center">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-primary leading-tight">
+                <h2 className="font-heading text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-primary leading-tight">
                 Our Advisors
                 </h2>
                 <p className="max-w-[900px] text-muted-foreground text-base md:text-lg">
