@@ -3,7 +3,7 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 import { Header } from '@/components/layout/header';
 import { Footer } from '@/components/layout/footer';
-import { Poppins, Playfair_Display } from 'next/font/google';
+import { Poppins, Quicksand } from 'next/font/google';
 import { cn } from '@/lib/utils';
 import { ThemeProvider } from '@/components/theme-provider';
 import { ScrollToTopButton } from '@/components/scroll-to-top-button';
@@ -15,7 +15,7 @@ const poppins = Poppins({
   variable: '--font-sans',
 });
 
-const playfairDisplay = Playfair_Display({
+const quicksand = Quicksand({
   subsets: ['latin'],
   weight: ['400', '500', '600', '700'],
   variable: '--font-heading',
@@ -92,7 +92,7 @@ export default function RootLayout({
         className={cn(
           'min-h-screen bg-background font-sans antialiased flex flex-col overflow-x-hidden',
           poppins.variable,
-          playfairDisplay.variable
+          quicksand.variable
         )}
       >
         <ThemeProvider
