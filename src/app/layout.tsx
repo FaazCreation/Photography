@@ -3,7 +3,7 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 import { Header } from '@/components/layout/header';
 import { Footer } from '@/components/layout/footer';
-import { Poppins, Kdam_Thmor_Pro } from 'next/font/google';
+import { Poppins } from 'next/font/google';
 import { cn } from '@/lib/utils';
 import { ThemeProvider } from '@/components/theme-provider';
 import { ScrollToTopButton } from '@/components/scroll-to-top-button';
@@ -13,12 +13,6 @@ const poppins = Poppins({
   subsets: ['latin'],
   weight: ['400', '500', '600', '700'],
   variable: '--font-sans',
-});
-
-const kdamThmorPro = Kdam_Thmor_Pro({
-  subsets: ['latin'],
-  weight: ['400'],
-  variable: '--font-heading',
 });
 
 const siteConfig = {
@@ -91,8 +85,7 @@ export default function RootLayout({
       <body
         className={cn(
           'min-h-screen bg-background font-sans antialiased flex flex-col',
-          poppins.variable,
-          kdamThmorPro.variable
+          poppins.variable
         )}
       >
         <ThemeProvider
