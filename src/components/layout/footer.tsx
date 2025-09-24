@@ -8,7 +8,7 @@ export function Footer() {
       <div className="container py-8">
         <div className="flex flex-col items-center justify-center gap-6">
           <div className="flex flex-col items-center gap-4 text-center">
-            <Link href="/" className="flex items-center gap-2">
+            <Link href="/" className="hidden md:flex items-center gap-2">
                 <Camera className="h-6 w-6 text-primary" />
                 <span className="font-semibold text-lg">Tejgaon College Photography Club</span>
             </Link>
