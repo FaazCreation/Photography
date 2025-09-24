@@ -1,5 +1,6 @@
 import { About } from '@/components/sections/about';
 import { Activities } from '@/components/sections/activities';
+import { AdvisorPanel } from '@/components/sections/advisor-panel';
 import { BookUsCta } from '@/components/sections/book-us-cta';
 import { Collaborators } from '@/components/sections/collaborators';
 import { Faq } from '@/components/sections/faq';
@@ -17,6 +18,7 @@ export default function Home() {
       <Hero />
       <Stats />
       <About />
+      <AdvisorPanel />
       <Gallery />
       <WhatWeProvide />
       <Activities />
