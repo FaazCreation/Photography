@@ -10,7 +10,7 @@ export function Collaborators() {
     <section id="collaborators" className="w-full py-12 md:py-24 lg:py-32 bg-secondary animate-fade-in-up [animation-delay:0.8s] animation-duration-1000">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center space-y-4 text-center">
-          <AnimatedHeadline text="Worked With" className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl" />
+          <AnimatedHeadline text="Worked With" className="text-3xl font-semibold tracking-tighter sm:text-4xl md:text-5xl" />
           <p className="max-w-[900px] text-muted-foreground text-base md:text-lg">
             Our photography club often collaborates with other clubs at Tejgaon College <br /> to cover their events and share creative projects.
           </p>
