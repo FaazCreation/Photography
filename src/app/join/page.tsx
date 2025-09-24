@@ -62,9 +62,9 @@ export default function JoinPage() {
       <div className="mx-auto max-w-2xl pt-12 grid gap-16">
         <Card>
           <CardHeader>
-            <CardTitle className="flex items-center gap-2">
+            <CardTitle className="flex items-center gap-2 text-xl sm:text-2xl">
                 <UserPlus />
-                Standard Membership Application
+                <span className="hidden sm:inline">Standard </span>Membership Application
             </CardTitle>
             <CardDescription>
                 Membership is open to all students of Tejgaon College.
@@ -170,7 +170,7 @@ export default function JoinPage() {
 
         <Card className="bg-secondary">
           <CardHeader>
-            <CardTitle className="flex items-center gap-2 text-primary">
+            <CardTitle className="flex items-center gap-2 text-primary text-xl sm:text-2xl">
                 <Gem />
                 Upgrade to Premium
             </CardTitle>
@@ -182,8 +182,8 @@ export default function JoinPage() {
               <div className="space-y-3">
                   {premiumBenefits.map((benefit, index) => (
                       <div key={index} className="flex items-center gap-3">
-                          <Check className="h-5 w-5 text-primary" />
-                          <span className="text-muted-foreground">{benefit}</span>
+                          <Check className="h-5 w-5 text-primary flex-shrink-0" />
+                          <span className="text-muted-foreground text-sm sm:text-base">{benefit}</span>
                       </div>
                   ))}
               </div>
