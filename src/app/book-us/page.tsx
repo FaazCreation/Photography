@@ -65,7 +65,7 @@ export default function BookUsPage() {
         
         <Card className="md:order-2">
             <CardHeader>
-                <CardTitle className="flex items-center gap-2">
+                <CardTitle className="flex items-center gap-2 text-xl sm:text-2xl">
                     <List />
                     Terms & Conditions
                 </CardTitle>
@@ -97,7 +97,7 @@ export default function BookUsPage() {
 
         <Card className="md:order-1 mt-8 md:mt-0">
           <CardHeader>
-            <CardTitle className="flex items-center gap-2">
+            <CardTitle className="flex items-center gap-2 text-xl sm:text-2xl">
                 <CalendarCheck />
                 Event Booking Form
             </CardTitle>
