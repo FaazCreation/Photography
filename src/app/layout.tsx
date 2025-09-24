@@ -86,11 +86,11 @@ export default function RootLayout({
 }>) {
 
   return (
-    <html lang="en" className="scroll-smooth" suppressHydrationWarning>
+    <html lang="en" className="scroll-smooth overflow-x-hidden" suppressHydrationWarning>
       <head />
       <body
         className={cn(
-          'min-h-screen bg-background font-sans antialiased flex flex-col overflow-x-hidden',
+          'min-h-screen bg-background font-sans antialiased flex flex-col',
           poppins.variable,
           quicksand.variable
         )}
@@ -101,7 +101,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Header />
-          <main className="flex-1">{children}</main>
+          <main className="flex-1 overflow-x-hidden">{children}</main>
           <Footer />
           <Toaster />
           <ScrollToTopButton />
