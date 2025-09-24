@@ -36,7 +36,7 @@ export function MemberSpotlight() {
           </div>
           <div className="space-y-4">
             <Badge>Featured Member</Badge>
-            <h3 className="text-3xl font-bold tracking-tighter text-primary leading-tight">
+            <h3 className="text-3xl font-semibold tracking-tighter text-primary leading-tight">
                 {spotlightMember.name}
             </h3>
              <div className="prose max-w-full text-muted-foreground text-base md:text-lg">

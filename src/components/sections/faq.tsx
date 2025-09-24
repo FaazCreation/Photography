@@ -38,7 +38,7 @@ export function Faq() {
             <div className="bg-primary/10 p-4 rounded-full">
                 <HelpCircle className="h-10 w-10 text-primary" />
             </div>
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-primary leading-tight">
+            <h2 className="text-3xl font-semibold tracking-tighter sm:text-4xl md:text-5xl text-primary leading-tight">
                 <span className="sm:hidden">FAQ</span>
                 <span className="hidden sm:inline">Frequently Asked Questions</span>
             </h2>

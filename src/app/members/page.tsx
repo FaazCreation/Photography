@@ -67,7 +67,7 @@ const PhotographerOfTheMonth = () => {
                     </div>
                     <div className="space-y-4">
                         <Badge>Featured TCPC Member</Badge>
-                        <h3 className="text-3xl font-bold tracking-tighter text-primary leading-tight">
+                        <h3 className="text-3xl font-semibold tracking-tighter text-primary leading-tight">
                             {spotlightMember.name}
                         </h3>
                         <div className="prose max-w-full text-muted-foreground text-base md:text-lg">
@@ -135,7 +135,7 @@ export default function MembersPage() {
             </div>
 
             {/* Photographer of the month - full width section */}
-            <div className="my-16 overflow-hidden">
+            <div className="my-16">
                 <PhotographerOfTheMonth />
             </div>
             

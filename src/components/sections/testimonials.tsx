@@ -28,7 +28,7 @@ export function Testimonials() {
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
-             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-primary leading-tight">
+             <h2 className="text-3xl font-semibold tracking-tighter sm:text-4xl md:text-5xl text-primary leading-tight">
                 <span className="sm:hidden">Words of Appreciation</span>
                 <span className="hidden sm:inline">What Our Members Say</span>
             </h2>
