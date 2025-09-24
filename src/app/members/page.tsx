@@ -45,7 +45,7 @@ const PhotographerOfTheMonth = () => {
         <section className="bg-secondary py-12 md:py-24 lg:py-32">
             <div className="container">
                  <div className="flex flex-col items-center space-y-4 text-center mb-12">
-                    <AnimatedHeadline text="Photographer of the Month" />
+                    <AnimatedHeadline text="Photographer of the Month" className="text-2xl sm:text-3xl" />
                     <p className="max-w-[700px] text-muted-foreground text-base md:text-lg">
                         This month, TCPC features one of our most dedicated members. Get to know the artist behind the lens.
                     </p>
@@ -98,7 +98,8 @@ export default function MembersPage() {
             <div className="container py-12 md:py-24 lg:py-32">
                 <div className="flex flex-col items-center space-y-4 text-center">
                     <h1 className="font-heading text-3xl font-semibold tracking-tighter sm:text-5xl text-primary leading-tight">
-                        Our Club Structure at TCPC
+                        <span className="sm:hidden">Club Structure</span>
+                        <span className="hidden sm:inline">Our Club Structure at TCPC</span>
                     </h1>
                     <p className="max-w-[900px] text-muted-foreground text-base md:text-lg px-4">
                         Meet the dedicated individuals who form the backbone of the Tejgaon College Photography Club (TCPC), from our advisors and committee to our talented members and alumni.
