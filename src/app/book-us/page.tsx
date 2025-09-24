@@ -53,7 +53,7 @@ export default function BookUsPage() {
   return (
     <div className="container py-12 md:py-24 lg:py-32">
       <div className="flex flex-col items-center space-y-4 text-center">
-        <h1 className="font-heading text-3xl font-bold tracking-tighter sm:text-5xl text-primary leading-tight">
+        <h1 className="font-heading text-3xl font-semibold tracking-tighter sm:text-5xl text-primary leading-tight">
           Book Our Services
         </h1>
         <p className="max-w-[900px] text-muted-foreground text-base md:text-lg px-4">
@@ -76,19 +76,19 @@ export default function BookUsPage() {
             <CardContent>
                 <ul className="space-y-4 text-muted-foreground">
                     <li className="flex items-start gap-3">
-                        <span className="text-primary font-bold mt-1">&#x2713;</span>
+                        <span className="text-primary font-semibold mt-1">&#x2713;</span>
                         <span>Our services are primarily for events held within the <strong className="font-semibold text-foreground">Tejgaon College campus</strong>.</span>
                     </li>
                     <li className="flex items-start gap-3">
-                        <span className="text-primary font-bold mt-1">&#x2713;</span>
+                        <span className="text-primary font-semibold mt-1">&#x2713;</span>
                         <span>For professional or non-college events, a <strong className="font-semibold text-foreground">service charge</strong> will be applicable. Please discuss the details with us.</span>
                     </li>
                     <li className="flex items-start gap-3">
-                        <span className="text-primary font-bold mt-1">&#x2713;</span>
+                        <span className="text-primary font-semibold mt-1">&#x2713;</span>
                         <span>The <strong className="font-semibold text-foreground">Tejgaon College Photography Club (TCPC)</strong> must be credited in all event promotions and media.</span>
                     </li>
                     <li className="flex items-start gap-3">
-                        <span className="text-primary font-bold mt-1">&#x2713;</span>
+                        <span className="text-primary font-semibold mt-1">&#x2713;</span>
                         <span>Arrangements for <strong className="font-semibold text-foreground">snacks and lunch</strong> for the photography team on the event day are required.</span>
                     </li>
                 </ul>

@@ -45,7 +45,7 @@ export function MemberSpotlight() {
                 </p>
              </div>
              <div className='pt-2'>
-                <p className='font-bold'>{spotlightMember.name}</p>
+                <p className='font-semibold'>{spotlightMember.name}</p>
                 <p className='text-sm text-muted-foreground'>{spotlightMember.role}, {spotlightMember.specialty}</p>
              </div>
              <div className='pt-4'>

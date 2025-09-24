@@ -8,7 +8,7 @@ export function Hero() {
   const heroImage = getImageById('hero-image');
 
   return (
-    <section className="relative h-[60vh] md:h-[80vh] w-full flex items-center justify-center text-center text-white">
+    <section className="relative h-[50vh] md:h-[80vh] w-full flex items-center justify-center text-center text-white">
       <Image
         src={heroImage.imageUrl}
         alt={heroImage.description}
@@ -19,10 +19,10 @@ export function Hero() {
       />
       <div className="absolute inset-0 bg-black/60" />
       <div className="relative z-10 max-w-4xl mx-auto px-4">
-        <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight drop-shadow-lg animate-fade-in-down leading-tight">
+        <h1 className="font-heading text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold tracking-tight drop-shadow-lg animate-fade-in-down leading-tight">
           Tejgaon College Photography Club
         </h1>
-        <p className="mt-4 text-base md:text-lg text-slate-200 max-w-3xl mx-auto drop-shadow animate-fade-in-up [animation-delay:0.2s]">
+        <p className="mt-4 text-sm md:text-base text-slate-200 max-w-3xl mx-auto drop-shadow animate-fade-in-up [animation-delay:0.2s]">
           Welcome to TCPC, a creative community at Tejgaon College dedicated to capturing moments, honing our craft, and sharing our vision.
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-4 animate-fade-in-up [animation-delay:0.4s]">

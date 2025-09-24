@@ -24,7 +24,7 @@ We organize workshops, photo walks, exhibitions and competitions to help our mem
       <div className="container px-4 md:px-6">
         <div className="grid gap-10 lg:grid-cols-2 lg:gap-16">
           <div className="space-y-4">
-            <AnimatedHeadline text="About TCPC" className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl" />
+            <AnimatedHeadline text="About TCPC" className="text-3xl font-semibold tracking-tighter sm:text-4xl md:text-5xl" />
             <TypingAnimation 
               sequence={[
                 aboutText,
