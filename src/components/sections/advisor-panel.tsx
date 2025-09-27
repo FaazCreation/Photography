@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { getAdvisorImages } from "@/lib/placeholder-images";
@@ -8,9 +9,6 @@ export function AdvisorPanel() {
   const advisors = getAdvisorImages();
   const chiefAdvisor = advisors.find(a => a.role === "Chief Advisor");
   const associateAdvisors = advisors.filter(a => a.role !== "Chief Advisor");
-
-  // Custom order: Chief Advisor first, then others.
-  const orderedAdvisors = [chiefAdvisor, ...associateAdvisors].filter(Boolean);
 
   return (
     <section className="w-full py-12 md:py-24 lg:py-32">
@@ -23,36 +21,66 @@ export function AdvisorPanel() {
                 The guiding force behind our club's success.
                 </p>
             </div>
-            <div className="mx-auto grid max-w-5xl items-center justify-items-center gap-8 pt-12 sm:grid-cols-2 lg:grid-cols-3">
-                {orderedAdvisors.map((advisor) => (
-                    <Card 
-                        key={advisor.id} 
-                        className={cn(
-                            "text-center w-full max-w-sm transition-transform duration-300",
-                            advisor.role === 'Chief Advisor' && 'lg:order-2 lg:scale-110 lg:z-10 shadow-2xl',
-                            advisor.role !== 'Chief Advisor' && 'lg:order-1'
-                        )}
-                    >
-                        <CardContent className="p-0">
-                            <div className="w-full aspect-square overflow-hidden rounded-t-lg">
-                                <Image
-                                src={advisor.imageUrl}
-                                alt={`Portrait of ${advisor.name}`}
-                                width={400}
-                                height={400}
-                                className="w-full h-full object-cover"
-                                data-ai-hint={advisor.imageHint}
-                                />
+            <div className="mx-auto grid max-w-5xl items-center justify-items-center gap-8 pt-12 sm:grid-cols-2 lg:flex lg:justify-center lg:items-center">
+                {chiefAdvisor && (
+                    <div className="w-full lg:order-2 lg:w-1/3 lg:px-4">
+                        <Card 
+                            key={chiefAdvisor.id} 
+                            className={cn(
+                                "text-center w-full transition-transform duration-300 shadow-lg lg:scale-110 lg:z-10 lg:shadow-2xl"
+                            )}
+                        >
+                            <CardContent className="p-0">
+                                <div className="w-full aspect-square overflow-hidden rounded-t-lg">
+                                    <Image
+                                        src={chiefAdvisor.imageUrl}
+                                        alt={`Portrait of ${chiefAdvisor.name}`}
+                                        width={400}
+                                        height={400}
+                                        className="w-full h-full object-cover"
+                                        data-ai-hint={chiefAdvisor.imageHint}
+                                    />
+                                </div>
+                            </CardContent>
+                            <CardHeader className="p-4">
+                                <CardTitle className="text-xl">{chiefAdvisor.name}</CardTitle>
+                                <CardDescription>{chiefAdvisor.specialty}</CardDescription>
+                            </CardHeader>
+                            <div className="p-4 pt-0">
+                                <Badge variant="secondary">{chiefAdvisor.role}</Badge>
                             </div>
-                        </CardContent>
-                        <CardHeader className="p-4">
-                            <CardTitle className="text-xl">{advisor.name}</CardTitle>
-                            <CardDescription>{advisor.specialty}</CardDescription>
-                        </CardHeader>
-                        <div className="p-4 pt-0">
-                            <Badge variant="secondary">{advisor.role}</Badge>
-                        </div>
-                    </Card>
+                        </Card>
+                    </div>
+                )}
+                {associateAdvisors.map((advisor, index) => (
+                     <div key={advisor.id} className={cn("w-full", {
+                         "lg:order-1 lg:w-1/3 lg:px-4": index === 0,
+                         "lg:order-3 lg:w-1/3 lg:px-4": index === 1,
+                     })}>
+                        <Card 
+                            className="text-center w-full transition-transform duration-300"
+                        >
+                            <CardContent className="p-0">
+                                <div className="w-full aspect-square overflow-hidden rounded-t-lg">
+                                    <Image
+                                    src={advisor.imageUrl}
+                                    alt={`Portrait of ${advisor.name}`}
+                                    width={400}
+                                    height={400}
+                                    className="w-full h-full object-cover"
+                                    data-ai-hint={advisor.imageHint}
+                                    />
+                                </div>
+                            </CardContent>
+                            <CardHeader className="p-4">
+                                <CardTitle className="text-xl">{advisor.name}</CardTitle>
+                                <CardDescription>{advisor.specialty}</CardDescription>
+                            </CardHeader>
+                            <div className="p-4 pt-0">
+                                <Badge variant="secondary">{advisor.role}</Badge>
+                            </div>
+                        </Card>
+                    </div>
                 ))}
             </div>
         </div>
