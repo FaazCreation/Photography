@@ -14,7 +14,7 @@ const faqItems = [
     },
     {
         question: "Is there a membership fee?",
-        answer: "There is a small annual fee for standard membership, which helps cover the costs of workshops, equipment maintenance and events. We also offer a premium membership with additional benefits."
+        answer: "There is a small monthly fee for standard membership, which helps cover the costs of workshops, equipment maintenance and events. We also offer a premium membership with additional benefits."
     },
     {
         question: "Do I need to own a professional camera?",
@@ -22,11 +22,11 @@ const faqItems = [
     },
     {
         question: "How often does the club meet?",
-        answer: "We typically hold meetings or workshops every Friday afternoon. Photo walks and special events are usually scheduled on weekends. All event details are posted on our Events page and social media channels."
+        answer: "We typically hold meetings or workshops every month. Photo walks and special events are usually scheduled on weekends. All event details are posted on our Events page and social media channels."
     },
     {
         question: "What kind of activities does the TCPC organize?",
-        answer: "We organize a wide range of activities including technical workshops (e.g., lighting, post-processing), creative photo walks, guest speaker sessions with professional photographers, internal competitions and an annual public exhibition."
+        answer: "We organize a wide range of activities including technical workshops, creative photo walks, guest speaker sessions with professional photographers, internal competitions and an annual public exhibition."
     }
 ]
 
