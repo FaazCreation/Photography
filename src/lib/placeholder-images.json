@@ -455,7 +455,7 @@
       "name": "Shamima Yasmin",
       "role": "Chief Advisor",
       "specialty": "Principal (Acting), Tejgaon College",
-      "imageUrl": "/assets/images/advisor-1.jpg",
+      "imageUrl": "/assets/images/Principal.jpg",
       "imageHint": "female portrait"
     },
     {
@@ -463,7 +463,7 @@
       "name": "Syed Muhammad Zubayer",
       "role": "Associate Advisor",
       "specialty": "Lecturer, Theatre and Media Studies",
-      "imageUrl": "/assets/images/advisor-2.jpg",
+      "imageUrl": "/assets/images/Lecturer2.jpg",
       "imageHint": "male portrait"
     },
     {
@@ -471,7 +471,7 @@
       "name": "Atiqul Islam",
       "role": "Associate Advisor",
       "specialty": "Lecturer, Theatre and Media Studies",
-      "imageUrl": "/assets/images/advisor-3.jpg",
+      "imageUrl": "/assets/images/Lecturer1.jpg",
       "imageHint": "man outdoor"
     },
     {
