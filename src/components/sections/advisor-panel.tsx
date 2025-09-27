@@ -21,13 +21,13 @@ export function AdvisorPanel() {
                 The guiding force behind our club's success.
                 </p>
             </div>
-            <div className="mx-auto grid max-w-5xl items-center justify-items-center gap-8 pt-12 sm:grid-cols-2 lg:flex lg:justify-center lg:items-center">
+            <div className="mx-auto grid max-w-5xl items-center justify-items-center gap-8 pt-12 sm:grid-cols-2 lg:flex lg:justify-center lg:items-start">
                 {chiefAdvisor && (
-                    <div className="w-full lg:order-2 lg:w-1/3 lg:px-4">
+                    <div className="w-full order-1 lg:order-2 lg:w-1/3 lg:px-4">
                         <Card 
                             key={chiefAdvisor.id} 
                             className={cn(
-                                "text-center w-full transition-transform duration-300 shadow-lg lg:scale-110 lg:z-10 lg:shadow-2xl"
+                                "text-center w-full transition-transform duration-300 shadow-lg lg:scale-110 lg:z-10 lg:shadow-2xl border-2 border-primary/50"
                             )}
                         >
                             <CardContent className="p-0">
@@ -53,9 +53,9 @@ export function AdvisorPanel() {
                     </div>
                 )}
                 {associateAdvisors.map((advisor, index) => (
-                     <div key={advisor.id} className={cn("w-full", {
-                         "lg:order-1 lg:w-1/3 lg:px-4": index === 0,
-                         "lg:order-3 lg:w-1/3 lg:px-4": index === 1,
+                     <div key={advisor.id} className={cn("w-full lg:w-1/3 lg:px-4 lg:mt-8", {
+                         "order-2 lg:order-1": index === 0,
+                         "order-3 lg:order-3": index === 1,
                      })}>
                         <Card 
                             className="text-center w-full transition-transform duration-300"
