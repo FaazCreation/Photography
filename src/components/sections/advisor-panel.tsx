@@ -27,7 +27,7 @@ export function AdvisorPanel() {
                         <Card 
                             key={chiefAdvisor.id} 
                             className={cn(
-                                "text-center w-full transition-transform duration-300 shadow-lg lg:scale-110 lg:z-10 lg:shadow-2xl border-2 border-primary/50"
+                                "text-center w-full transition-transform duration-300 shadow-lg lg:scale-110 lg:z-10 lg:shadow-2xl"
                             )}
                         >
                             <CardContent className="p-0">
@@ -53,9 +53,9 @@ export function AdvisorPanel() {
                     </div>
                 )}
                 {associateAdvisors.map((advisor, index) => (
-                     <div key={advisor.id} className={cn("w-full lg:w-1/3 lg:px-4 lg:mt-8", {
-                         "order-2 lg:order-1": index === 0,
-                         "order-3 lg:order-3": index === 1,
+                     <div key={advisor.id} className={cn("w-full lg:w-1/3 lg:px-4", {
+                         "order-2 lg:order-1 lg:mt-8": index === 0,
+                         "order-3 lg:order-3 lg:mt-8": index === 1,
                      })}>
                         <Card 
                             className="text-center w-full transition-transform duration-300"
