@@ -1,13 +1,14 @@
 
 import Image from "next/image";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { getAdvisorImages, getAdminPanelImages, getGeneralMemberImages, getImageById, getAlumniImages } from "@/lib/placeholder-images";
+import { getAdminPanelImages, getGeneralMemberImages, getImageById, getAlumniImages } from "@/lib/placeholder-images";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { Metadata } from "next";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { AnimatedHeadline } from "@/components/animated-headline";
+import { AdvisorPanel } from "@/components/sections/advisor-panel";
 
 export const metadata: Metadata = {
   title: 'Our Members | TCPC',
@@ -88,7 +89,6 @@ const PhotographerOfTheMonth = () => {
 
 
 export default function MembersPage() {
-    const advisors = getAdvisorImages();
     const committee = getAdminPanelImages();
     const activeMembers = getGeneralMemberImages();
     const alumni = getAlumniImages();
@@ -107,17 +107,7 @@ export default function MembersPage() {
                 </div>
 
                 <div className="space-y-16 mt-16">
-                    {/* Advisor Panel Section */}
-                    <section>
-                        <h2 className="font-heading text-3xl font-semibold tracking-tighter sm:text-4xl text-center mb-8 leading-tight">
-                            Advisor Panel
-                        </h2>
-                        <div className="mx-auto grid max-w-4xl gap-8 grid-cols-1 xs:grid-cols-2 lg:grid-cols-3">
-                            {advisors.map((member) => (
-                                <MemberCard key={member.id} member={member} />
-                            ))}
-                        </div>
-                    </section>
+                    <AdvisorPanel />
 
                     <Separator />
 
