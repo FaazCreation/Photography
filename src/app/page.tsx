@@ -11,6 +11,7 @@ import { MemberSpotlight } from '@/components/sections/member-spotlight';
 import { Stats } from '@/components/sections/stats';
 import { Testimonials } from '@/components/sections/testimonials';
 import { WhatWeProvide } from '@/components/sections/what-we-provide';
+import { FounderPresident } from '@/components/sections/founder-president';
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <About />
       <AdvisorPanel />
       <Gallery />
+      <FounderPresident />
       <WhatWeProvide />
       <Activities />
       <MemberSpotlight />

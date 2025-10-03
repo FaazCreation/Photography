@@ -590,6 +590,22 @@
       "name": "Accounting Club",
       "imageUrl": "/assets/images/accounting.jpg",
       "imageHint": "calculator numbers"
+    },
+    {
+      "id": "founder",
+      "name": "Mehedi Hasan",
+      "role": "Founder",
+      "specialty": "Visionary & Photographer",
+      "imageUrl": "/assets/images/founder.jpg",
+      "imageHint": "male portrait confident"
+    },
+    {
+      "id": "president",
+      "name": "Fahim Rahman",
+      "role": "President",
+      "specialty": "Street & Documentary",
+      "imageUrl": "/assets/images/admin-1.jpg",
+      "imageHint": "male portrait"
     }
   ]
 }
