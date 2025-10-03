@@ -11,11 +11,11 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from '@/components/ui/carousel';
-import { getGeneralMemberImages } from '@/lib/placeholder-images';
+import { getAdminPanelImages } from '@/lib/placeholder-images';
 import { AnimatedHeadline } from '@/components/animated-headline';
 
 export function Gallery() {
-  const generalMembers = getGeneralMemberImages();
+  const committeeMembers = getAdminPanelImages();
   const plugin = React.useRef(Autoplay({ delay: 3000, stopOnInteraction: true }));
 
   return (
@@ -23,9 +23,9 @@ export function Gallery() {
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
-            <AnimatedHeadline text="Meet Our Members" className="text-3xl font-semibold tracking-tighter sm:text-4xl md:text-5xl" />
+            <AnimatedHeadline text="Current Committee" className="text-3xl font-semibold tracking-tighter sm:text-4xl md:text-5xl" />
             <p className="max-w-[900px] text-muted-foreground text-base md:text-lg">
-              A glimpse of the talented and passionate individuals who make our club vibrant.
+              Meet the dedicated students leading the Tejgaon College Photography Club.
             </p>
           </div>
         </div>
@@ -41,7 +41,7 @@ export function Gallery() {
             className="w-full max-w-6xl mx-auto"
           >
             <CarouselContent>
-              {generalMembers.map((member, index) => (
+              {committeeMembers.map((member, index) => (
                 <CarouselItem key={index} className="basis-full xs:basis-1/2 lg:basis-1/3">
                   <div className="p-1">
                     <Card className="overflow-hidden rounded-lg group">
