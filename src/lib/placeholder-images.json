@@ -594,18 +594,11 @@
     {
       "id": "founder",
       "name": "Mehedi Hasan",
-      "role": "Founder",
+      "role": "Founder & President",
       "specialty": "Visionary & Photographer",
       "imageUrl": "/assets/images/founder.jpg",
-      "imageHint": "male portrait confident"
-    },
-    {
-      "id": "president",
-      "name": "Fahim Rahman",
-      "role": "President",
-      "specialty": "Street & Documentary",
-      "imageUrl": "/assets/images/admin-1.jpg",
-      "imageHint": "male portrait"
+      "imageHint": "male portrait confident",
+      "quote": "Founding TCPC was about creating a space where any student could explore their creative voice through photography. It's been incredible to see that vision come to life and watch our members grow into talented storytellers. My goal has always been to build a community, not just a club."
     }
   ]
 }
