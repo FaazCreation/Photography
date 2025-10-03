@@ -180,35 +180,99 @@
     },
     {
       "id": "admin-1",
-      "name": "Fahim Rahman",
+      "name": "Mokaddesur Rahman Sun",
       "role": "President",
-      "specialty": "Street & Documentary",
+      "specialty": "TMS • 2020-21",
       "imageUrl": "/assets/images/admin-1.jpg",
       "imageHint": "male portrait"
     },
     {
       "id": "admin-2",
-      "name": "Ayesha Khan",
-      "role": "Vice President",
-      "specialty": "Portrait & Fashion",
+      "name": "Arefin Tanvir",
+      "role": "General Secretary",
+      "specialty": "Marketing • 2020-21",
       "imageUrl": "/assets/images/admin-2.jpg",
       "imageHint": "female portrait"
     },
     {
       "id": "admin-3",
-      "name": "Jamal Ahmed",
-      "role": "Secretary",
-      "specialty": "Landscape & Travel",
+      "name": "Touhid Islam",
+      "role": "Organizing Secretary",
+      "specialty": "Management • 2023-24",
       "imageUrl": "/assets/images/admin-3.jpg",
       "imageHint": "person nature"
     },
     {
       "id": "admin-4",
-      "name": "Sadia Islam",
-      "role": "Treasurer",
-      "specialty": "Macro & Nature",
+      "name": "Forhad Hossain",
+      "role": "Creative Head",
+      "specialty": "Economics • 2023-24",
       "imageUrl": "/assets/images/admin-4.jpg",
       "imageHint": "woman smiling"
+    },
+    {
+      "id": "admin-5",
+      "name": "Niaj Karim Rakib",
+      "role": "Treasurer",
+      "specialty": "Economics • 2021-22",
+      "imageUrl": "/assets/images/general-1.jpg",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "admin-6",
+      "name": "Salman Iqbal",
+      "role": "Chief Executive",
+      "specialty": "BBA • 2021-22",
+      "imageUrl": "/assets/images/general-2.jpg",
+      "imageHint": "woman candid"
+    },
+    {
+      "id": "admin-7",
+      "name": "Rakib Bin Jalil",
+      "role": "Public Relations",
+      "specialty": "Management • 2023-24",
+      "imageUrl": "/assets/images/general-3.jpg",
+      "imageHint": "male outdoor"
+    },
+    {
+      "id": "admin-8",
+      "name": "Saifulla Al Ratul",
+      "role": "Event Coordinator",
+      "specialty": "Marketing • 2020-21",
+      "imageUrl": "/assets/images/general-4.jpg",
+      "imageHint": "female nature"
+    },
+    {
+      "id": "admin-9",
+      "name": "Imtiash Hossain Tomal",
+      "role": "Photographer",
+      "specialty": "BBA • 2021-22",
+      "imageUrl": "/assets/images/general-5.jpg",
+      "imageHint": "man city"
+    },
+    {
+      "id": "admin-10",
+      "name": "Masum Billah",
+      "role": "Videographer",
+      "specialty": "Political Science • 2022-23",
+      "imageUrl": "/assets/images/general-6.jpg",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "admin-11",
+      "name": "Tajbi Rahman",
+      "role": "Content Creator",
+      "specialty": "Management • 2022-23",
+      "imageUrl": "/assets/images/general-7.jpg",
+      "imageHint": "man eating"
+    },
+    {
+      "id": "admin-12",
+      "name": "Mydul Bhuiyan",
+      "role": "Graphic Designer",
+      "specialty": "Marketing • 2023-24",
+      "imageUrl": "/assets/images/general-8.jpg",
+      "imageHint": "woman fashion"
     },
     {
       "id": "general-1",
