@@ -525,16 +525,16 @@
     {
       "id": "advisor-2",
       "name": "Syed Muhammad Zubayer",
-      "role": "Associate Advisor",
-      "specialty": "Lecturer, Theatre and Media Studies",
+      "role": "Advisor",
+      "specialty": "Assistant Advisor, Theatre and Media Studies",
       "imageUrl": "/assets/images/Lecturer2.jpg",
       "imageHint": "male portrait"
     },
     {
       "id": "advisor-3",
       "name": "Atiqul Islam",
-      "role": "Associate Advisor",
-      "specialty": "Lecturer, Theatre and Media Studies",
+      "role": "Advisor",
+      "specialty": "Assistant Advisor, Theatre and Media Studies",
       "imageUrl": "/assets/images/Lecturer1.jpg",
       "imageHint": "man outdoor"
     },
