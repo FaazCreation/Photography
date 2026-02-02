@@ -220,17 +220,17 @@
     },
     {
       "id": "admin-6",
-      "name": "Salman Iqbal",
+      "name": "Vacency",
       "role": "Chief Executive",
-      "specialty": "BBA • 2021-22",
+      "specialty": "-- • ---",
       "imageUrl": "/assets/images/general-2.jpg",
       "imageHint": "woman candid"
     },
     {
       "id": "admin-7",
-      "name": "Rakib Bin Jalil",
+      "name": "Vacency",
       "role": "Public Relations",
-      "specialty": "Management • 2023-24",
+      "specialty": "-- • ---",
       "imageUrl": "/assets/images/general-3.jpg",
       "imageHint": "male outdoor"
     },
@@ -238,7 +238,7 @@
       "id": "admin-8",
       "name": "Saifulla Al Ratul",
       "role": "Event Coordinator",
-      "specialty": "Marketing • 2020-21",
+      "specialty": "-- • --",
       "imageUrl": "/assets/images/general-4.jpg",
       "imageHint": "female nature"
     },
@@ -276,25 +276,25 @@
     },
     {
       "id": "general-1",
-      "name": "Rahim Ali",
+      "name": "Arnob Saha",
       "role": "Member",
-      "specialty": "Economics",
+      "specialty": "Management • 2024-25",
       "imageUrl": "/assets/images/general-1.jpg",
-      "imageHint": "man portrait"
+      "imageHint": "arnob_saha"
     },
     {
       "id": "general-2",
-      "name": "Nadia Chowdhury",
+      "name": ">Farabi Ahmed Faruq",
       "role": "Member",
-      "specialty": "English",
+      "specialty": "Marketing • 2024-25",
       "imageUrl": "/assets/images/general-2.jpg",
-      "imageHint": "woman candid"
+      "imageHint": "fa candid"
     },
     {
       "id": "general-3",
-      "name": "Kamal Hossain",
+      "name": "Nayibul Rahman Himel",
       "role": "Member",
-      "specialty": "Political Science",
+      "specialty": "Political Science • 2021-22",
       "imageUrl": "/assets/images/general-3.jpg",
       "imageHint": "male outdoor"
     },
@@ -308,211 +308,195 @@
     },
     {
       "id": "general-5",
-      "name": "Arif Khan",
+      "name": "Jannatun Nesa Bushra",
       "role": "Member",
-      "specialty": "Marketing",
+      "specialty": "Psychology • 2021-22",
       "imageUrl": "/assets/images/general-5.jpg",
       "imageHint": "man city"
     },
     {
       "id": "general-6",
-      "name": "Sumaiya Akter",
+      "name": "Mashrura Salsabil Nahla",
       "role": "Member",
-      "specialty": "Sociology",
+      "specialty": "Home Economics • 2024-25",
       "imageUrl": "/assets/images/general-6.jpg",
       "imageHint": "woman portrait"
     },
     {
       "id": "general-7",
-      "name": "Rizwan Ahmed",
+      "name": "MD Tawseef Khan ",
       "role": "Member",
-      "specialty": "Computer Science",
+      "specialty": "Chemistry• 2022-23",
       "imageUrl": "/assets/images/general-7.jpg",
       "imageHint": "man eating"
     },
     {
       "id": "general-8",
-      "name": "Ishrat Jahan",
+      "name": "MD Mehedi Hasan",
       "role": "Member",
-      "specialty": "Accounting",
+      "specialty": "Social Work • 2022-23",
       "imageUrl": "/assets/images/general-8.jpg",
       "imageHint": "woman fashion"
     },
     {
       "id": "general-9",
-      "name": "Tanvir Hasan",
+      "name": ">Mehrab Hossain",
       "role": "Member",
-      "specialty": "Finance",
+      "specialty": "Management • 2024-25",
       "imageUrl": "/assets/images/general-9.jpg",
       "imageHint": "man playing"
     },
     {
       "id": "general-10",
-      "name": "Farhana Yasmin",
+      "name": "Mehedi Hasan Srabon",
       "role": "Member",
-      "specialty": "Botany",
+      "specialty": "BBA • 2024-25",
       "imageUrl": "/assets/images/general-10.jpg",
       "imageHint": "woman indoor"
     },
     {
       "id": "general-11",
-      "name": "Imran Mahmud",
+      "name": "Rokononuzzaman Mia",
       "role": "Member",
-      "specialty": "Zoology",
+      "specialty": "Sociology • 2024-25",
       "imageUrl": "/assets/images/general-11.jpg",
       "imageHint": "man newspaper"
     },
     {
       "id": "general-12",
-      "name": "Jannatul Ferdous",
+      "name": "Muntacir Parvez Ador",
       "role": "Member",
-      "specialty": "History",
+      "specialty": "BMB • 2022-23",
       "imageUrl": "/assets/images/general-12.jpg",
       "imageHint": "woman thinking"
     },
     {
       "id": "general-13",
-      "name": "Asif Iqbal",
+      "name": "Naharay Jobayda",
       "role": "Member",
-      "specialty": "Philosophy",
+      "specialty": "Accounting • 2023-24",
       "imageUrl": "/assets/images/general-13.jpg",
       "imageHint": "man landscape"
     },
     {
       "id": "general-14",
-      "name": "Mahfuza Khatun",
+      "name": "Naim Hossain",
       "role": "Member",
-      "specialty": "Islamic Studies",
+      "specialty": "Economics • 2024-25",
       "imageUrl": "/assets/images/general-14.jpg",
       "imageHint": "woman monochrome"
     },
     {
       "id": "general-15",
-      "name": "Saidul Islam",
+      "name": "Nujat Nabila Anika",
       "role": "Member",
-      "specialty": "Bangla",
+      "specialty": "Psychology • 2024-25",
       "imageUrl": "/assets/images/general-15.jpg",
       "imageHint": "man night"
     },
     {
       "id": "general-16",
-      "name": "Nasrin Sultana",
+      "name": "MD Riyajul Islam",
       "role": "Member",
-      "specialty": "Physics",
+      "specialty": "Accounting • 2023-24",
       "imageUrl": "/assets/images/general-16.jpg",
       "imageHint": "woman travel"
     },
     {
       "id": "general-17",
-      "name": "Zahid Hasan",
+      "name": "SM Akash",
       "role": "Member",
-      "specialty": "Chemistry",
+      "specialty": "Chemistry • 2023-24",
       "imageUrl": "/assets/images/general-17.jpg",
       "imageHint": "man stars"
     },
     {
       "id": "general-18",
-      "name": "Maliha Rahman",
+      "name": "Sharmin Riya",
       "role": "Member",
-      "specialty": "Mathematics",
+      "specialty": "Economics • 2024-25",
       "imageUrl": "/assets/images/general-18.jpg",
       "imageHint": "woman museum"
     },
     {
       "id": "general-19",
-      "name": "Mostofa Kamal",
+      "name": "Sifat Ahmed Nabil",
       "role": "Member",
-      "specialty": "Statistics",
+      "specialty": "Marketing • 2024-25",
       "imageUrl": "/assets/images/general-19.jpg",
       "imageHint": "man creative"
     },
     {
       "id": "general-20",
-      "name": "Tanzina Afroz",
+      "name": "Saiful Islam Siyam",
       "role": "Member",
-      "specialty": "Psychology",
+      "specialty": "Marketing • 2024-25",
       "imageUrl": "/assets/images/general-20.jpg",
       "imageHint": "woman phone"
     },
     {
       "id": "general-21",
-      "name": "Ashraful Alam",
+      "name": "Tahrim Islam",
       "role": "Member",
-      "specialty": "Marketing",
+      "specialty": "Management • 2023-24",
       "imageUrl": "/assets/images/general-21.jpg",
       "imageHint": "man water"
     },
     {
       "id": "general-22",
-      "name": "Sharmin Akter",
+      "name": "MD Abu Sayem",
       "role": "Member",
-      "specialty": "English",
+      "specialty": "Management • 2024-25",
       "imageUrl": "/assets/images/general-22.jpg",
       "imageHint": "woman simple"
     },
     {
       "id": "general-23",
-      "name": "Rakibul Islam",
+      "name": "Anay Ghosh",
       "role": "Member",
-      "specialty": "Management",
+      "specialty": "BBA • 2023-24",
       "imageUrl": "/assets/images/general-23.jpg",
       "imageHint": "man light"
     },
     {
       "id": "general-24",
-      "name": "Afia Siddiqua",
+      "name": "Noor Mahzabin Sinha",
       "role": "Member",
-      "specialty": "Economics",
+      "specialty": "Chemistry • 2024-25",
       "imageUrl": "/assets/images/general-24.jpg",
       "imageHint": "woman candid"
     },
     {
       "id": "general-25",
-      "name": "Mehedi Hasan",
+      "name": "Ratul Khan",
       "role": "Member",
-      "specialty": "Computer Science",
+      "specialty": "Economics • 2024-25",
       "imageUrl": "/assets/images/general-25.jpg",
       "imageHint": "man sunset"
     },
     {
       "id": "general-26",
-      "name": "Sanjida Islam",
+      "name": "Nusaiba Nabila",
       "role": "Member",
-      "specialty": "Political Science",
+      "specialty": "BBA • 2024-25",
       "imageUrl": "/assets/images/general-26.jpg",
       "imageHint": "woman dusk"
     },
     {
       "id": "general-27",
-      "name": "Firoz Mahmud",
+      "name": "Emon Munshi",
       "role": "Member",
-      "specialty": "Finance",
+      "specialty": "English",
       "imageUrl": "/assets/images/general-27.jpg",
       "imageHint": "man urban"
     },
     {
       "id": "general-28",
-      "name": "Nusrat Jahan",
+      "name": "Nusrat Meem",
       "role": "Member",
-      "specialty": "Accounting",
+      "specialty": "",
       "imageUrl": "/assets/images/general-28.jpg",
       "imageHint": "woman product"
-    },
-    {
-      "id": "general-29",
-      "name": "Sabbir Ahmed",
-      "role": "Member",
-      "specialty": "Sociology",
-      "imageUrl": "/assets/images/general-29.jpg",
-      "imageHint": "man diy"
-    },
-    {
-      "id": "general-30",
-      "name": "Tasnim Anjum",
-      "role": "Member",
-      "specialty": "History",
-      "imageUrl": "/assets/images/general-30.jpg",
-      "imageHint": "woman retro"
     },
     {
       "id": "advisor-1",
